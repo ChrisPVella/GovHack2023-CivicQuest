@@ -15,7 +15,7 @@
 
 ## Project Description
 
-![CivicQuest Title](images/CivicQuest Title.png)
+![CivicQuest Title](images/CivicQuestTitle.png)
 
 ### CivicQuest - Embark on an Urban or Rural Adventure: Explore, Engage, Enrich
 
