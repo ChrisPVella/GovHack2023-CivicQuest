@@ -21,4 +21,4 @@
 
 *CivicQuest by Team Chronos is a GovHack 2023 project for the team from Mackay, QLD.*
 
-![CivicQuest Logo](images/CivicQuestLogo.png)
+![CivicQuest Logo](images/CivicQuestLogoThumb.png)
