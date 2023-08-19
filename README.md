@@ -15,8 +15,10 @@
 
 ## Project Description
 
-![CivicQuest Title](images/CivicQuestTitle.png)
+![CivicQuest Title](images/CivicQuestTitle2.png)
 
 ### CivicQuest - Embark on an Urban or Rural Adventure: Explore, Engage, Enrich
 
 *CivicQuest by Team Chronos is a GovHack 2023 project for the team from Mackay, QLD.*
+
+![CivicQuest Logo](images/CivicQuestLogo.png)
