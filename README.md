@@ -9,7 +9,7 @@
 |  Website |  https://civicquest.pages.dev |
 |  Video | https://youtu.be/C6vaTo3gns8  |
 |  Presentation |  [CivicQuest PowerPoint](docs/presentation.pptx) |
-|  Work Evidence | https://github.com/ChrisPVella/govhack2023  |
+|  Work Evidence | https://github.com/ChrisPVella/GovHack2023-CivicQuest  |
 |  Members | Chris Vella, Bennett Hardwick |
 |  Tags | #civic #quest #tourism #travel #heritage #historical #landmarks #gamification |
 
