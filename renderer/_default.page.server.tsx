@@ -5,7 +5,7 @@ export const passToClient = ['pageProps', 'urlPathname']
 import ReactDOMServer from 'react-dom/server'
 import { PageShell } from './PageShell'
 import { escapeInject, dangerouslySkipEscape } from 'vite-plugin-ssr/server'
-import logoUrl from './logo.svg'
+import logoUrl from '../pages/logo.png'
 import type { PageContextServer } from './types'
 
 async function render(pageContext: PageContextServer) {
@@ -20,8 +20,8 @@ async function render(pageContext: PageContextServer) {
 
   // See https://vite-plugin-ssr.com/head
   const { documentProps } = pageContext.exports
-  const title = (documentProps && documentProps.title) || 'Vite SSR app'
-  const desc = (documentProps && documentProps.description) || 'App using Vite + vite-plugin-ssr'
+  const title = (documentProps && documentProps.title) || 'CivicQuest: Explore. Entertain. Experience.'
+  const desc = (documentProps && documentProps.description) || 'CivicQuest: Explore. Entertain. Experience.'
 
   const documentHtml = escapeInject`<!DOCTYPE html>
     <html lang="en">

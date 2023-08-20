@@ -12,10 +12,10 @@ const Benefits = (props) => {
           <div>
             <img
               src={data.image}
-              width="521"
+              width="400"
               height="auto"
               alt="Benefits"
-              className={"object-cover"}
+              className={"object-cover border-2 rounded-lg drop-shadow"}
             />
           </div>
         </div>

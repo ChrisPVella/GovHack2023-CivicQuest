@@ -7,6 +7,7 @@ import { Star } from "./Star";
 
 import mapUrl from './map.png';
 import { Plus } from "./Plus";
+import SectionTitle from "./sectionTitle";
 
 interface Message {
   role: string;
@@ -174,65 +175,70 @@ export const ChatBox = () => {
   }, [messages]);
 
   return (
-    <Container>
-      <div className="max-h-[100%] h-[100%] grid grid-cols-1 grid-rows-[auto_1fr_auto] overflow-hidden gap-2 max-w-[900px] h-[900px] w-[100%] mx-auto drop-shadow-xl bg-white rounded-xl border">
-        <div className="bg-indigo-500 py-4 text-center text-white">
-          <div className="font-bold text-2xl">
-            Plan your next adventure
+    <div id="chat">
+      <SectionTitle pretitle="Itinerary Planner" title="Chat with the AI from the app">
+        CivicQuest's powerful AI lets you plan the perfect itinerary. Try sending it a message to see what it can do for you.
+      </SectionTitle>
+      <Container className="mt-[-30px]">
+        <div className="max-h-[100%] h-[100%] grid grid-cols-1 grid-rows-[auto_1fr_auto] overflow-hidden gap-2 max-w-[900px] h-[60vh] w-[100%] mx-auto drop-shadow-xl bg-white rounded-xl border">
+          <div className="bg-indigo-500 py-4 text-center text-white">
+            <div className="font-bold text-2xl">
+              Plan your next adventure
+            </div>
+            <div className="text-sm opacity-60">Chat with the CivicQuest AI</div>
           </div>
-          <div className="text-sm opacity-60">Chat with our chat bot and create your itinerary</div>
-        </div>
-        <div ref={messageRef} className="overflow-x-auto h-[100%] px-2">
-          {messages.map((x, i) => (
-            <div
-              key={i}
-              className={cn(
-                x.role !== "user"
-                  ? "mr-auto bg-gray-50"
-                  : "ml-auto bg-blue-300",
-                "drop-shadow-sm",
-                "border rounded-lg py-1 px-4 my-4 w-fit max-w-[min(600px,100%)]",
-              )}
+          <div ref={messageRef} className="overflow-x-auto h-[100%] px-2">
+            {messages.map((x, i) => (
+              <div
+                key={i}
+                className={cn(
+                  x.role !== "user"
+                    ? "mr-auto bg-gray-50"
+                    : "ml-auto bg-blue-300",
+                  "drop-shadow-sm",
+                  "border rounded-lg py-1 px-4 my-4 w-fit max-w-[min(600px,100%)]",
+                )}
+              >
+                {typeof x.content === "string"
+                  ? x.content
+                    .split("\n")
+                    .map((x) => <div className="my-3">{x}</div>)
+                  : x.content}
+              </div>
+            ))}
+
+            {isLoading && (
+              <div className="mr-auto bg-gray-100 drop-shadow-sm rounded-l py-2 px-4 my-4 w-fit opacity-50">
+                I'm thinking...
+              </div>
+            )}
+
+            {itinerary ? JSON.stringify(itinerary) : ""}
+          </div>
+          <div className="flex gap-2 p-2">
+            <input
+              className="grow border-2 text-lg py-3 rounded-lg py-2 px-4"
+              placeholder="Ask anything..."
+              disabled={isLoading}
+              ref={textRef}
+              onKeyDown={(e) => {
+                if (e.key === "Enter" && !e.shiftKey) {
+                  e.preventDefault();
+                  e.stopPropagation();
+                  send();
+                }
+              }}
+            />
+            <button
+              className="bg-indigo-500 text-white font-bold py-3 px-8 text-lg rounded-lg"
+              disabled={isLoading}
+              onClick={send}
             >
-              {typeof x.content === "string"
-                ? x.content
-                  .split("\n")
-                  .map((x) => <div className="my-3">{x}</div>)
-                : x.content}
-            </div>
-          ))}
-
-          {isLoading && (
-            <div className="mr-auto bg-gray-100 drop-shadow-sm rounded-l py-2 px-4 my-4 w-fit opacity-50">
-              I'm thinking...
-            </div>
-          )}
-
-          {itinerary ? JSON.stringify(itinerary) : ""}
+              Send
+            </button>
+          </div>
         </div>
-        <div className="flex gap-2 p-2">
-          <input
-            className="grow border-2 text-lg py-3 rounded-lg py-2 px-4"
-            placeholder="Ask anything..."
-            disabled={isLoading}
-            ref={textRef}
-            onKeyDown={(e) => {
-              if (e.key === "Enter" && !e.shiftKey) {
-                e.preventDefault();
-                e.stopPropagation();
-                send();
-              }
-            }}
-          />
-          <button
-            className="bg-indigo-500 text-white font-bold py-3 px-8 text-lg rounded-lg"
-            disabled={isLoading}
-            onClick={send}
-          >
-            Send
-          </button>
-        </div>
-      </div>
-    </Container>
+      </Container>
+    </div>
   );
 };
