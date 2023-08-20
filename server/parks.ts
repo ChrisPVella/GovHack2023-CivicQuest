@@ -1,0 +1,8739 @@
+// created from parks .csv file
+export const parks = [
+  {
+    "PARK_NAME": "MONTROSE STREET PARK",
+    "SUBURB": "GORDON PARK"
+  },
+  {
+    "PARK_NAME": "TOOTH AVENUE PARK (ROAD RESERVE)",
+    "SUBURB": "PADDINGTON"
+  },
+  {
+    "PARK_NAME": "DERVEL STREET PARK",
+    "SUBURB": "CARINDALE"
+  },
+  {
+    "PARK_NAME": "CONNAH CRESCENT PARK",
+    "SUBURB": "CARINDALE"
+  },
+  {
+    "PARK_NAME": "HALIFAX STREET PARK",
+    "SUBURB": "FOREST LAKE"
+  },
+  {
+    "PARK_NAME": "CLEMBURY PLACE PARK",
+    "SUBURB": "CALAMVALE"
+  },
+  {
+    "PARK_NAME": "SPARKES HILL RESERVE",
+    "SUBURB": "STAFFORD"
+  },
+  {
+    "PARK_NAME": "SHAND STREET PARK (NO. 100)",
+    "SUBURB": "STAFFORD"
+  },
+  {
+    "PARK_NAME": "CARDWELL STREET PARK",
+    "SUBURB": "FOREST LAKE"
+  },
+  {
+    "PARK_NAME": "KURABY BUSHLANDS",
+    "SUBURB": "KURABY"
+  },
+  {
+    "PARK_NAME": "PARADISE ROAD PARK",
+    "SUBURB": "PALLARA"
+  },
+  {
+    "PARK_NAME": "BLAIRMOUNT STREET PARK",
+    "SUBURB": "PARKINSON"
+  },
+  {
+    "PARK_NAME": "CASSIA PLACE PARK",
+    "SUBURB": "TAIGUM"
+  },
+  {
+    "PARK_NAME": "BLACKWOOD STREET PARK",
+    "SUBURB": "MITCHELTON"
+  },
+  {
+    "PARK_NAME": "UNIVERSITY ROAD PARK (NO. 63)",
+    "SUBURB": "MITCHELTON"
+  },
+  {
+    "PARK_NAME": "UNIVERSITY ROAD PARK (NO. 62)",
+    "SUBURB": "MITCHELTON"
+  },
+  {
+    "PARK_NAME": "KYOOMBA STREET PARK",
+    "SUBURB": "MURARRIE"
+  },
+  {
+    "PARK_NAME": "DEPOT ROAD PARK (NO. 106)",
+    "SUBURB": "DEAGON"
+  },
+  {
+    "PARK_NAME": "CORELLA CRESCENT PARK",
+    "SUBURB": "TAIGUM"
+  },
+  {
+    "PARK_NAME": "WEBSTER ROAD PARK",
+    "SUBURB": "STAFFORD HEIGHTS"
+  },
+  {
+    "PARK_NAME": "CHESTERFIELD CRESCENT PARK",
+    "SUBURB": "KURABY"
+  },
+  {
+    "PARK_NAME": "BARNES AVENUE PARK",
+    "SUBURB": "COORPAROO"
+  },
+  {
+    "PARK_NAME": "GLADSTONE STREET PARK (NO. 48-58)",
+    "SUBURB": "COORPAROO"
+  },
+  {
+    "PARK_NAME": "TYSON PLACE PARK",
+    "SUBURB": "FOREST LAKE"
+  },
+  {
+    "PARK_NAME": "VENDALE AVENUE PARK (NO. 118A-120)",
+    "SUBURB": "MOOROOKA"
+  },
+  {
+    "PARK_NAME": "MAYFIELD GARDENS",
+    "SUBURB": "MOOROOKA"
+  },
+  {
+    "PARK_NAME": "RAYMOND ROAD PARK",
+    "SUBURB": "EIGHT MILE PLAINS"
+  },
+  {
+    "PARK_NAME": "QUEENSCROFT STREET PARK (NO. 132)",
+    "SUBURB": "CHELMER"
+  },
+  {
+    "PARK_NAME": "PADBURY STREET PARK",
+    "SUBURB": "HEMMANT"
+  },
+  {
+    "PARK_NAME": "LIVESAY ROAD PARK",
+    "SUBURB": "MOGGILL"
+  },
+  {
+    "PARK_NAME": "TAYLOR STREET PARK (ROAD RESERVE)",
+    "SUBURB": "BULIMBA"
+  },
+  {
+    "PARK_NAME": "ROME STREET PARK (NO. 20-22)",
+    "SUBURB": "COORPAROO"
+  },
+  {
+    "PARK_NAME": "RAY LYNCH PARK",
+    "SUBURB": "HOLLAND PARK"
+  },
+  {
+    "PARK_NAME": "MORROW STREET PARK",
+    "SUBURB": "TARINGA"
+  },
+  {
+    "PARK_NAME": "HOME STREET PARK (NO. 104)",
+    "SUBURB": "FAIRFIELD"
+  },
+  {
+    "PARK_NAME": "ST JOHNS AVENUE PARK (NO. 7-27)",
+    "SUBURB": "ASHGROVE"
+  },
+  {
+    "PARK_NAME": "MYLA TERRACE PARK (ROAD RESERVE)",
+    "SUBURB": "TENNYSON"
+  },
+  {
+    "PARK_NAME": "BALCARA AVENUE PARK",
+    "SUBURB": "CARSELDINE"
+  },
+  {
+    "PARK_NAME": "KURANDA STREET PARK",
+    "SUBURB": "BALMORAL"
+  },
+  {
+    "PARK_NAME": "KOOKABURRA PARK - WEST",
+    "SUBURB": "KARANA DOWNS"
+  },
+  {
+    "PARK_NAME": "LIONS NATURE TRAIL PARK",
+    "SUBURB": "KARANA DOWNS"
+  },
+  {
+    "PARK_NAME": "HERITAGE PARK",
+    "SUBURB": "KARANA DOWNS"
+  },
+  {
+    "PARK_NAME": "ATKINSON DRIVE RESERVE",
+    "SUBURB": "KARANA DOWNS"
+  },
+  {
+    "PARK_NAME": "BULLOCK DRAY ROAD PARK",
+    "SUBURB": "MOUNT CROSBY"
+  },
+  {
+    "PARK_NAME": "BANKSIA DRIVE RESERVE",
+    "SUBURB": "MOUNT CROSBY"
+  },
+  {
+    "PARK_NAME": "SKYLINE DRIVE PARK",
+    "SUBURB": "KHOLO"
+  },
+  {
+    "PARK_NAME": "STUMERS ROAD RESERVE",
+    "SUBURB": "MOUNT CROSBY"
+  },
+  {
+    "PARK_NAME": "PLATYPUS PARK",
+    "SUBURB": "MOUNT CROSBY"
+  },
+  {
+    "PARK_NAME": "KHOLO BUSHLAND RESERVE",
+    "SUBURB": "KHOLO"
+  },
+  {
+    "PARK_NAME": "ILLAWONG RESERVE",
+    "SUBURB": "KARANA DOWNS"
+  },
+  {
+    "PARK_NAME": "EMUNGERIE GROVE RESERVE",
+    "SUBURB": "KARANA DOWNS"
+  },
+  {
+    "PARK_NAME": "GUMNUT STREET PARK",
+    "SUBURB": "TAIGUM"
+  },
+  {
+    "PARK_NAME": "ST JAMES STREET PARK",
+    "SUBURB": "FOREST LAKE"
+  },
+  {
+    "PARK_NAME": "MELROSE CLOSE PARK",
+    "SUBURB": "CARINDALE"
+  },
+  {
+    "PARK_NAME": "SPENCER STREET PARK",
+    "SUBURB": "ASPLEY"
+  },
+  {
+    "PARK_NAME": "PALM STREET PARK",
+    "SUBURB": "KENMORE"
+  },
+  {
+    "PARK_NAME": "GINKO CLOSE PARK",
+    "SUBURB": "TAIGUM"
+  },
+  {
+    "PARK_NAME": "ALGESTER ROAD PARK (NO. 515)",
+    "SUBURB": "PARKINSON"
+  },
+  {
+    "PARK_NAME": "FREW PARK",
+    "SUBURB": "MILTON"
+  },
+  {
+    "PARK_NAME": "BARTLEYS HILL OUTLOOK RESERVE",
+    "SUBURB": "ASCOT"
+  },
+  {
+    "PARK_NAME": "JAGERA CIRCUIT PARK",
+    "SUBURB": "TAIGUM"
+  },
+  {
+    "PARK_NAME": "KANOOKA STREET PARK",
+    "SUBURB": "BELLBOWRIE"
+  },
+  {
+    "PARK_NAME": "GLORIOUS WAY PARK",
+    "SUBURB": "FOREST LAKE"
+  },
+  {
+    "PARK_NAME": "SHERWOOD ROAD PARK (NO. 505A)",
+    "SUBURB": "SHERWOOD"
+  },
+  {
+    "PARK_NAME": "THOMAS STREET PARK",
+    "SUBURB": "SHERWOOD"
+  },
+  {
+    "PARK_NAME": "LEVINGTON ROAD PARK",
+    "SUBURB": "EIGHT MILE PLAINS"
+  },
+  {
+    "PARK_NAME": "WATERWORKS ROAD PARK (NO. 595)",
+    "SUBURB": "ASHGROVE"
+  },
+  {
+    "PARK_NAME": "VANE STREET PARK",
+    "SUBURB": "TINGALPA"
+  },
+  {
+    "PARK_NAME": "MILNE HILL RESERVE",
+    "SUBURB": "CHERMSIDE WEST"
+  },
+  {
+    "PARK_NAME": "LAYSON STREET PARK",
+    "SUBURB": "TAIGUM"
+  },
+  {
+    "PARK_NAME": "STENDELL STREET PARK",
+    "SUBURB": "WAKERLEY"
+  },
+  {
+    "PARK_NAME": "WOOGAROO RESERVE",
+    "SUBURB": "FOREST LAKE"
+  },
+  {
+    "PARK_NAME": "TODMAN STREET PARK",
+    "SUBURB": "CARINA"
+  },
+  {
+    "PARK_NAME": "RAEBURN STREET PARK",
+    "SUBURB": "MANLY"
+  },
+  {
+    "PARK_NAME": "PRIORS POCKET ROAD PARK (NO. 300A)",
+    "SUBURB": "MOGGILL"
+  },
+  {
+    "PARK_NAME": "INVERNESS STREET PARK",
+    "SUBURB": "UPPER KEDRON"
+  },
+  {
+    "PARK_NAME": "ALPINE PLACE PARK",
+    "SUBURB": "FOREST LAKE"
+  },
+  {
+    "PARK_NAME": "BORAGE PLACE PARK",
+    "SUBURB": "CALAMVALE"
+  },
+  {
+    "PARK_NAME": "PINNIBAR STREET PARK",
+    "SUBURB": "HEMMANT"
+  },
+  {
+    "PARK_NAME": "PERSSE ROAD PARK",
+    "SUBURB": "RUNCORN"
+  },
+  {
+    "PARK_NAME": "RAILWAY STREET PARK",
+    "SUBURB": "NUDGEE"
+  },
+  {
+    "PARK_NAME": "HAMPSTEAD STREET PARK",
+    "SUBURB": "FOREST LAKE"
+  },
+  {
+    "PARK_NAME": "BOGNOR STREET PARK (NO. 75)",
+    "SUBURB": "TINGALPA"
+  },
+  {
+    "PARK_NAME": "DARIEN STREET PARK (NO. 29)",
+    "SUBURB": "BRIDGEMAN DOWNS"
+  },
+  {
+    "PARK_NAME": "GRANDVIEW ROAD PARK",
+    "SUBURB": "PULLENVALE"
+  },
+  {
+    "PARK_NAME": "REGENTS CIRCUIT PARK",
+    "SUBURB": "FOREST LAKE"
+  },
+  {
+    "PARK_NAME": "GLASSHOUSE CRESCENT PARK",
+    "SUBURB": "FOREST LAKE"
+  },
+  {
+    "PARK_NAME": "CAMBRIDGE CRESCENT PARK",
+    "SUBURB": "FITZGIBBON"
+  },
+  {
+    "PARK_NAME": "COLMSLIE BEACH RESERVE",
+    "SUBURB": "MURARRIE"
+  },
+  {
+    "PARK_NAME": "GRANARD STREET PARK",
+    "SUBURB": "ROCKLEA"
+  },
+  {
+    "PARK_NAME": "KENSINGTON AVENUE PARK",
+    "SUBURB": "FOREST LAKE"
+  },
+  {
+    "PARK_NAME": "MONTROSE PLACE PARK",
+    "SUBURB": "THE GAP"
+  },
+  {
+    "PARK_NAME": "DAINTREE CLOSE PARK",
+    "SUBURB": "FOREST LAKE"
+  },
+  {
+    "PARK_NAME": "DR VALENTINE McDOWALL PARK",
+    "SUBURB": "MCDOWALL"
+  },
+  {
+    "PARK_NAME": "NEWSTEAD TERRACE PARK",
+    "SUBURB": "NEWSTEAD"
+  },
+  {
+    "PARK_NAME": "KEDRON BROOK FLOODWAY PARK",
+    "SUBURB": "BRISBANE AIRPORT"
+  },
+  {
+    "PARK_NAME": "TIVOLI PLACE PARK",
+    "SUBURB": "FOREST LAKE"
+  },
+  {
+    "PARK_NAME": "SUNNY COURT PARK",
+    "SUBURB": "SUNNYBANK HILLS"
+  },
+  {
+    "PARK_NAME": "PRIORS POCKET ROAD PARK (NO. 301)",
+    "SUBURB": "MOGGILL"
+  },
+  {
+    "PARK_NAME": "NERIDA LANE PARK",
+    "SUBURB": "MILTON"
+  },
+  {
+    "PARK_NAME": "BERKSHIRE CRESCENT PARK",
+    "SUBURB": "WISHART"
+  },
+  {
+    "PARK_NAME": "ALBAN STREET PARK",
+    "SUBURB": "OXLEY"
+  },
+  {
+    "PARK_NAME": "KELLETT ROAD PARK",
+    "SUBURB": "SALISBURY"
+  },
+  {
+    "PARK_NAME": "ADMIRALTY TOWERS 11 PARK",
+    "SUBURB": "BRISBANE CITY"
+  },
+  {
+    "PARK_NAME": "MAURITIUS PARADE PARK",
+    "SUBURB": "FOREST LAKE"
+  },
+  {
+    "PARK_NAME": "MECKIFF STREET PARK",
+    "SUBURB": "UPPER MOUNT GRAVATT"
+  },
+  {
+    "PARK_NAME": "LANHAM CRESCENT PARK",
+    "SUBURB": "NEWMARKET"
+  },
+  {
+    "PARK_NAME": "LUXWORTH PLACE (ROAD RESERVE)",
+    "SUBURB": "MOOROOKA"
+  },
+  {
+    "PARK_NAME": "SINGLE STREET PARK (ROAD RESERVE)",
+    "SUBURB": "EVERTON PARK"
+  },
+  {
+    "PARK_NAME": "REDWOOD STREET PARK",
+    "SUBURB": "CARINDALE"
+  },
+  {
+    "PARK_NAME": "CENTENNIAL WAY PARK",
+    "SUBURB": "FOREST LAKE"
+  },
+  {
+    "PARK_NAME": "ALBION POST OFFICE PARK",
+    "SUBURB": "ALBION"
+  },
+  {
+    "PARK_NAME": "SKYE PLACE PARK",
+    "SUBURB": "UPPER KEDRON"
+  },
+  {
+    "PARK_NAME": "CLAREMONT PARADE PARK",
+    "SUBURB": "FOREST LAKE"
+  },
+  {
+    "PARK_NAME": "NYUNDARE-BA PARK",
+    "SUBURB": "OXLEY"
+  },
+  {
+    "PARK_NAME": "OAKMONT AVENUE PARK",
+    "SUBURB": "OXLEY"
+  },
+  {
+    "PARK_NAME": "KENSINGTON PLACE PARK",
+    "SUBURB": "BRIDGEMAN DOWNS"
+  },
+  {
+    "PARK_NAME": "CENTENNIAL WAY PARK (NO. 125)",
+    "SUBURB": "FOREST LAKE"
+  },
+  {
+    "PARK_NAME": "BIRDWOOD TERRACE PARK",
+    "SUBURB": "TOOWONG"
+  },
+  {
+    "PARK_NAME": "POPLAR PLACE PARK",
+    "SUBURB": "TAIGUM"
+  },
+  {
+    "PARK_NAME": "BARWON STREET PARK",
+    "SUBURB": "MORNINGSIDE"
+  },
+  {
+    "PARK_NAME": "STAPYLTON ROAD PARK",
+    "SUBURB": "HEATHWOOD"
+  },
+  {
+    "PARK_NAME": "MT PETRIE ROAD PARK (NO. 386)",
+    "SUBURB": "MACKENZIE"
+  },
+  {
+    "PARK_NAME": "BADRICK PLACE PARK",
+    "SUBURB": "THE GAP"
+  },
+  {
+    "PARK_NAME": "PACIFIC PARADE PARK",
+    "SUBURB": "FOREST LAKE"
+  },
+  {
+    "PARK_NAME": "HUNTER STREET PARK",
+    "SUBURB": "MANLY WEST"
+  },
+  {
+    "PARK_NAME": "KANUMBRA STREET PARK (ROAD RESERVE)",
+    "SUBURB": "COORPAROO"
+  },
+  {
+    "PARK_NAME": "CREEK ROAD PARK (NO. 725)",
+    "SUBURB": "MURARRIE"
+  },
+  {
+    "PARK_NAME": "CARNARVON WAY PARK",
+    "SUBURB": "MURARRIE"
+  },
+  {
+    "PARK_NAME": "WINTON CRESCENT PARK",
+    "SUBURB": "MURARRIE"
+  },
+  {
+    "PARK_NAME": "HILLTOP PLACE PARK",
+    "SUBURB": "BANYO"
+  },
+  {
+    "PARK_NAME": "TROSSACHS PLACE PARK",
+    "SUBURB": "UPPER KEDRON"
+  },
+  {
+    "PARK_NAME": "WILLIAM SIRETT PARK",
+    "SUBURB": "RUNCORN"
+  },
+  {
+    "PARK_NAME": "ARTHUR POSTLE PARK",
+    "SUBURB": "ACACIA RIDGE"
+  },
+  {
+    "PARK_NAME": "NELSON PLACE PARK",
+    "SUBURB": "NEWMARKET"
+  },
+  {
+    "PARK_NAME": "EYRE PLACE PARK",
+    "SUBURB": "DREWVALE"
+  },
+  {
+    "PARK_NAME": "THOMAS MACLEOD PARK",
+    "SUBURB": "SINNAMON PARK"
+  },
+  {
+    "PARK_NAME": "SIR HERCULES SINNAMON PARK",
+    "SUBURB": "SINNAMON PARK"
+  },
+  {
+    "PARK_NAME": "COVENTRY CIRCUIT PARK",
+    "SUBURB": "CARINDALE"
+  },
+  {
+    "PARK_NAME": "OXFORD PARADE PARK (NO. 83)",
+    "SUBURB": "FOREST LAKE"
+  },
+  {
+    "PARK_NAME": "COVENTRY PLACE PARK",
+    "SUBURB": "SUNNYBANK HILLS"
+  },
+  {
+    "PARK_NAME": "SINNAMON ROAD PARK (NO. 139A)",
+    "SUBURB": "SINNAMON PARK"
+  },
+  {
+    "PARK_NAME": "BATH STREET PARK",
+    "SUBURB": "COORPAROO"
+  },
+  {
+    "PARK_NAME": "SPRING CREEK RESERVE",
+    "SUBURB": "CARINDALE"
+  },
+  {
+    "PARK_NAME": "GLENELLA STREET PARK",
+    "SUBURB": "THE GAP"
+  },
+  {
+    "PARK_NAME": "MCCASKILL ROAD PARK",
+    "SUBURB": "PULLENVALE"
+  },
+  {
+    "PARK_NAME": "WESTON PLACE PARK",
+    "SUBURB": "OXLEY"
+  },
+  {
+    "PARK_NAME": "MOONIE AVENUE PARK",
+    "SUBURB": "MURARRIE"
+  },
+  {
+    "PARK_NAME": "REDROCK STREET PARK",
+    "SUBURB": "MURARRIE"
+  },
+  {
+    "PARK_NAME": "PARK ROAD PARK (NO. 26)",
+    "SUBURB": "YERONGA"
+  },
+  {
+    "PARK_NAME": "EVELYN ROAD PARK",
+    "SUBURB": "WYNNUM WEST"
+  },
+  {
+    "PARK_NAME": "BUNDABAH DRIVE PARK (NO. 55)",
+    "SUBURB": "CALAMVALE"
+  },
+  {
+    "PARK_NAME": "DONEGAL PLACE PARK",
+    "SUBURB": "THE GAP"
+  },
+  {
+    "PARK_NAME": "ROCKS RIVERSIDE PARK",
+    "SUBURB": "SEVENTEEN MILE ROCKS"
+  },
+  {
+    "PARK_NAME": "WESLEY STREET PARK",
+    "SUBURB": "LUTWYCHE"
+  },
+  {
+    "PARK_NAME": "KOORINGAL STREET PARK",
+    "SUBURB": "TINGALPA"
+  },
+  {
+    "PARK_NAME": "DAMPIER CRESCENT PARK",
+    "SUBURB": "DREWVALE"
+  },
+  {
+    "PARK_NAME": "ARDES STREET PARK",
+    "SUBURB": "CHAPEL HILL"
+  },
+  {
+    "PARK_NAME": "ERNCROFT PLACE PARK",
+    "SUBURB": "ROCKLEA"
+  },
+  {
+    "PARK_NAME": "FORMOSA ROAD PARK",
+    "SUBURB": "GUMDALE"
+  },
+  {
+    "PARK_NAME": "HAMILTON ROAD QUARRY PARK",
+    "SUBURB": "CHERMSIDE WEST"
+  },
+  {
+    "PARK_NAME": "BORTHWICK AVENUE PARK",
+    "SUBURB": "MURARRIE"
+  },
+  {
+    "PARK_NAME": "WATTLE STREET PARK",
+    "SUBURB": "CANNON HILL"
+  },
+  {
+    "PARK_NAME": "KERALGERIE PARK",
+    "SUBURB": "MORNINGSIDE"
+  },
+  {
+    "PARK_NAME": "BONROS PLACE PARK",
+    "SUBURB": "THE GAP"
+  },
+  {
+    "PARK_NAME": "FLORENCE PLACE PARK",
+    "SUBURB": "OXLEY"
+  },
+  {
+    "PARK_NAME": "CENTRAL STREET PARK",
+    "SUBURB": "FOREST LAKE"
+  },
+  {
+    "PARK_NAME": "GEOFF TOAKLEY PARK",
+    "SUBURB": "MOUNT GRAVATT EAST"
+  },
+  {
+    "PARK_NAME": "LORIKEET PARK",
+    "SUBURB": "MOUNT OMMANEY"
+  },
+  {
+    "PARK_NAME": "SUMMIT STREET PARK",
+    "SUBURB": "BELMONT"
+  },
+  {
+    "PARK_NAME": "TREVALLYN PLACE PARK",
+    "SUBURB": "UPPER KEDRON"
+  },
+  {
+    "PARK_NAME": "THE PULLENVALE FOREST PARK",
+    "SUBURB": "PULLENVALE"
+  },
+  {
+    "PARK_NAME": "PENARTH STREET PARK",
+    "SUBURB": "RUNCORN"
+  },
+  {
+    "PARK_NAME": "PETERSEN STREET PARK",
+    "SUBURB": "WYNNUM"
+  },
+  {
+    "PARK_NAME": "HAYWAL STREET PARK (NO. 55)",
+    "SUBURB": "TAIGUM"
+  },
+  {
+    "PARK_NAME": "CHELSEA ROAD PARK (NO. 498)",
+    "SUBURB": "RANSOME"
+  },
+  {
+    "PARK_NAME": "KARAWATHA FOREST SOUTH",
+    "SUBURB": "DREWVALE"
+  },
+  {
+    "PARK_NAME": "HAVEN ROAD PARK",
+    "SUBURB": "UPPER BROOKFIELD"
+  },
+  {
+    "PARK_NAME": "ARCHERFIELD WETLANDS PARKLAND",
+    "SUBURB": "ROCKLEA"
+  },
+  {
+    "PARK_NAME": "DESHON STREET PARK",
+    "SUBURB": "WOOLLOONGABBA"
+  },
+  {
+    "PARK_NAME": "CLARENCE STREET PARK",
+    "SUBURB": "COORPAROO"
+  },
+  {
+    "PARK_NAME": "MOGGILL ROAD PARK (NO. 2231)",
+    "SUBURB": "KENMORE"
+  },
+  {
+    "PARK_NAME": "DUMBURRU PARK",
+    "SUBURB": "KARANA DOWNS"
+  },
+  {
+    "PARK_NAME": "MURRI PARK",
+    "SUBURB": "KARANA DOWNS"
+  },
+  {
+    "PARK_NAME": "SCRIVEN STREET RESERVE",
+    "SUBURB": "MOUNT CROSBY"
+  },
+  {
+    "PARK_NAME": "MALCOLM MCDOUGALL PARK",
+    "SUBURB": "MOUNT CROSBY"
+  },
+  {
+    "PARK_NAME": "SWENSONS ROAD NATURE RESERVE",
+    "SUBURB": "MOUNT CROSBY"
+  },
+  {
+    "PARK_NAME": "IPSWICH ROAD PARK (NO. 2114)",
+    "SUBURB": "OXLEY"
+  },
+  {
+    "PARK_NAME": "KANE STREET PARK",
+    "SUBURB": "KEPERRA"
+  },
+  {
+    "PARK_NAME": "DUGGAN STREET PARK",
+    "SUBURB": "KEPERRA"
+  },
+  {
+    "PARK_NAME": "ANNANDALE STREET PARK",
+    "SUBURB": "KEPERRA"
+  },
+  {
+    "PARK_NAME": "ST HELENS ROAD PARK (NO. 100)",
+    "SUBURB": "MITCHELTON"
+  },
+  {
+    "PARK_NAME": "GLEN RETREAT ROAD PARK",
+    "SUBURB": "MITCHELTON"
+  },
+  {
+    "PARK_NAME": "WAMINDA STREET PARK",
+    "SUBURB": "MORNINGSIDE"
+  },
+  {
+    "PARK_NAME": "OSBORNE ROAD PARK (NO. 76-84)",
+    "SUBURB": "MITCHELTON"
+  },
+  {
+    "PARK_NAME": "NORTH ROAD PARK",
+    "SUBURB": "BRIGHTON"
+  },
+  {
+    "PARK_NAME": "BEAK STREET PARK",
+    "SUBURB": "NORMAN PARK"
+  },
+  {
+    "PARK_NAME": "FIDDLEWOOD PLACE PARK",
+    "SUBURB": "BRIDGEMAN DOWNS"
+  },
+  {
+    "PARK_NAME": "PALLARA PARK",
+    "SUBURB": "PALLARA"
+  },
+  {
+    "PARK_NAME": "SWEETS ROAD PARK",
+    "SUBURB": "WILLAWONG"
+  },
+  {
+    "PARK_NAME": "MORNINGTON CRESCENT PARK",
+    "SUBURB": "MORNINGSIDE"
+  },
+  {
+    "PARK_NAME": "KINNEN STREET PARK",
+    "SUBURB": "ENOGGERA"
+  },
+  {
+    "PARK_NAME": "MT PETRIE ROAD PARK",
+    "SUBURB": "MACKENZIE"
+  },
+  {
+    "PARK_NAME": "MIAWELA STREET PARK",
+    "SUBURB": "SEVEN HILLS"
+  },
+  {
+    "PARK_NAME": "MEIERS ROAD PARK (ROAD RESERVE)",
+    "SUBURB": "INDOOROOPILLY"
+  },
+  {
+    "PARK_NAME": "PRINCETON PLACE PARK",
+    "SUBURB": "FOREST LAKE"
+  },
+  {
+    "PARK_NAME": "GIBSON PLACE PARK (NO. 18)",
+    "SUBURB": "BROOKFIELD"
+  },
+  {
+    "PARK_NAME": "TORQUAY CRESCENT (NO. 1695) PARK",
+    "SUBURB": "TINGALPA"
+  },
+  {
+    "PARK_NAME": "BURNBY ROAD PARK (NO. 99)",
+    "SUBURB": "HEMMANT"
+  },
+  {
+    "PARK_NAME": "SUNNYDENE ROAD PARK",
+    "SUBURB": "CHANDLER"
+  },
+  {
+    "PARK_NAME": "BRIDGEMAN PLACE PARK",
+    "SUBURB": "FOREST LAKE"
+  },
+  {
+    "PARK_NAME": "WATTLE CLOSE PARK",
+    "SUBURB": "BRIDGEMAN DOWNS"
+  },
+  {
+    "PARK_NAME": "PROSPECT TERRACE PARK (ROAD RESERVE)",
+    "SUBURB": "KELVIN GROVE"
+  },
+  {
+    "PARK_NAME": "LONGBILL PLACE PARK",
+    "SUBURB": "TAIGUM"
+  },
+  {
+    "PARK_NAME": "PORTSIDE PLACE PARK",
+    "SUBURB": "BULIMBA"
+  },
+  {
+    "PARK_NAME": "YORK STREET PARK",
+    "SUBURB": "MORNINGSIDE"
+  },
+  {
+    "PARK_NAME": "MULGRAVE CRESCENT PARK",
+    "SUBURB": "FOREST LAKE"
+  },
+  {
+    "PARK_NAME": "WALTON'S WAY PARK",
+    "SUBURB": "THE GAP"
+  },
+  {
+    "PARK_NAME": "IVORY STREET PARK (ROAD RESERVE)",
+    "SUBURB": "FORTITUDE VALLEY"
+  },
+  {
+    "PARK_NAME": "VERA STREET PARK",
+    "SUBURB": "INDOOROOPILLY"
+  },
+  {
+    "PARK_NAME": "COBLE PARK",
+    "SUBURB": "FERNY GROVE"
+  },
+  {
+    "PARK_NAME": "ABLINGTON WAY PARK",
+    "SUBURB": "CARINDALE"
+  },
+  {
+    "PARK_NAME": "CRIBB ROAD PARK",
+    "SUBURB": "CARINDALE"
+  },
+  {
+    "PARK_NAME": "ADAM SMIDDY PARK",
+    "SUBURB": "MILTON"
+  },
+  {
+    "PARK_NAME": "PAYNE ROAD PARK (NO. 507)",
+    "SUBURB": "THE GAP"
+  },
+  {
+    "PARK_NAME": "CRICKET STREET PARK",
+    "SUBURB": "PETRIE TERRACE"
+  },
+  {
+    "PARK_NAME": "HAWTHORNE PARK",
+    "SUBURB": "HAWTHORNE"
+  },
+  {
+    "PARK_NAME": "JOHNSTON PARK",
+    "SUBURB": "BULIMBA"
+  },
+  {
+    "PARK_NAME": "VIC LUCAS PARK",
+    "SUBURB": "BULIMBA"
+  },
+  {
+    "PARK_NAME": "KIANAWAH PARK",
+    "SUBURB": "TINGALPA"
+  },
+  {
+    "PARK_NAME": "MACPHERSON'S OUTLOOK PARK",
+    "SUBURB": "NORMAN PARK"
+  },
+  {
+    "PARK_NAME": "JEREMIAH O'TOOLE PARK",
+    "SUBURB": "MORNINGSIDE"
+  },
+  {
+    "PARK_NAME": "JOYCE WHITE PARK",
+    "SUBURB": "MORNINGSIDE"
+  },
+  {
+    "PARK_NAME": "DONALDSON STREET PARK",
+    "SUBURB": "NORMAN PARK"
+  },
+  {
+    "PARK_NAME": "WILSON PARK",
+    "SUBURB": "NORMAN PARK"
+  },
+  {
+    "PARK_NAME": "OVEREND STREET PARK",
+    "SUBURB": "NORMAN PARK"
+  },
+  {
+    "PARK_NAME": "ROLLO PARK",
+    "SUBURB": "NORMAN PARK"
+  },
+  {
+    "PARK_NAME": "VECTIS STREET PARK",
+    "SUBURB": "NORMAN PARK"
+  },
+  {
+    "PARK_NAME": "MURARRIE RECREATION GROUND",
+    "SUBURB": "MURARRIE"
+  },
+  {
+    "PARK_NAME": "WILLARD STREET PARK",
+    "SUBURB": "CARINA HEIGHTS"
+  },
+  {
+    "PARK_NAME": "BURN STREET PARK",
+    "SUBURB": "CAMP HILL"
+  },
+  {
+    "PARK_NAME": "LAVARACK PARK",
+    "SUBURB": "CAMP HILL"
+  },
+  {
+    "PARK_NAME": "GARTH WEBB PARK",
+    "SUBURB": "CAMP HILL"
+  },
+  {
+    "PARK_NAME": "DORRINGTON PARK",
+    "SUBURB": "ASHGROVE"
+  },
+  {
+    "PARK_NAME": "FRANK WATERS PARK",
+    "SUBURB": "ASHGROVE"
+  },
+  {
+    "PARK_NAME": "ST HELENS ROAD PARK (NO. 16-70)",
+    "SUBURB": "MITCHELTON"
+  },
+  {
+    "PARK_NAME": "MCCONAGHY STREET PARK (NO. 10-20)",
+    "SUBURB": "MITCHELTON"
+  },
+  {
+    "PARK_NAME": "DAWN STREET PARK",
+    "SUBURB": "BARDON"
+  },
+  {
+    "PARK_NAME": "ASCOT PARK",
+    "SUBURB": "ASCOT"
+  },
+  {
+    "PARK_NAME": "THEODORE STREET PARK",
+    "SUBURB": "EAGLE FARM"
+  },
+  {
+    "PARK_NAME": "HAMILTON PARK",
+    "SUBURB": "HAMILTON"
+  },
+  {
+    "PARK_NAME": "CROSBY PARK",
+    "SUBURB": "ALBION"
+  },
+  {
+    "PARK_NAME": "YOWOGGERA  PARK",
+    "SUBURB": "ALBION"
+  },
+  {
+    "PARK_NAME": "CAMERON ROCKS RESERVE",
+    "SUBURB": "HAMILTON"
+  },
+  {
+    "PARK_NAME": "ORIEL PARK",
+    "SUBURB": "ASCOT"
+  },
+  {
+    "PARK_NAME": "CROSBY ROAD PARK",
+    "SUBURB": "ASCOT"
+  },
+  {
+    "PARK_NAME": "NEAL MACROSSAN PLAYGROUND PARK",
+    "SUBURB": "PADDINGTON"
+  },
+  {
+    "PARK_NAME": "E. E. MCCASKIE OVAL",
+    "SUBURB": "KELVIN GROVE"
+  },
+  {
+    "PARK_NAME": "KELVIN GROVE RESERVE",
+    "SUBURB": "KELVIN GROVE"
+  },
+  {
+    "PARK_NAME": "BARDON SCENIC RESERVE",
+    "SUBURB": "BARDON"
+  },
+  {
+    "PARK_NAME": "BOWMAN PARK",
+    "SUBURB": "BARDON"
+  },
+  {
+    "PARK_NAME": "HUGHIE WILLIAMS PARK",
+    "SUBURB": "BARDON"
+  },
+  {
+    "PARK_NAME": "SCEPTRE ROW PARK",
+    "SUBURB": "BARDON"
+  },
+  {
+    "PARK_NAME": "JUBILEE PARK",
+    "SUBURB": "BARDON"
+  },
+  {
+    "PARK_NAME": "FLETCHER PARADE PARK (NO. 161-231)",
+    "SUBURB": "BARDON"
+  },
+  {
+    "PARK_NAME": "GLEN HARDING PARK",
+    "SUBURB": "ASHGROVE"
+  },
+  {
+    "PARK_NAME": "ENOGGERA CREEK RESERVE",
+    "SUBURB": "ASHGROVE"
+  },
+  {
+    "PARK_NAME": "ASHGROVE SPORTSGROUND PARK",
+    "SUBURB": "ASHGROVE"
+  },
+  {
+    "PARK_NAME": "STEWART PLACE PARK",
+    "SUBURB": "ASHGROVE"
+  },
+  {
+    "PARK_NAME": "ASHGROVE MEMORIAL PARK",
+    "SUBURB": "ASHGROVE"
+  },
+  {
+    "PARK_NAME": "T. M. BURKE PARK",
+    "SUBURB": "ASHGROVE"
+  },
+  {
+    "PARK_NAME": "SEILS PARK",
+    "SUBURB": "ASHGROVE"
+  },
+  {
+    "PARK_NAME": "GILBERT PARK",
+    "SUBURB": "RED HILL"
+  },
+  {
+    "PARK_NAME": "WOOLCOCK PARK",
+    "SUBURB": "RED HILL"
+  },
+  {
+    "PARK_NAME": "TENNIS AVENUE PARK",
+    "SUBURB": "ASHGROVE"
+  },
+  {
+    "PARK_NAME": "CORBIE STREET PARK",
+    "SUBURB": "ASHGROVE"
+  },
+  {
+    "PARK_NAME": "PRAED STREET PARK",
+    "SUBURB": "RED HILL"
+  },
+  {
+    "PARK_NAME": "BANCROFT PARK",
+    "SUBURB": "KELVIN GROVE"
+  },
+  {
+    "PARK_NAME": "PICOT STREET PARK",
+    "SUBURB": "KELVIN GROVE"
+  },
+  {
+    "PARK_NAME": "WALLY BOURKE PARK",
+    "SUBURB": "GORDON PARK"
+  },
+  {
+    "PARK_NAME": "KOKODA PARK",
+    "SUBURB": "GORDON PARK"
+  },
+  {
+    "PARK_NAME": "ARCHER STREET PARK",
+    "SUBURB": "GORDON PARK"
+  },
+  {
+    "PARK_NAME": "GORDON PARK PLAYGROUND PARK",
+    "SUBURB": "GORDON PARK"
+  },
+  {
+    "PARK_NAME": "HICKEY PARK",
+    "SUBURB": "STAFFORD"
+  },
+  {
+    "PARK_NAME": "GIBSON PARK",
+    "SUBURB": "STAFFORD"
+  },
+  {
+    "PARK_NAME": "ROY HARVEY PARK",
+    "SUBURB": "STAFFORD"
+  },
+  {
+    "PARK_NAME": "BOLES STREET PARK",
+    "SUBURB": "STAFFORD"
+  },
+  {
+    "PARK_NAME": "TERALBA PARK",
+    "SUBURB": "EVERTON PARK"
+  },
+  {
+    "PARK_NAME": "PULLEN ROAD PARK",
+    "SUBURB": "EVERTON PARK"
+  },
+  {
+    "PARK_NAME": "BROULA PARK",
+    "SUBURB": "STAFFORD HEIGHTS"
+  },
+  {
+    "PARK_NAME": "AMOTT STREET PARK",
+    "SUBURB": "STAFFORD HEIGHTS"
+  },
+  {
+    "PARK_NAME": "ALDREN STREET PARK",
+    "SUBURB": "STAFFORD HEIGHTS"
+  },
+  {
+    "PARK_NAME": "MELALEUCA GREEN PARK",
+    "SUBURB": "CHERMSIDE WEST"
+  },
+  {
+    "PARK_NAME": "HUXTABLE PARK",
+    "SUBURB": "CHERMSIDE WEST"
+  },
+  {
+    "PARK_NAME": "WHITES ROAD PARK",
+    "SUBURB": "CHERMSIDE WEST"
+  },
+  {
+    "PARK_NAME": "FREDERICK ANNAND PARK",
+    "SUBURB": "CHERMSIDE WEST"
+  },
+  {
+    "PARK_NAME": "WHITES HILL RESERVE",
+    "SUBURB": "CAMP HILL"
+  },
+  {
+    "PARK_NAME": "GLINDEMANN DRIVE PARK",
+    "SUBURB": "HOLLAND PARK"
+  },
+  {
+    "PARK_NAME": "CHESTER PARK RESERVE",
+    "SUBURB": "MOUNT GRAVATT EAST"
+  },
+  {
+    "PARK_NAME": "KENTISH STREET PARK",
+    "SUBURB": "MOUNT GRAVATT EAST"
+  },
+  {
+    "PARK_NAME": "SEVILLE PARK",
+    "SUBURB": "HOLLAND PARK"
+  },
+  {
+    "PARK_NAME": "JOE BRADFIELD CENTRE PARK",
+    "SUBURB": "CARINA"
+  },
+  {
+    "PARK_NAME": "PATTISON PARK",
+    "SUBURB": "NORMAN PARK"
+  },
+  {
+    "PARK_NAME": "GLINDEMANN PARK",
+    "SUBURB": "HOLLAND PARK WEST"
+  },
+  {
+    "PARK_NAME": "TINGALPA CREEK RESERVE",
+    "SUBURB": "CHANDLER"
+  },
+  {
+    "PARK_NAME": "FERGUSON ROAD PARK",
+    "SUBURB": "SEVEN HILLS"
+  },
+  {
+    "PARK_NAME": "BELMONT RECREATION RESERVE",
+    "SUBURB": "CARINA"
+  },
+  {
+    "PARK_NAME": "BUCKLEY STREET PARK",
+    "SUBURB": "CARINA HEIGHTS"
+  },
+  {
+    "PARK_NAME": "HARDGRAVE PARK",
+    "SUBURB": "PETRIE TERRACE"
+  },
+  {
+    "PARK_NAME": "WICKHAM PARK",
+    "SUBURB": "SPRING HILL"
+  },
+  {
+    "PARK_NAME": "OBSERVATORY PARK",
+    "SUBURB": "SPRING HILL"
+  },
+  {
+    "PARK_NAME": "BEDFORD PLAYGROUND PARK",
+    "SUBURB": "SPRING HILL"
+  },
+  {
+    "PARK_NAME": "CAPTAIN BURKE PARK",
+    "SUBURB": "KANGAROO POINT"
+  },
+  {
+    "PARK_NAME": "CENTENARY PLACE",
+    "SUBURB": "FORTITUDE VALLEY"
+  },
+  {
+    "PARK_NAME": "FOUNTAIN RESERVE",
+    "SUBURB": "BRISBANE CITY"
+  },
+  {
+    "PARK_NAME": "TENERIFFE PARK",
+    "SUBURB": "TENERIFFE"
+  },
+  {
+    "PARK_NAME": "FIG TREE RESERVE",
+    "SUBURB": "BRISBANE CITY"
+  },
+  {
+    "PARK_NAME": "MERTHYR PARK",
+    "SUBURB": "NEW FARM"
+  },
+  {
+    "PARK_NAME": "TERRACE STREET PARK",
+    "SUBURB": "SPRING HILL"
+  },
+  {
+    "PARK_NAME": "ANZAC SQUARE",
+    "SUBURB": "BRISBANE CITY"
+  },
+  {
+    "PARK_NAME": "VICTORIA PARK",
+    "SUBURB": "HERSTON"
+  },
+  {
+    "PARK_NAME": "NEWSTEAD PARK",
+    "SUBURB": "NEWSTEAD"
+  },
+  {
+    "PARK_NAME": "PERRY PARK",
+    "SUBURB": "BOWEN HILLS"
+  },
+  {
+    "PARK_NAME": "BOOROODABIN RECREATION RESERVE",
+    "SUBURB": "NEWSTEAD"
+  },
+  {
+    "PARK_NAME": "BOWEN PARK",
+    "SUBURB": "BOWEN HILLS"
+  },
+  {
+    "PARK_NAME": "JAMES WARNER PARK",
+    "SUBURB": "KANGAROO POINT"
+  },
+  {
+    "PARK_NAME": "WILSON OUTLOOK RESERVE",
+    "SUBURB": "NEW FARM"
+  },
+  {
+    "PARK_NAME": "C.T.WHITE PARK",
+    "SUBURB": "KANGAROO POINT"
+  },
+  {
+    "PARK_NAME": "KING EDWARD PARK",
+    "SUBURB": "BRISBANE CITY"
+  },
+  {
+    "PARK_NAME": "CATHEDRAL SQUARE",
+    "SUBURB": "BRISBANE CITY"
+  },
+  {
+    "PARK_NAME": "EMMA MILLER PLACE",
+    "SUBURB": "BRISBANE CITY"
+  },
+  {
+    "PARK_NAME": "NEW FARM PARK",
+    "SUBURB": "NEW FARM"
+  },
+  {
+    "PARK_NAME": "CITY BOTANIC GARDENS",
+    "SUBURB": "BRISBANE CITY"
+  },
+  {
+    "PARK_NAME": "RAYMOND PARK",
+    "SUBURB": "KANGAROO POINT"
+  },
+  {
+    "PARK_NAME": "KING GEORGE SQUARE",
+    "SUBURB": "BRISBANE CITY"
+  },
+  {
+    "PARK_NAME": "MAIN STREET PARK (KANGAROO POINT)",
+    "SUBURB": "KANGAROO POINT"
+  },
+  {
+    "PARK_NAME": "CLARK LANE PARK",
+    "SUBURB": "BRISBANE CITY"
+  },
+  {
+    "PARK_NAME": "GOULD ROAD PARK",
+    "SUBURB": "HERSTON"
+  },
+  {
+    "PARK_NAME": "E. E. MCCORMICK PLACE",
+    "SUBURB": "BRISBANE CITY"
+  },
+  {
+    "PARK_NAME": "BOWIE'S FLAT PARK",
+    "SUBURB": "CAMP HILL"
+  },
+  {
+    "PARK_NAME": "TARANA STREET PARK",
+    "SUBURB": "CAMP HILL"
+  },
+  {
+    "PARK_NAME": "WEMBLEY PARK",
+    "SUBURB": "COORPAROO"
+  },
+  {
+    "PARK_NAME": "ERIC SIVELL PARK",
+    "SUBURB": "COORPAROO"
+  },
+  {
+    "PARK_NAME": "WYNOLA PARK",
+    "SUBURB": "COORPAROO"
+  },
+  {
+    "PARK_NAME": "TRUNDLE PARK",
+    "SUBURB": "COORPAROO"
+  },
+  {
+    "PARK_NAME": "PERTH STREET PARK",
+    "SUBURB": "CAMP HILL"
+  },
+  {
+    "PARK_NAME": "TEMPLE STREET PARK",
+    "SUBURB": "COORPAROO"
+  },
+  {
+    "PARK_NAME": "WILLS STREET PARK",
+    "SUBURB": "COORPAROO"
+  },
+  {
+    "PARK_NAME": "COONARA STREET PARK",
+    "SUBURB": "HOLLAND PARK"
+  },
+  {
+    "PARK_NAME": "LANGLANDS PARK",
+    "SUBURB": "COORPAROO"
+  },
+  {
+    "PARK_NAME": "MAJESTIC PARK",
+    "SUBURB": "COORPAROO"
+  },
+  {
+    "PARK_NAME": "C.B.MOTT PARK",
+    "SUBURB": "HOLLAND PARK"
+  },
+  {
+    "PARK_NAME": "STANLEY STREET EAST PARK (NO. 1110)",
+    "SUBURB": "COORPAROO"
+  },
+  {
+    "PARK_NAME": "W. J. SCOTT PARK",
+    "SUBURB": "HOLLAND PARK"
+  },
+  {
+    "PARK_NAME": "ROME STREET PARK",
+    "SUBURB": "COORPAROO"
+  },
+  {
+    "PARK_NAME": "BARSTON PLACE PARK",
+    "SUBURB": "COORPAROO"
+  },
+  {
+    "PARK_NAME": "C.P.BOTTOMLEY PARK",
+    "SUBURB": "NORMAN PARK"
+  },
+  {
+    "PARK_NAME": "SID LODER PARK",
+    "SUBURB": "MITCHELTON"
+  },
+  {
+    "PARK_NAME": "SEDGLEY PARK",
+    "SUBURB": "ALDERLEY"
+  },
+  {
+    "PARK_NAME": "MITCHELTON PARK",
+    "SUBURB": "MITCHELTON"
+  },
+  {
+    "PARK_NAME": "ENOGGERA MEMORIAL PARK",
+    "SUBURB": "ENOGGERA"
+  },
+  {
+    "PARK_NAME": "KOREA PARK",
+    "SUBURB": "ENOGGERA"
+  },
+  {
+    "PARK_NAME": "PICKERING STREET PARK",
+    "SUBURB": "ENOGGERA"
+  },
+  {
+    "PARK_NAME": "FERGUSON PARK (ENOGGERA)",
+    "SUBURB": "ENOGGERA"
+  },
+  {
+    "PARK_NAME": "BANKS STREET RESERVE",
+    "SUBURB": "ALDERLEY"
+  },
+  {
+    "PARK_NAME": "WILLMINGTON PARK",
+    "SUBURB": "ALDERLEY"
+  },
+  {
+    "PARK_NAME": "OAKLEIGH PARK",
+    "SUBURB": "ASHGROVE"
+  },
+  {
+    "PARK_NAME": "BERMINGHAM STREET PARK",
+    "SUBURB": "ALDERLEY"
+  },
+  {
+    "PARK_NAME": "PURTELL PARK",
+    "SUBURB": "BARDON"
+  },
+  {
+    "PARK_NAME": "BARDON PARK",
+    "SUBURB": "BARDON"
+  },
+  {
+    "PARK_NAME": "MCCONAGHY STREET PARK (NO. 171-235)",
+    "SUBURB": "MITCHELTON"
+  },
+  {
+    "PARK_NAME": "PATEN PARK",
+    "SUBURB": "THE GAP"
+  },
+  {
+    "PARK_NAME": "ALFRED & LUCINA BEST PARK",
+    "SUBURB": "THE GAP"
+  },
+  {
+    "PARK_NAME": "SCHOOL ROAD PARK",
+    "SUBURB": "THE GAP"
+  },
+  {
+    "PARK_NAME": "RIAWEENA STREET PARK",
+    "SUBURB": "THE GAP"
+  },
+  {
+    "PARK_NAME": "ASHGROVE SCENIC RESERVE",
+    "SUBURB": "ASHGROVE"
+  },
+  {
+    "PARK_NAME": "ILLOWRA STREET PARK",
+    "SUBURB": "THE GAP"
+  },
+  {
+    "PARK_NAME": "SILVERTOP STREET PARK",
+    "SUBURB": "KEPERRA"
+  },
+  {
+    "PARK_NAME": "CAMOOLA STREET PARK",
+    "SUBURB": "KEPERRA"
+  },
+  {
+    "PARK_NAME": "FERNY GROVE PICNIC GROUND PARK",
+    "SUBURB": "FERNY GROVE"
+  },
+  {
+    "PARK_NAME": "HEINER PARK",
+    "SUBURB": "KEPERRA"
+  },
+  {
+    "PARK_NAME": "UPPER KEDRON RECREATION RESERVE",
+    "SUBURB": "UPPER KEDRON"
+  },
+  {
+    "PARK_NAME": "OXFORD GROVE PARK",
+    "SUBURB": "KEPERRA"
+  },
+  {
+    "PARK_NAME": "THE WOODS MEMORIAL PLAYGROUND PARK",
+    "SUBURB": "ASHGROVE"
+  },
+  {
+    "PARK_NAME": "ROYAL PARADE PARK (NO. 16-70)",
+    "SUBURB": "ASHGROVE"
+  },
+  {
+    "PARK_NAME": "MIRRABOOKA ROAD PARK",
+    "SUBURB": "ASHGROVE"
+  },
+  {
+    "PARK_NAME": "CORRAMULLING PARK",
+    "SUBURB": "THE GAP"
+  },
+  {
+    "PARK_NAME": "GROVELY SPORTSGROUND PARK",
+    "SUBURB": "KEPERRA"
+  },
+  {
+    "PARK_NAME": "JURAYELBA PLACE PARK",
+    "SUBURB": "KEPERRA"
+  },
+  {
+    "PARK_NAME": "FIHELLY STREET PARK",
+    "SUBURB": "KEPERRA"
+  },
+  {
+    "PARK_NAME": "GRINSTEAD PARK",
+    "SUBURB": "ALDERLEY"
+  },
+  {
+    "PARK_NAME": "WALTON BRIDGE RESERVE",
+    "SUBURB": "THE GAP"
+  },
+  {
+    "PARK_NAME": "QUANDONG PARK",
+    "SUBURB": "ASHGROVE"
+  },
+  {
+    "PARK_NAME": "GREENE PARK",
+    "SUBURB": "WYNNUM"
+  },
+  {
+    "PARK_NAME": "PRIMROSE PARK",
+    "SUBURB": "WYNNUM WEST"
+  },
+  {
+    "PARK_NAME": "JACARANDA PARK",
+    "SUBURB": "YERONGA"
+  },
+  {
+    "PARK_NAME": "NICHOLAS PARK",
+    "SUBURB": "THE GAP"
+  },
+  {
+    "PARK_NAME": "KITCHENER PARK",
+    "SUBURB": "WYNNUM"
+  },
+  {
+    "PARK_NAME": "DITTMER PARK",
+    "SUBURB": "UPPER MOUNT GRAVATT"
+  },
+  {
+    "PARK_NAME": "MUNGO SCOTT PARK",
+    "SUBURB": "ZILLMERE"
+  },
+  {
+    "PARK_NAME": "GIRAWEEN PARK",
+    "SUBURB": "GRACEVILLE"
+  },
+  {
+    "PARK_NAME": "FAULKNER PARK",
+    "SUBURB": "GRACEVILLE"
+  },
+  {
+    "PARK_NAME": "GEORGE SCARLETT PARK",
+    "SUBURB": "CORINDA"
+  },
+  {
+    "PARK_NAME": "CAWONGA PARK",
+    "SUBURB": "OXLEY"
+  },
+  {
+    "PARK_NAME": "KEONG PARK",
+    "SUBURB": "STAFFORD"
+  },
+  {
+    "PARK_NAME": "FALLON PARK",
+    "SUBURB": "EVERTON PARK"
+  },
+  {
+    "PARK_NAME": "KEATING PARK",
+    "SUBURB": "INDOOROOPILLY"
+  },
+  {
+    "PARK_NAME": "RILATT PARK",
+    "SUBURB": "WAVELL HEIGHTS"
+  },
+  {
+    "PARK_NAME": "FENWICK PARK",
+    "SUBURB": "MITCHELTON"
+  },
+  {
+    "PARK_NAME": "BANNISTER PARK",
+    "SUBURB": "HENDRA"
+  },
+  {
+    "PARK_NAME": "THE BEIRNE PARK",
+    "SUBURB": "HENDRA"
+  },
+  {
+    "PARK_NAME": "W. A. JOLLY PARK",
+    "SUBURB": "LUTWYCHE"
+  },
+  {
+    "PARK_NAME": "A. J. JONES RECREATION RESERVE",
+    "SUBURB": "GREENSLOPES"
+  },
+  {
+    "PARK_NAME": "J.F. O'GRADY MEMORIAL PARK",
+    "SUBURB": "FAIRFIELD"
+  },
+  {
+    "PARK_NAME": "ROBINSON PARK (FAIRFIELD)",
+    "SUBURB": "FAIRFIELD"
+  },
+  {
+    "PARK_NAME": "KEITH PAYNE PARK",
+    "SUBURB": "STAFFORD"
+  },
+  {
+    "PARK_NAME": "GIFFIN PARK",
+    "SUBURB": "COORPAROO"
+  },
+  {
+    "PARK_NAME": "POLLOCK STREET PARK",
+    "SUBURB": "BALMORAL"
+  },
+  {
+    "PARK_NAME": "QUINN'S STREET PARK",
+    "SUBURB": "BALMORAL"
+  },
+  {
+    "PARK_NAME": "BALMORAL PARK",
+    "SUBURB": "MORNINGSIDE"
+  },
+  {
+    "PARK_NAME": "MERRY STREET PARK",
+    "SUBURB": "BULIMBA"
+  },
+  {
+    "PARK_NAME": "BULIMBA MEMORIAL PARK",
+    "SUBURB": "BULIMBA"
+  },
+  {
+    "PARK_NAME": "HEMMANT RECREATION RESERVE",
+    "SUBURB": "HEMMANT"
+  },
+  {
+    "PARK_NAME": "IRENE LONGMAN RESERVE",
+    "SUBURB": "CANNON HILL"
+  },
+  {
+    "PARK_NAME": "REGENT PARK",
+    "SUBURB": "CANNON HILL"
+  },
+  {
+    "PARK_NAME": "BILL CASH MEMORIAL PARK",
+    "SUBURB": "CANNON HILL"
+  },
+  {
+    "PARK_NAME": "COLMSLIE RESERVE",
+    "SUBURB": "MORNINGSIDE"
+  },
+  {
+    "PARK_NAME": "HARDCASTLE PARK",
+    "SUBURB": "HAWTHORNE"
+  },
+  {
+    "PARK_NAME": "BAXTER CRESCENT PARK",
+    "SUBURB": "FOREST LAKE"
+  },
+  {
+    "PARK_NAME": "BEAUDESERT ROAD PARK",
+    "SUBURB": "CALAMVALE"
+  },
+  {
+    "PARK_NAME": "SELKIRK CRESCENT PARK",
+    "SUBURB": "UPPER KEDRON"
+  },
+  {
+    "PARK_NAME": "GREENOCK PLACE PARK",
+    "SUBURB": "FERNY GROVE"
+  },
+  {
+    "PARK_NAME": "CAROLE PARK COMMUNITY PARK",
+    "SUBURB": "ELLEN GROVE"
+  },
+  {
+    "PARK_NAME": "BLACKSELL PARK",
+    "SUBURB": "ELLEN GROVE"
+  },
+  {
+    "PARK_NAME": "MULLEY PARK",
+    "SUBURB": "ELLEN GROVE"
+  },
+  {
+    "PARK_NAME": "OSPYA PARK",
+    "SUBURB": "ELLEN GROVE"
+  },
+  {
+    "PARK_NAME": "JULIE ROAD PARK",
+    "SUBURB": "ELLEN GROVE"
+  },
+  {
+    "PARK_NAME": "WARREN RITCHIE MEMORIAL COMPLEX PARK",
+    "SUBURB": "ELLEN GROVE"
+  },
+  {
+    "PARK_NAME": "PINE MOUNTAIN ROAD PARK",
+    "SUBURB": "CARINDALE"
+  },
+  {
+    "PARK_NAME": "DELANEY CIRCUIT PARK",
+    "SUBURB": "CARINDALE"
+  },
+  {
+    "PARK_NAME": "WAHL STREET PARK",
+    "SUBURB": "BOONDALL"
+  },
+  {
+    "PARK_NAME": "SONGBIRD WAY PARK",
+    "SUBURB": "TAIGUM"
+  },
+  {
+    "PARK_NAME": "BOBLYNNE STREET PARK (NO. 32)",
+    "SUBURB": "CHAPEL HILL"
+  },
+  {
+    "PARK_NAME": "ARCADIA STREET PARK",
+    "SUBURB": "EIGHT MILE PLAINS"
+  },
+  {
+    "PARK_NAME": "SHERINGA STREET PARK",
+    "SUBURB": "ELLEN GROVE"
+  },
+  {
+    "PARK_NAME": "DELPHIN DRIVE PARK",
+    "SUBURB": "MACGREGOR"
+  },
+  {
+    "PARK_NAME": "PALUNA PLACE PARK",
+    "SUBURB": "FOREST LAKE"
+  },
+  {
+    "PARK_NAME": "DEAGON WETLANDS",
+    "SUBURB": "SANDGATE"
+  },
+  {
+    "PARK_NAME": "CHELSEA ROAD PARK (NO. 258)",
+    "SUBURB": "RANSOME"
+  },
+  {
+    "PARK_NAME": "CHELSEA ROAD PARK (NO. 303)",
+    "SUBURB": "RANSOME"
+  },
+  {
+    "PARK_NAME": "ADVANX STREET PARK",
+    "SUBURB": "KENMORE HILLS"
+  },
+  {
+    "PARK_NAME": "MOORHEN FLATS",
+    "SUBURB": "EAST BRISBANE"
+  },
+  {
+    "PARK_NAME": "PHIL DENMAN PARK",
+    "SUBURB": "JAMBOREE HEIGHTS"
+  },
+  {
+    "PARK_NAME": "TUBEROSE PLACE PARK",
+    "SUBURB": "CALAMVALE"
+  },
+  {
+    "PARK_NAME": "KING STREET PARK",
+    "SUBURB": "KURABY"
+  },
+  {
+    "PARK_NAME": "DOUGHBOY PARADE PARK",
+    "SUBURB": "HEMMANT"
+  },
+  {
+    "PARK_NAME": "GLENFERRIE PLACE PARK",
+    "SUBURB": "THE GAP"
+  },
+  {
+    "PARK_NAME": "BIRDWOOD ROAD PARK",
+    "SUBURB": "HOLLAND PARK WEST"
+  },
+  {
+    "PARK_NAME": "RAILTON STREET PARK",
+    "SUBURB": "ASPLEY"
+  },
+  {
+    "PARK_NAME": "BONYI STREET PARK",
+    "SUBURB": "SUNNYBANK HILLS"
+  },
+  {
+    "PARK_NAME": "PRIESTDALE ROAD PARK (NO. 1012)",
+    "SUBURB": "ROCHEDALE"
+  },
+  {
+    "PARK_NAME": "CAMELOT PLACE PARK",
+    "SUBURB": "BRIDGEMAN DOWNS"
+  },
+  {
+    "PARK_NAME": "BLISS STREET PARK (LOT 29)",
+    "SUBURB": "GAYTHORNE"
+  },
+  {
+    "PARK_NAME": "BLISS STREET PARK (NO. 39)",
+    "SUBURB": "GAYTHORNE"
+  },
+  {
+    "PARK_NAME": "POWERHOUSE PARK",
+    "SUBURB": "NEW FARM"
+  },
+  {
+    "PARK_NAME": "PINNER STREET PARK",
+    "SUBURB": "UPPER MOUNT GRAVATT"
+  },
+  {
+    "PARK_NAME": "DENNIS WEBB PARK",
+    "SUBURB": "UPPER MOUNT GRAVATT"
+  },
+  {
+    "PARK_NAME": "BRETT PLACE PARK",
+    "SUBURB": "WYNNUM WEST"
+  },
+  {
+    "PARK_NAME": "MARTY STREET PARK",
+    "SUBURB": "WYNNUM WEST"
+  },
+  {
+    "PARK_NAME": "MACADAMIA STREET PARK",
+    "SUBURB": "WYNNUM WEST"
+  },
+  {
+    "PARK_NAME": "SORRENTO STREET PARK",
+    "SUBURB": "WYNNUM WEST"
+  },
+  {
+    "PARK_NAME": "NEWTON PLACE PARK",
+    "SUBURB": "WACOL"
+  },
+  {
+    "PARK_NAME": "RIVERVIEW FARM PARK",
+    "SUBURB": "WESTLAKE"
+  },
+  {
+    "PARK_NAME": "RORY STREET PARK",
+    "SUBURB": "RICHLANDS"
+  },
+  {
+    "PARK_NAME": "BREMEN STREET PARK",
+    "SUBURB": "HEMMANT"
+  },
+  {
+    "PARK_NAME": "WELLS PLACE PARK",
+    "SUBURB": "HEMMANT"
+  },
+  {
+    "PARK_NAME": "COOCHIN PLACE PARK",
+    "SUBURB": "TINGALPA"
+  },
+  {
+    "PARK_NAME": "MCCONNELL CRESCENT PARK",
+    "SUBURB": "BROOKFIELD"
+  },
+  {
+    "PARK_NAME": "WEST PLACE PARK",
+    "SUBURB": "VIRGINIA"
+  },
+  {
+    "PARK_NAME": "SVOBODA PARK",
+    "SUBURB": "KURABY"
+  },
+  {
+    "PARK_NAME": "RQYS PORT CENTRE PARK",
+    "SUBURB": "MANLY"
+  },
+  {
+    "PARK_NAME": "SPARKES PLACE PARK (ROAD RESERVE)",
+    "SUBURB": "WINDSOR"
+  },
+  {
+    "PARK_NAME": "FAIRFIELD ROAD PARK (NO. 989A)",
+    "SUBURB": "YEERONGPILLY"
+  },
+  {
+    "PARK_NAME": "TURUBUL CRESCENT PARK",
+    "SUBURB": "CARINDALE"
+  },
+  {
+    "PARK_NAME": "THREDBO PLACE PARK",
+    "SUBURB": "BELMONT"
+  },
+  {
+    "PARK_NAME": "BENETEAU PLACE PARK",
+    "SUBURB": "LOTA"
+  },
+  {
+    "PARK_NAME": "ORMSKIRK STREET PARK",
+    "SUBURB": "CALAMVALE"
+  },
+  {
+    "PARK_NAME": "GEORGE TUCKETT PARK",
+    "SUBURB": "ROCKLEA"
+  },
+  {
+    "PARK_NAME": "FOREST LAKE SPORTS FIELDS",
+    "SUBURB": "FOREST LAKE"
+  },
+  {
+    "PARK_NAME": "WOODLAND AVENUE PARK",
+    "SUBURB": "FOREST LAKE"
+  },
+  {
+    "PARK_NAME": "MYORA STREET PARK",
+    "SUBURB": "MOGGILL"
+  },
+  {
+    "PARK_NAME": "CONSIDEN PLACE PARK",
+    "SUBURB": "BELLBOWRIE"
+  },
+  {
+    "PARK_NAME": "WAKERLEY PARK",
+    "SUBURB": "WAKERLEY"
+  },
+  {
+    "PARK_NAME": "THOMAS PLACE PARK",
+    "SUBURB": "UPPER KEDRON"
+  },
+  {
+    "PARK_NAME": "SCARLET PLACE PARK",
+    "SUBURB": "FOREST LAKE"
+  },
+  {
+    "PARK_NAME": "PAT RAFTER PARK",
+    "SUBURB": "CARSELDINE"
+  },
+  {
+    "PARK_NAME": "PARKWAY PLACE PARK",
+    "SUBURB": "KENMORE"
+  },
+  {
+    "PARK_NAME": "WINROCK STREET PARK",
+    "SUBURB": "BROOKFIELD"
+  },
+  {
+    "PARK_NAME": "BILL MCFARLANE PARK",
+    "SUBURB": "WAKERLEY"
+  },
+  {
+    "PARK_NAME": "IPSWICH ROAD PARK",
+    "SUBURB": "OXLEY"
+  },
+  {
+    "PARK_NAME": "TALLOW WOOD PLACE PARK",
+    "SUBURB": "MOUNT GRAVATT EAST"
+  },
+  {
+    "PARK_NAME": "BOTTLEBRUSH PLACE PARK",
+    "SUBURB": "MOUNT GRAVATT EAST"
+  },
+  {
+    "PARK_NAME": "LEWIS PLACE PARK",
+    "SUBURB": "MANLY WEST"
+  },
+  {
+    "PARK_NAME": "ANTRIM STREET PARK",
+    "SUBURB": "ACACIA RIDGE"
+  },
+  {
+    "PARK_NAME": "OAKMONT STREET PARK",
+    "SUBURB": "CARINDALE"
+  },
+  {
+    "PARK_NAME": "PALATINE HILL PARK",
+    "SUBURB": "SEVEN HILLS"
+  },
+  {
+    "PARK_NAME": "DICKINSON CLOSE PARK",
+    "SUBURB": "COOPERS PLAINS"
+  },
+  {
+    "PARK_NAME": "OXLEY PLACE PARK (NO. 38)",
+    "SUBURB": "FOREST LAKE"
+  },
+  {
+    "PARK_NAME": "MELROSE PLACE PARK (NO. 46)",
+    "SUBURB": "FERNY GROVE"
+  },
+  {
+    "PARK_NAME": "MUSGRAVE AVENUE PARK",
+    "SUBURB": "BALD HILLS"
+  },
+  {
+    "PARK_NAME": "OWEN STANLEY PLACE PARK",
+    "SUBURB": "DARRA"
+  },
+  {
+    "PARK_NAME": "SWINBURNE STREET PARK",
+    "SUBURB": "LUTWYCHE"
+  },
+  {
+    "PARK_NAME": "TYRRELL COURT PARK",
+    "SUBURB": "THE GAP"
+  },
+  {
+    "PARK_NAME": "BRADMAN STREET PARK",
+    "SUBURB": "SUNNYBANK HILLS"
+  },
+  {
+    "PARK_NAME": "BRISBANE CORSO PARK (NO. 55 & 59)",
+    "SUBURB": "FAIRFIELD"
+  },
+  {
+    "PARK_NAME": "DENIVEN STREET PARK",
+    "SUBURB": "CORINDA"
+  },
+  {
+    "PARK_NAME": "DOLLIS STREET PARK",
+    "SUBURB": "ROCKLEA"
+  },
+  {
+    "PARK_NAME": "OLEANDER CRESCENT PARK",
+    "SUBURB": "DURACK"
+  },
+  {
+    "PARK_NAME": "ALGOORI STREET PARK",
+    "SUBURB": "MORNINGSIDE"
+  },
+  {
+    "PARK_NAME": "SUNSHINE AVENUE PARK",
+    "SUBURB": "TARRAGINDI"
+  },
+  {
+    "PARK_NAME": "STEVENSON STREET PARK",
+    "SUBURB": "CALAMVALE"
+  },
+  {
+    "PARK_NAME": "GRANDVIEW PLACE PARK",
+    "SUBURB": "CARINDALE"
+  },
+  {
+    "PARK_NAME": "LUTWYCHE ROAD PARK (NO. 725A)",
+    "SUBURB": "KEDRON"
+  },
+  {
+    "PARK_NAME": "GREENWAYS ESPLANADE PARK",
+    "SUBURB": "PARKINSON"
+  },
+  {
+    "PARK_NAME": "WOODWARD PLACE PARK",
+    "SUBURB": "PULLENVALE"
+  },
+  {
+    "PARK_NAME": "CHELSEA ROAD PARK (NO. 399-551)",
+    "SUBURB": "RANSOME"
+  },
+  {
+    "PARK_NAME": "BIELBY ROAD PARK",
+    "SUBURB": "KENMORE HILLS"
+  },
+  {
+    "PARK_NAME": "MELROSE PLACE PARK (NO. 14)",
+    "SUBURB": "RUNCORN"
+  },
+  {
+    "PARK_NAME": "WEALTH STREET PARK",
+    "SUBURB": "RUNCORN"
+  },
+  {
+    "PARK_NAME": "TYBERRY STREET PARK",
+    "SUBURB": "CHANDLER"
+  },
+  {
+    "PARK_NAME": "AMAZONS PLACE PARK",
+    "SUBURB": "JINDALEE"
+  },
+  {
+    "PARK_NAME": "TEASEL CRESCENT PARK",
+    "SUBURB": "FOREST LAKE"
+  },
+  {
+    "PARK_NAME": "ARGYLE PLACE PARK",
+    "SUBURB": "FOREST LAKE"
+  },
+  {
+    "PARK_NAME": "STANWORTH ROAD PARK",
+    "SUBURB": "BOONDALL"
+  },
+  {
+    "PARK_NAME": "HEATH STREET PARK",
+    "SUBURB": "FOREST LAKE"
+  },
+  {
+    "PARK_NAME": "GREENHILLS PARK",
+    "SUBURB": "ALDERLEY"
+  },
+  {
+    "PARK_NAME": "SCENIC ROAD PARK (NO. 40)",
+    "SUBURB": "KENMORE"
+  },
+  {
+    "PARK_NAME": "ALICE STREET PARK (ROAD RESERVE)",
+    "SUBURB": "KEDRON"
+  },
+  {
+    "PARK_NAME": "APPIA AVENUE PARK",
+    "SUBURB": "SEVEN HILLS"
+  },
+  {
+    "PARK_NAME": "BAROONA ROAD PARK (ROAD RESERVE)",
+    "SUBURB": "PADDINGTON"
+  },
+  {
+    "PARK_NAME": "BARRETT STREET PARK (WATER RESERVE)",
+    "SUBURB": "BRACKEN RIDGE"
+  },
+  {
+    "PARK_NAME": "LOTA POINT PARK (ROAD RESERVE)",
+    "SUBURB": "LOTA"
+  },
+  {
+    "PARK_NAME": "EDENBROOKE PARK",
+    "SUBURB": "SEVENTEEN MILE ROCKS"
+  },
+  {
+    "PARK_NAME": "JALOON STREET PARK",
+    "SUBURB": "ASHGROVE"
+  },
+  {
+    "PARK_NAME": "LANG STREET PARK",
+    "SUBURB": "SUNNYBANK HILLS"
+  },
+  {
+    "PARK_NAME": "MCCORMACK AVENUE PARK (ROAD RESERVE)",
+    "SUBURB": "ASHGROVE"
+  },
+  {
+    "PARK_NAME": "MOOLA ROAD PARK (ROAD RESERVE)",
+    "SUBURB": "ASHGROVE"
+  },
+  {
+    "PARK_NAME": "NELL JONES OAM PARK",
+    "SUBURB": "SANDGATE"
+  },
+  {
+    "PARK_NAME": "RODE ROAD PARK (ROAD RESERVE)",
+    "SUBURB": "NUNDAH"
+  },
+  {
+    "PARK_NAME": "LEWORTHY STREET PARK",
+    "SUBURB": "BARDON"
+  },
+  {
+    "PARK_NAME": "STANLEY RICHARDSON PLACE PARK (ROAD RESERVE)",
+    "SUBURB": "NORTHGATE"
+  },
+  {
+    "PARK_NAME": "TOM BURNS PLACE",
+    "SUBURB": "WYNNUM"
+  },
+  {
+    "PARK_NAME": "WALLACE PLACE PARK (ROAD RESERVE)",
+    "SUBURB": "LUTWYCHE"
+  },
+  {
+    "PARK_NAME": "LITTLE BAYSIDE PARK",
+    "SUBURB": "MANLY"
+  },
+  {
+    "PARK_NAME": "QUEENSLAND MARITIME MUSEUM PARK",
+    "SUBURB": "SOUTH BRISBANE"
+  },
+  {
+    "PARK_NAME": "TURRBAL PLACE PARK",
+    "SUBURB": "ASPLEY"
+  },
+  {
+    "PARK_NAME": "CASSANDRA CRESCENT PARK",
+    "SUBURB": "BELMONT"
+  },
+  {
+    "PARK_NAME": "SUNSET ROAD PARK",
+    "SUBURB": "KENMORE"
+  },
+  {
+    "PARK_NAME": "GOLDEN OAK CRESCENT PARK",
+    "SUBURB": "CARINDALE"
+  },
+  {
+    "PARK_NAME": "WACOL STATION ROAD PARK",
+    "SUBURB": "SUMNER"
+  },
+  {
+    "PARK_NAME": "FOXTON STREET PARK (NO. 130)",
+    "SUBURB": "MORNINGSIDE"
+  },
+  {
+    "PARK_NAME": "CHRISTIAN AND MARGARET NIELSEN PARK",
+    "SUBURB": "THE GAP"
+  },
+  {
+    "PARK_NAME": "HEUSSLER TERRACE PARK (ROAD RESERVE)",
+    "SUBURB": "MILTON"
+  },
+  {
+    "PARK_NAME": "RICHLANDS DEPOT PARK",
+    "SUBURB": "INALA"
+  },
+  {
+    "PARK_NAME": "QUARRY PARK",
+    "SUBURB": "ALDERLEY"
+  },
+  {
+    "PARK_NAME": "BLACKBUTT PLACE PARK",
+    "SUBURB": "BROOKFIELD"
+  },
+  {
+    "PARK_NAME": "TANGY STREET PARK",
+    "SUBURB": "BROOKFIELD"
+  },
+  {
+    "PARK_NAME": "SIR JAMES KILLEN RESERVE",
+    "SUBURB": "SUNNYBANK HILLS"
+  },
+  {
+    "PARK_NAME": "BARDON ESPLANADE PARK (ROAD RESERVE)",
+    "SUBURB": "BARDON"
+  },
+  {
+    "PARK_NAME": "KARUMBA PLACE PARK",
+    "SUBURB": "RIVERHILLS"
+  },
+  {
+    "PARK_NAME": "RANSOME ROAD PARK",
+    "SUBURB": "RANSOME"
+  },
+  {
+    "PARK_NAME": "GREEN HILL RESERVOIR PARK",
+    "SUBURB": "CHAPEL HILL"
+  },
+  {
+    "PARK_NAME": "ANDREW STREET PARK",
+    "SUBURB": "BALMORAL"
+  },
+  {
+    "PARK_NAME": "MYUNA STREET PARK",
+    "SUBURB": "BULIMBA"
+  },
+  {
+    "PARK_NAME": "SORRENTO CLOSE PARK",
+    "SUBURB": "CARINDALE"
+  },
+  {
+    "PARK_NAME": "HILL ROAD PARK",
+    "SUBURB": "RUNCORN"
+  },
+  {
+    "PARK_NAME": "PERKINS STREET PARK (LOT 403)",
+    "SUBURB": "CALAMVALE"
+  },
+  {
+    "PARK_NAME": "ASSEMBLY STREET PARK",
+    "SUBURB": "SALISBURY"
+  },
+  {
+    "PARK_NAME": "RAINBOW LORIKEET PARK",
+    "SUBURB": "ASPLEY"
+  },
+  {
+    "PARK_NAME": "CORYPHA CRESCENT PARK",
+    "SUBURB": "CALAMVALE"
+  },
+  {
+    "PARK_NAME": "CHIPPENDALL ST CEMETERY PARK",
+    "SUBURB": "MILTON"
+  },
+  {
+    "PARK_NAME": "CLYDE STREET PARK",
+    "SUBURB": "PETRIE TERRACE"
+  },
+  {
+    "PARK_NAME": "MURARRIE ROAD PARK (NO. 315-327)",
+    "SUBURB": "TINGALPA"
+  },
+  {
+    "PARK_NAME": "BOUNDARY STREET PARK (NO. 148-188)",
+    "SUBURB": "TINGALPA"
+  },
+  {
+    "PARK_NAME": "SIR MANUEL HORNIBROOK PARK",
+    "SUBURB": "TENERIFFE"
+  },
+  {
+    "PARK_NAME": "NESTOR AVENUE PARK",
+    "SUBURB": "BARDON"
+  },
+  {
+    "PARK_NAME": "ASSEMBLY STREET PARK (NO. 75)",
+    "SUBURB": "SALISBURY"
+  },
+  {
+    "PARK_NAME": "ROSEGLEN STREET PARK (NO.30)",
+    "SUBURB": "GREENSLOPES"
+  },
+  {
+    "PARK_NAME": "FLAME TREE CRESCENT PARK",
+    "SUBURB": "CARINDALE"
+  },
+  {
+    "PARK_NAME": "LAWRENCE CLOSE PARK",
+    "SUBURB": "ROBERTSON"
+  },
+  {
+    "PARK_NAME": "ESTATE PLACE PARK",
+    "SUBURB": "HOLLAND PARK WEST"
+  },
+  {
+    "PARK_NAME": "PEDEN COURT PARK",
+    "SUBURB": "CALAMVALE"
+  },
+  {
+    "PARK_NAME": "NEWBURY PLACE PARK",
+    "SUBURB": "CARINDALE"
+  },
+  {
+    "PARK_NAME": "SHEFFIELD PLACE PARK",
+    "SUBURB": "KURABY"
+  },
+  {
+    "PARK_NAME": "SHILLINGTON PLACE PARK",
+    "SUBURB": "WISHART"
+  },
+  {
+    "PARK_NAME": "FLORIBUNDA PLACE PARK",
+    "SUBURB": "SUNNYBANK HILLS"
+  },
+  {
+    "PARK_NAME": "ST VINCENTS ROAD PARK",
+    "SUBURB": "NUDGEE"
+  },
+  {
+    "PARK_NAME": "BURWOOD ROAD PARK",
+    "SUBURB": "EVERTON PARK"
+  },
+  {
+    "PARK_NAME": "CURRINGA STREET PARK",
+    "SUBURB": "MANSFIELD"
+  },
+  {
+    "PARK_NAME": "EASTGATE STREET PARK",
+    "SUBURB": "CARINA"
+  },
+  {
+    "PARK_NAME": "IRIS PLACE PARK",
+    "SUBURB": "FITZGIBBON"
+  },
+  {
+    "PARK_NAME": "HAMISH STREET PARK",
+    "SUBURB": "CALAMVALE"
+  },
+  {
+    "PARK_NAME": "ACORN CIRCUIT PARK",
+    "SUBURB": "FOREST LAKE"
+  },
+  {
+    "PARK_NAME": "MAYNARD PLACE PARK",
+    "SUBURB": "RUNCORN"
+  },
+  {
+    "PARK_NAME": "TELEGRAPH ROAD PARK",
+    "SUBURB": "BRACKEN RIDGE"
+  },
+  {
+    "PARK_NAME": "BARODA STREET PARK",
+    "SUBURB": "COOPERS PLAINS"
+  },
+  {
+    "PARK_NAME": "ANCASTER ROAD PARK",
+    "SUBURB": "FERNY GROVE"
+  },
+  {
+    "PARK_NAME": "NORTHUMBRIA ROAD PARK",
+    "SUBURB": "BOONDALL"
+  },
+  {
+    "PARK_NAME": "STONES ROAD PARK",
+    "SUBURB": "SUNNYBANK"
+  },
+  {
+    "PARK_NAME": "JOY TAYLOR PARK",
+    "SUBURB": "COOPERS PLAINS"
+  },
+  {
+    "PARK_NAME": "ARTHUR ALFRED POINTER PARK",
+    "SUBURB": "THE GAP"
+  },
+  {
+    "PARK_NAME": "MOSES ADSETT PARK",
+    "SUBURB": "THE GAP"
+  },
+  {
+    "PARK_NAME": "RYAN STREET PARK (NO. 115)",
+    "SUBURB": "WEST END"
+  },
+  {
+    "PARK_NAME": "BOUNDARY STREET PARK (NO. 349)",
+    "SUBURB": "WEST END"
+  },
+  {
+    "PARK_NAME": "DAUPHIN TERRACE PARK",
+    "SUBURB": "HIGHGATE HILL"
+  },
+  {
+    "PARK_NAME": "DERBY STREET PARK",
+    "SUBURB": "HIGHGATE HILL"
+  },
+  {
+    "PARK_NAME": "ROSECLIFFE STREET PARK",
+    "SUBURB": "DUTTON PARK"
+  },
+  {
+    "PARK_NAME": "BRIER STREET PARK",
+    "SUBURB": "DUTTON PARK"
+  },
+  {
+    "PARK_NAME": "NOTTINGHAM ROAD PARK (NO. 233)",
+    "SUBURB": "ALGESTER"
+  },
+  {
+    "PARK_NAME": "ENGLEFIELD ROAD PARK (NO. 35-47)",
+    "SUBURB": "OXLEY"
+  },
+  {
+    "PARK_NAME": "MOFFATT STREET PARK",
+    "SUBURB": "OXLEY"
+  },
+  {
+    "PARK_NAME": "ROSS STREET PARK",
+    "SUBURB": "NEWSTEAD"
+  },
+  {
+    "PARK_NAME": "HENDERSON STREET PARK (NO. 26-28)",
+    "SUBURB": "OXLEY"
+  },
+  {
+    "PARK_NAME": "ROSEGLEN STREET PARK (NO. 54A)",
+    "SUBURB": "GREENSLOPES"
+  },
+  {
+    "PARK_NAME": "KILLARNEY STREET PARK",
+    "SUBURB": "FOREST LAKE"
+  },
+  {
+    "PARK_NAME": "DAVID & BARBARA ANDERSON PARK",
+    "SUBURB": "THE GAP"
+  },
+  {
+    "PARK_NAME": "BERGIN ROAD PARK",
+    "SUBURB": "FERNY GROVE"
+  },
+  {
+    "PARK_NAME": "INSTOW STREET PARK",
+    "SUBURB": "YERONGA"
+  },
+  {
+    "PARK_NAME": "BOWERING STREET PARK (ROAD RESERVE)",
+    "SUBURB": "LOTA"
+  },
+  {
+    "PARK_NAME": "DARLING POINT PARK (ROAD RESERVE)",
+    "SUBURB": "MANLY"
+  },
+  {
+    "PARK_NAME": "WOOGAROO STREET PARK",
+    "SUBURB": "FOREST LAKE"
+  },
+  {
+    "PARK_NAME": "KAURI PLACE PARK",
+    "SUBURB": "FOREST LAKE"
+  },
+  {
+    "PARK_NAME": "ANGELICA PLACE PARK",
+    "SUBURB": "FOREST LAKE"
+  },
+  {
+    "PARK_NAME": "FOREST LAKE BOULEVARD PARK (NO. 70)",
+    "SUBURB": "FOREST LAKE"
+  },
+  {
+    "PARK_NAME": "HOMESTEAD WAY PARK",
+    "SUBURB": "FOREST LAKE"
+  },
+  {
+    "PARK_NAME": "GLENGYLE PLACE PARK",
+    "SUBURB": "FOREST LAKE"
+  },
+  {
+    "PARK_NAME": "FOREST LAKE BOULEVARD PARK (NO. 9A)",
+    "SUBURB": "FOREST LAKE"
+  },
+  {
+    "PARK_NAME": "GADDES PARK",
+    "SUBURB": "SUNNYBANK"
+  },
+  {
+    "PARK_NAME": "DYSON AVENUE PARK (NO. 50)",
+    "SUBURB": "SUNNYBANK"
+  },
+  {
+    "PARK_NAME": "TURQUOISE PLACE PARK",
+    "SUBURB": "WAVELL HEIGHTS"
+  },
+  {
+    "PARK_NAME": "BANKSIA AVENUE PARK",
+    "SUBURB": "ASHGROVE"
+  },
+  {
+    "PARK_NAME": "WOONGA DRIVE PARK",
+    "SUBURB": "ASHGROVE"
+  },
+  {
+    "PARK_NAME": "AKUNA STREET PARK",
+    "SUBURB": "KENMORE"
+  },
+  {
+    "PARK_NAME": "KATUNGA STREET PARK",
+    "SUBURB": "KENMORE"
+  },
+  {
+    "PARK_NAME": "BARNARD STREET PARK",
+    "SUBURB": "CARINDALE"
+  },
+  {
+    "PARK_NAME": "MACTIER STREET PARK",
+    "SUBURB": "FIG TREE POCKET"
+  },
+  {
+    "PARK_NAME": "BEAMS ROAD PARK (NO. 440)",
+    "SUBURB": "FITZGIBBON"
+  },
+  {
+    "PARK_NAME": "MACLEAY CRESCENT PARK",
+    "SUBURB": "TINGALPA"
+  },
+  {
+    "PARK_NAME": "JIM WILDING RESERVE",
+    "SUBURB": "BRIDGEMAN DOWNS"
+  },
+  {
+    "PARK_NAME": "HABITAT PLACE PARK",
+    "SUBURB": "BRIDGEMAN DOWNS"
+  },
+  {
+    "PARK_NAME": "MCDOWALL RESERVE",
+    "SUBURB": "MCDOWALL"
+  },
+  {
+    "PARK_NAME": "MT GRAVATT - CAPALABA ROAD PARK",
+    "SUBURB": "ROCHEDALE"
+  },
+  {
+    "PARK_NAME": "SILVERDELL CRESCENT PARK",
+    "SUBURB": "PARKINSON"
+  },
+  {
+    "PARK_NAME": "HENRY CLARKSON PARK",
+    "SUBURB": "KENMORE"
+  },
+  {
+    "PARK_NAME": "SILKYOAK CIRCUIT PARK",
+    "SUBURB": "FITZGIBBON"
+  },
+  {
+    "PARK_NAME": "MACKENZIE PARK",
+    "SUBURB": "MACKENZIE"
+  },
+  {
+    "PARK_NAME": "LEE CLOSE PARK",
+    "SUBURB": "RUNCORN"
+  },
+  {
+    "PARK_NAME": "BLUE GUM PARK",
+    "SUBURB": "ZILLMERE"
+  },
+  {
+    "PARK_NAME": "LAKEWOOD AVENUE PARK",
+    "SUBURB": "PARKINSON"
+  },
+  {
+    "PARK_NAME": "SABOT COURT PARK",
+    "SUBURB": "MANLY WEST"
+  },
+  {
+    "PARK_NAME": "HEILBROMM STREET PARK",
+    "SUBURB": "STAFFORD HEIGHTS"
+  },
+  {
+    "PARK_NAME": "CLIFTON PARK",
+    "SUBURB": "MOOROOKA"
+  },
+  {
+    "PARK_NAME": "ALBANY CREEK ROAD PARK (NO. 76)",
+    "SUBURB": "ASPLEY"
+  },
+  {
+    "PARK_NAME": "IAN PAGE PARK",
+    "SUBURB": "CARINA"
+  },
+  {
+    "PARK_NAME": "CUBBERLA STREET PARK",
+    "SUBURB": "FIG TREE POCKET"
+  },
+  {
+    "PARK_NAME": "MACKENZIE PLACE PARK (ROAD RESERVE)",
+    "SUBURB": "ANNERLEY"
+  },
+  {
+    "PARK_NAME": "PINJARRA ROAD PARK",
+    "SUBURB": "PINJARRA HILLS"
+  },
+  {
+    "PARK_NAME": "CURRAJONG STREET PARK",
+    "SUBURB": "CALAMVALE"
+  },
+  {
+    "PARK_NAME": "EKIBIN PARK SOUTH",
+    "SUBURB": "ANNERLEY"
+  },
+  {
+    "PARK_NAME": "COLLINA CRESCENT PARK",
+    "SUBURB": "FOREST LAKE"
+  },
+  {
+    "PARK_NAME": "PARKINSON BUSHLANDS",
+    "SUBURB": "PARKINSON"
+  },
+  {
+    "PARK_NAME": "JULATTEN PLACE PARK",
+    "SUBURB": "UPPER KEDRON"
+  },
+  {
+    "PARK_NAME": "BARLOW PLACE PARK",
+    "SUBURB": "BOONDALL"
+  },
+  {
+    "PARK_NAME": "DONNA PHILP PARK",
+    "SUBURB": "BOONDALL"
+  },
+  {
+    "PARK_NAME": "VICTOR GRENNING PARK",
+    "SUBURB": "ZILLMERE"
+  },
+  {
+    "PARK_NAME": "JOSEPH LEE PARK",
+    "SUBURB": "ZILLMERE"
+  },
+  {
+    "PARK_NAME": "O CALLAGHAN PARK",
+    "SUBURB": "ZILLMERE"
+  },
+  {
+    "PARK_NAME": "BOWDEN PARK",
+    "SUBURB": "GEEBUNG"
+  },
+  {
+    "PARK_NAME": "SHAW ESTATE PARK",
+    "SUBURB": "WAVELL HEIGHTS"
+  },
+  {
+    "PARK_NAME": "SHAW PARK",
+    "SUBURB": "WAVELL HEIGHTS"
+  },
+  {
+    "PARK_NAME": "MERCER PARK",
+    "SUBURB": "KEDRON"
+  },
+  {
+    "PARK_NAME": "AMELIA PARK",
+    "SUBURB": "GORDON PARK"
+  },
+  {
+    "PARK_NAME": "MT COOT-THA RESERVE",
+    "SUBURB": "MOUNT COOT-THA"
+  },
+  {
+    "PARK_NAME": "MUSGRAVE PARK",
+    "SUBURB": "SOUTH BRISBANE"
+  },
+  {
+    "PARK_NAME": "DOCK STREET PARK",
+    "SUBURB": "SOUTH BRISBANE"
+  },
+  {
+    "PARK_NAME": "TRIBUNE STREET PARK",
+    "SUBURB": "SOUTH BRISBANE"
+  },
+  {
+    "PARK_NAME": "HIGHGATE HILL PARK",
+    "SUBURB": "HIGHGATE HILL"
+  },
+  {
+    "PARK_NAME": "DUTTON PARK",
+    "SUBURB": "DUTTON PARK"
+  },
+  {
+    "PARK_NAME": "GAIR PARK",
+    "SUBURB": "DUTTON PARK"
+  },
+  {
+    "PARK_NAME": "HANLON PARK / BUR'UDA",
+    "SUBURB": "STONES CORNER"
+  },
+  {
+    "PARK_NAME": "PRESTON STREET PARK",
+    "SUBURB": "WOOLLOONGABBA"
+  },
+  {
+    "PARK_NAME": "BURANDA PLAYGROUND PARK",
+    "SUBURB": "WOOLLOONGABBA"
+  },
+  {
+    "PARK_NAME": "WOOLLOONGABBA ROTARY PARK",
+    "SUBURB": "EAST BRISBANE"
+  },
+  {
+    "PARK_NAME": "KINGFISHER PARK (EAST BRISBANE)",
+    "SUBURB": "EAST BRISBANE"
+  },
+  {
+    "PARK_NAME": "WOOLLOONGABBA PLACE PARK",
+    "SUBURB": "WOOLLOONGABBA"
+  },
+  {
+    "PARK_NAME": "THE COMMON PARK",
+    "SUBURB": "EAST BRISBANE"
+  },
+  {
+    "PARK_NAME": "STANLEY STREET EAST PARK (NO. 1090)",
+    "SUBURB": "COORPAROO"
+  },
+  {
+    "PARK_NAME": "WILLIAMINA PARK",
+    "SUBURB": "EAST BRISBANE"
+  },
+  {
+    "PARK_NAME": "MOWBRAY PARK",
+    "SUBURB": "EAST BRISBANE"
+  },
+  {
+    "PARK_NAME": "REAL PARK",
+    "SUBURB": "EAST BRISBANE"
+  },
+  {
+    "PARK_NAME": "HEATH PARK",
+    "SUBURB": "EAST BRISBANE"
+  },
+  {
+    "PARK_NAME": "NORMAN BRIDGE RESERVE",
+    "SUBURB": "EAST BRISBANE"
+  },
+  {
+    "PARK_NAME": "OVENS HEAD RESERVE",
+    "SUBURB": "DUTTON PARK"
+  },
+  {
+    "PARK_NAME": "PRINCESS STREET PARK (NO. 5-21)",
+    "SUBURB": "FAIRFIELD"
+  },
+  {
+    "PARK_NAME": "HEFFERAN PARK",
+    "SUBURB": "ANNERLEY"
+  },
+  {
+    "PARK_NAME": "JOHN WALKER PLACE",
+    "SUBURB": "YERONGA"
+  },
+  {
+    "PARK_NAME": "LEYSHON PARK",
+    "SUBURB": "YERONGA"
+  },
+  {
+    "PARK_NAME": "FAIRFIELD PARK",
+    "SUBURB": "FAIRFIELD"
+  },
+  {
+    "PARK_NAME": "TURLEY STREET PARK",
+    "SUBURB": "FAIRFIELD"
+  },
+  {
+    "PARK_NAME": "NORM ROSE PARK",
+    "SUBURB": "FAIRFIELD"
+  },
+  {
+    "PARK_NAME": "FEHLBERG PARK",
+    "SUBURB": "FAIRFIELD"
+  },
+  {
+    "PARK_NAME": "HYDE ROAD PARK",
+    "SUBURB": "YERONGA"
+  },
+  {
+    "PARK_NAME": "FAIRFIELD ROAD PARK (NO. 282)",
+    "SUBURB": "FAIRFIELD"
+  },
+  {
+    "PARK_NAME": "PARINGA PLACE PARK",
+    "SUBURB": "YERONGA"
+  },
+  {
+    "PARK_NAME": "ROWLINSON PARK",
+    "SUBURB": "YERONGA"
+  },
+  {
+    "PARK_NAME": "MOOROOKA LIONS BICENT. PICNIC GRND PARK",
+    "SUBURB": "YEERONGPILLY"
+  },
+  {
+    "PARK_NAME": "STIMPSON PARK",
+    "SUBURB": "MOOROOKA"
+  },
+  {
+    "PARK_NAME": "POINCIANA PARK",
+    "SUBURB": "MOOROOKA"
+  },
+  {
+    "PARK_NAME": "MOOLABIN PARK",
+    "SUBURB": "MOOROOKA"
+  },
+  {
+    "PARK_NAME": "KOALA PARK",
+    "SUBURB": "MOOROOKA"
+  },
+  {
+    "PARK_NAME": "PEGG'S PARK",
+    "SUBURB": "MOOROOKA"
+  },
+  {
+    "PARK_NAME": "YERONGA MEMORIAL PARK",
+    "SUBURB": "YERONGA"
+  },
+  {
+    "PARK_NAME": "CLIFTON HILL PEACE PARK",
+    "SUBURB": "ANNERLEY"
+  },
+  {
+    "PARK_NAME": "TENNESSEE AVENUE PARK",
+    "SUBURB": "MOOROOKA"
+  },
+  {
+    "PARK_NAME": "THOMPSON ESTATE RESERVE",
+    "SUBURB": "GREENSLOPES"
+  },
+  {
+    "PARK_NAME": "EKIBIN PARK EAST",
+    "SUBURB": "GREENSLOPES"
+  },
+  {
+    "PARK_NAME": "ARNWOOD STREET PARK",
+    "SUBURB": "TARRAGINDI"
+  },
+  {
+    "PARK_NAME": "ROSEGLEN STREET PARK (NO. 34)",
+    "SUBURB": "GREENSLOPES"
+  },
+  {
+    "PARK_NAME": "BARR STREET PARK",
+    "SUBURB": "TARRAGINDI"
+  },
+  {
+    "PARK_NAME": "W G MOODY PLACE",
+    "SUBURB": "TARRAGINDI"
+  },
+  {
+    "PARK_NAME": "SHAFTESBURY STREET PARK",
+    "SUBURB": "TARRAGINDI"
+  },
+  {
+    "PARK_NAME": "EKIBIN MEMORIAL PARK",
+    "SUBURB": "TARRAGINDI"
+  },
+  {
+    "PARK_NAME": "TARRAGINDI RECREATION RESERVE",
+    "SUBURB": "TARRAGINDI"
+  },
+  {
+    "PARK_NAME": "SANDY CREEK PARK",
+    "SUBURB": "TARRAGINDI"
+  },
+  {
+    "PARK_NAME": "THORNYCROFT STREET PARK",
+    "SUBURB": "TARRAGINDI"
+  },
+  {
+    "PARK_NAME": "MOORBELL STREET PARK",
+    "SUBURB": "TARRAGINDI"
+  },
+  {
+    "PARK_NAME": "GIBSON PLACE PARK",
+    "SUBURB": "HOLLAND PARK WEST"
+  },
+  {
+    "PARK_NAME": "ROTARY INTERNATIONAL  PRESIDENTS PARK",
+    "SUBURB": "ST LUCIA"
+  },
+  {
+    "PARK_NAME": "CARR STREET PARK",
+    "SUBURB": "ST LUCIA"
+  },
+  {
+    "PARK_NAME": "WILLIAM DART PARK",
+    "SUBURB": "ST LUCIA"
+  },
+  {
+    "PARK_NAME": "GOLD CREEK RESERVE",
+    "SUBURB": "BROOKFIELD"
+  },
+  {
+    "PARK_NAME": "KENMORE RESERVE",
+    "SUBURB": "KENMORE"
+  },
+  {
+    "PARK_NAME": "SUTLING STREET PARK",
+    "SUBURB": "CHAPEL HILL"
+  },
+  {
+    "PARK_NAME": "CUBBERLA CREEK RESERVE",
+    "SUBURB": "CHAPEL HILL"
+  },
+  {
+    "PARK_NAME": "CENTENARY HIGHWAY PARK (FIG TREE POCKET)",
+    "SUBURB": "INDOOROOPILLY"
+  },
+  {
+    "PARK_NAME": "CLIVEDEN PARK",
+    "SUBURB": "FIG TREE POCKET"
+  },
+  {
+    "PARK_NAME": "RAINBOW FOREST PARK",
+    "SUBURB": "INDOOROOPILLY"
+  },
+  {
+    "PARK_NAME": "MANATON PARK",
+    "SUBURB": "FIG TREE POCKET"
+  },
+  {
+    "PARK_NAME": "SPINKBRAE STREET PARK",
+    "SUBURB": "FIG TREE POCKET"
+  },
+  {
+    "PARK_NAME": "BIAMI YUMBA PARK",
+    "SUBURB": "FIG TREE POCKET"
+  },
+  {
+    "PARK_NAME": "FIG TREE POCKET RIVERSIDE RESERVE",
+    "SUBURB": "FIG TREE POCKET"
+  },
+  {
+    "PARK_NAME": "KINGFISHER PARK",
+    "SUBURB": "KENMORE"
+  },
+  {
+    "PARK_NAME": "SCENIC ROAD PARK (NO. 67)",
+    "SUBURB": "KENMORE"
+  },
+  {
+    "PARK_NAME": "ROWENA STREET PARK (NO. 36)",
+    "SUBURB": "KENMORE"
+  },
+  {
+    "PARK_NAME": "KILKIVAN AVENUE PARK SOUTH",
+    "SUBURB": "KENMORE"
+  },
+  {
+    "PARK_NAME": "DUMBARTON DRIVE PARK",
+    "SUBURB": "KENMORE"
+  },
+  {
+    "PARK_NAME": "BROOKFIELD ROAD PARK",
+    "SUBURB": "KENMORE"
+  },
+  {
+    "PARK_NAME": "THE RAFTING GROUND PARK",
+    "SUBURB": "BROOKFIELD"
+  },
+  {
+    "PARK_NAME": "PULLENVALE RECREATION RESERVE",
+    "SUBURB": "PULLENVALE"
+  },
+  {
+    "PARK_NAME": "LANCING STREET PARK",
+    "SUBURB": "PULLENVALE"
+  },
+  {
+    "PARK_NAME": "STRATFORD STREET (OFF) PARK",
+    "SUBURB": "MOGGILL"
+  },
+  {
+    "PARK_NAME": "MOGGILL FERRY RESERVE",
+    "SUBURB": "MOGGILL"
+  },
+  {
+    "PARK_NAME": "DEERHURST ROAD PARK",
+    "SUBURB": "BROOKFIELD"
+  },
+  {
+    "PARK_NAME": "BROOKFIELD RECREATION RESERVE",
+    "SUBURB": "BROOKFIELD"
+  },
+  {
+    "PARK_NAME": "BRIGHTON PARK",
+    "SUBURB": "BRIGHTON"
+  },
+  {
+    "PARK_NAME": "DECKER PARK",
+    "SUBURB": "BRIGHTON"
+  },
+  {
+    "PARK_NAME": "SANDGATE FORESHORES PARK",
+    "SUBURB": "SANDGATE"
+  },
+  {
+    "PARK_NAME": "STUBBS STREET PARK",
+    "SUBURB": "BRIGHTON"
+  },
+  {
+    "PARK_NAME": "TENTH AVENUE PARK",
+    "SUBURB": "BRIGHTON"
+  },
+  {
+    "PARK_NAME": "WAKEFIELD PARK",
+    "SUBURB": "BRIGHTON"
+  },
+  {
+    "PARK_NAME": "SANDGATE THIRD LAGOON RESERVE",
+    "SUBURB": "BRIGHTON"
+  },
+  {
+    "PARK_NAME": "DEAGON SPORTSGROUND PARK",
+    "SUBURB": "DEAGON"
+  },
+  {
+    "PARK_NAME": "SANDGATE SECOND LAGOON RESERVE",
+    "SUBURB": "SANDGATE"
+  },
+  {
+    "PARK_NAME": "SANDGATE MEMORIAL PARK",
+    "SUBURB": "SANDGATE"
+  },
+  {
+    "PARK_NAME": "CLIFF STREET PARK",
+    "SUBURB": "SANDGATE"
+  },
+  {
+    "PARK_NAME": "SHEPHERD PLACE PARK",
+    "SUBURB": "SHORNCLIFFE"
+  },
+  {
+    "PARK_NAME": "MOORA PARK",
+    "SUBURB": "SHORNCLIFFE"
+  },
+  {
+    "PARK_NAME": "HUTCHISON PARK",
+    "SUBURB": "SHORNCLIFFE"
+  },
+  {
+    "PARK_NAME": "LENDON STREET PARK",
+    "SUBURB": "DEAGON"
+  },
+  {
+    "PARK_NAME": "STANLEY PARK",
+    "SUBURB": "DEAGON"
+  },
+  {
+    "PARK_NAME": "EINBUNPIN LAGOON PARK",
+    "SUBURB": "SANDGATE"
+  },
+  {
+    "PARK_NAME": "DESMOND AVENUE PARK",
+    "SUBURB": "DEAGON"
+  },
+  {
+    "PARK_NAME": "HERB HOLZ PARK",
+    "SUBURB": "DEAGON"
+  },
+  {
+    "PARK_NAME": "ALBERT EDWARD PADDON PARK",
+    "SUBURB": "DEAGON"
+  },
+  {
+    "PARK_NAME": "GORDON THOMSON PARK",
+    "SUBURB": "CHELMER"
+  },
+  {
+    "PARK_NAME": "QUEENSCROFT STREET PARK (NO. 112)",
+    "SUBURB": "CHELMER"
+  },
+  {
+    "PARK_NAME": "CHELMER RECREATION RESERVE",
+    "SUBURB": "CHELMER"
+  },
+  {
+    "PARK_NAME": "GRACEVILLE MEMORIAL PARK",
+    "SUBURB": "GRACEVILLE"
+  },
+  {
+    "PARK_NAME": "CHELMER CHILDRENS PLAYGROUND PARK",
+    "SUBURB": "GRACEVILLE"
+  },
+  {
+    "PARK_NAME": "GRACEVILLE AVENUE PARK",
+    "SUBURB": "GRACEVILLE"
+  },
+  {
+    "PARK_NAME": "STRICKLAND TERRACE PARK",
+    "SUBURB": "SHERWOOD"
+  },
+  {
+    "PARK_NAME": "SHERWOOD ARBORETUM",
+    "SUBURB": "SHERWOOD"
+  },
+  {
+    "PARK_NAME": "HORACE WINDOW RESERVE",
+    "SUBURB": "CORINDA"
+  },
+  {
+    "PARK_NAME": "FRANCIS OUTLOOK PARK",
+    "SUBURB": "CORINDA"
+  },
+  {
+    "PARK_NAME": "HIVES PARK",
+    "SUBURB": "SHERWOOD"
+  },
+  {
+    "PARK_NAME": "NOSWORTHY PARK",
+    "SUBURB": "CORINDA"
+  },
+  {
+    "PARK_NAME": "BENARRAWA RESERVE",
+    "SUBURB": "CORINDA"
+  },
+  {
+    "PARK_NAME": "FIFTEEN MILE CORNER",
+    "SUBURB": "CORINDA"
+  },
+  {
+    "PARK_NAME": "BLACKHEATH ROAD PARK",
+    "SUBURB": "CORINDA"
+  },
+  {
+    "PARK_NAME": "V.MCN.PEACHEY PARK",
+    "SUBURB": "OXLEY"
+  },
+  {
+    "PARK_NAME": "DUNLOP PARK",
+    "SUBURB": "CORINDA"
+  },
+  {
+    "PARK_NAME": "NIXON PARK",
+    "SUBURB": "OXLEY"
+  },
+  {
+    "PARK_NAME": "GLADSTONE STREET PARK (NO. 14-18)",
+    "SUBURB": "OXLEY"
+  },
+  {
+    "PARK_NAME": "ED KUEPPER PARK",
+    "SUBURB": "OXLEY"
+  },
+  {
+    "PARK_NAME": "TOM O'NEIL PARK",
+    "SUBURB": "OXLEY"
+  },
+  {
+    "PARK_NAME": "LUCOCK PLACE PARK",
+    "SUBURB": "OXLEY"
+  },
+  {
+    "PARK_NAME": "CLIVEDEN AVENUE RESERVE",
+    "SUBURB": "OXLEY"
+  },
+  {
+    "PARK_NAME": "OXLEY PLACE PARK",
+    "SUBURB": "OXLEY"
+  },
+  {
+    "PARK_NAME": "RIKKI BAILEY PARK",
+    "SUBURB": "OXLEY"
+  },
+  {
+    "PARK_NAME": "DARRA RECREATION RESERVE",
+    "SUBURB": "DARRA"
+  },
+  {
+    "PARK_NAME": "SHAFIK TORBEY PARK",
+    "SUBURB": "DARRA"
+  },
+  {
+    "PARK_NAME": "DUCIE STREET PARK",
+    "SUBURB": "DARRA"
+  },
+  {
+    "PARK_NAME": "MONIER ROAD PARK (NO. 44-84)",
+    "SUBURB": "DARRA"
+  },
+  {
+    "PARK_NAME": "APPOLINE STREET PARK",
+    "SUBURB": "OXLEY"
+  },
+  {
+    "PARK_NAME": "ATTHOWS PARK",
+    "SUBURB": "DARRA"
+  },
+  {
+    "PARK_NAME": "JINDALEE MUN GOLF LINKS PARK",
+    "SUBURB": "JINDALEE"
+  },
+  {
+    "PARK_NAME": "ELINGA STREET PARK",
+    "SUBURB": "JINDALEE"
+  },
+  {
+    "PARK_NAME": "JINDALEE PARK",
+    "SUBURB": "JINDALEE"
+  },
+  {
+    "PARK_NAME": "PIONEER BELZ PARK",
+    "SUBURB": "JINDALEE"
+  },
+  {
+    "PARK_NAME": "JINDALEE RECREATION RESERVE",
+    "SUBURB": "JINDALEE"
+  },
+  {
+    "PARK_NAME": "JINDALEE BOAT RAMP PARK",
+    "SUBURB": "JINDALEE"
+  },
+  {
+    "PARK_NAME": "M. Z. HOLLAND MEMORIAL PARK",
+    "SUBURB": "WACOL"
+  },
+  {
+    "PARK_NAME": "JAMBOREE PARK",
+    "SUBURB": "JAMBOREE HEIGHTS"
+  },
+  {
+    "PARK_NAME": "SOUTH BRISBANE RIVERSIDE LANDS PARK",
+    "SUBURB": "WEST END"
+  },
+  {
+    "PARK_NAME": "WEST END RIVERSIDE LANDS PARK",
+    "SUBURB": "WEST END"
+  },
+  {
+    "PARK_NAME": "RYAN STREET PARK (NO. 147)",
+    "SUBURB": "WEST END"
+  },
+  {
+    "PARK_NAME": "LYONS PLAYGROUND PARK",
+    "SUBURB": "HIGHGATE HILL"
+  },
+  {
+    "PARK_NAME": "ORLEIGH PARK",
+    "SUBURB": "WEST END"
+  },
+  {
+    "PARK_NAME": "DAVIES PARK",
+    "SUBURB": "WEST END"
+  },
+  {
+    "PARK_NAME": "JOLLY PLACE PARK",
+    "SUBURB": "SOUTH BRISBANE"
+  },
+  {
+    "PARK_NAME": "ASPLEY REST PARK",
+    "SUBURB": "CARSELDINE"
+  },
+  {
+    "PARK_NAME": "STANLEY DAY PARK",
+    "SUBURB": "BALD HILLS"
+  },
+  {
+    "PARK_NAME": "JOHN STEWART MEMORIAL PARK",
+    "SUBURB": "BALD HILLS"
+  },
+  {
+    "PARK_NAME": "BARUNGWARRA BUSHLAND RESERVE",
+    "SUBURB": "BALD HILLS"
+  },
+  {
+    "PARK_NAME": "FRED CAMPBELL PARK",
+    "SUBURB": "ASPLEY"
+  },
+  {
+    "PARK_NAME": "HARRY KIRBY PARK",
+    "SUBURB": "ASPLEY"
+  },
+  {
+    "PARK_NAME": "LEN TREZONA PARK",
+    "SUBURB": "ZILLMERE"
+  },
+  {
+    "PARK_NAME": "THOMPSON STREET PARK",
+    "SUBURB": "ZILLMERE"
+  },
+  {
+    "PARK_NAME": "KATH BALLARD PARK",
+    "SUBURB": "GEEBUNG"
+  },
+  {
+    "PARK_NAME": "MARCHANT PARK",
+    "SUBURB": "ASPLEY"
+  },
+  {
+    "PARK_NAME": "7TH BRIGADE PARK",
+    "SUBURB": "CHERMSIDE"
+  },
+  {
+    "PARK_NAME": "JOHN PATTERSON PARK",
+    "SUBURB": "CHERMSIDE"
+  },
+  {
+    "PARK_NAME": "BRADBURY PARK",
+    "SUBURB": "KEDRON"
+  },
+  {
+    "PARK_NAME": "BURNIE BRAE PARK",
+    "SUBURB": "CHERMSIDE"
+  },
+  {
+    "PARK_NAME": "BRISTOL PARK",
+    "SUBURB": "WAVELL HEIGHTS"
+  },
+  {
+    "PARK_NAME": "MAGGS STREET PARK",
+    "SUBURB": "WAVELL HEIGHTS"
+  },
+  {
+    "PARK_NAME": "BELLOY STREET PARK",
+    "SUBURB": "WAVELL HEIGHTS"
+  },
+  {
+    "PARK_NAME": "STUDLEY PARK",
+    "SUBURB": "WAVELL HEIGHTS"
+  },
+  {
+    "PARK_NAME": "FRANK ROBERTS PARK",
+    "SUBURB": "WAVELL HEIGHTS"
+  },
+  {
+    "PARK_NAME": "BILSTON STREET PARK",
+    "SUBURB": "STAFFORD"
+  },
+  {
+    "PARK_NAME": "BOONDALL PARK",
+    "SUBURB": "BOONDALL"
+  },
+  {
+    "PARK_NAME": "MAISIE DIXON PARK",
+    "SUBURB": "EIGHT MILE PLAINS"
+  },
+  {
+    "PARK_NAME": "KERRY ROAD PARK",
+    "SUBURB": "ARCHERFIELD"
+  },
+  {
+    "PARK_NAME": "PINDARI CRESCENT PARK",
+    "SUBURB": "WISHART"
+  },
+  {
+    "PARK_NAME": "GOOGIE CRESCENT PARK",
+    "SUBURB": "EIGHT MILE PLAINS"
+  },
+  {
+    "PARK_NAME": "ALLARA PLACE PARK",
+    "SUBURB": "EIGHT MILE PLAINS"
+  },
+  {
+    "PARK_NAME": "AUSTIN UHLMANN PARK",
+    "SUBURB": "MORNINGSIDE"
+  },
+  {
+    "PARK_NAME": "SUVLA BAY PARK",
+    "SUBURB": "BALMORAL"
+  },
+  {
+    "PARK_NAME": "MONFORD PLACE PARK",
+    "SUBURB": "CALAMVALE"
+  },
+  {
+    "PARK_NAME": "ROGHAN ROAD PARK (NO. 354)",
+    "SUBURB": "TAIGUM"
+  },
+  {
+    "PARK_NAME": "KURILPA POINT PARK",
+    "SUBURB": "SOUTH BRISBANE"
+  },
+  {
+    "PARK_NAME": "TUCKEROO PARK",
+    "SUBURB": "NUDGEE BEACH"
+  },
+  {
+    "PARK_NAME": "NORTHVIEW OUTLOOK PARK",
+    "SUBURB": "MOOROOKA"
+  },
+  {
+    "PARK_NAME": "ROBINSON PARK (TINGALPA)",
+    "SUBURB": "TINGALPA"
+  },
+  {
+    "PARK_NAME": "MONTEREY CIRCUIT PARK",
+    "SUBURB": "TINGALPA"
+  },
+  {
+    "PARK_NAME": "VALLELY STREET PARK",
+    "SUBURB": "ANNERLEY"
+  },
+  {
+    "PARK_NAME": "TALLTREES STREET PARK",
+    "SUBURB": "BRACKEN RIDGE"
+  },
+  {
+    "PARK_NAME": "JACARANDA STREET PARK",
+    "SUBURB": "WYNNUM WEST"
+  },
+  {
+    "PARK_NAME": "ALPINIA PLACE PARK",
+    "SUBURB": "CALAMVALE"
+  },
+  {
+    "PARK_NAME": "BRADFORD STREET PARK (NO. 21)",
+    "SUBURB": "DARRA"
+  },
+  {
+    "PARK_NAME": "BRADFORD STREET PARK (NO. 5)",
+    "SUBURB": "DARRA"
+  },
+  {
+    "PARK_NAME": "LAMBERTIA CLOSE PARK",
+    "SUBURB": "MOUNT GRAVATT EAST"
+  },
+  {
+    "PARK_NAME": "BANGALOW STREET PARK (NO. 192)",
+    "SUBURB": "BRIDGEMAN DOWNS"
+  },
+  {
+    "PARK_NAME": "THE LAKE PARKLANDS",
+    "SUBURB": "FOREST LAKE"
+  },
+  {
+    "PARK_NAME": "AITCHESON STREET PARK (NO. 101)",
+    "SUBURB": "MOGGILL"
+  },
+  {
+    "PARK_NAME": "GOLDBERG PLACE PARK",
+    "SUBURB": "BRIDGEMAN DOWNS"
+  },
+  {
+    "PARK_NAME": "CRAWFORD ROAD PARK",
+    "SUBURB": "WYNNUM WEST"
+  },
+  {
+    "PARK_NAME": "MARKHAM STREET PARK",
+    "SUBURB": "DARRA"
+  },
+  {
+    "PARK_NAME": "JUXGOLD PLACE PARK",
+    "SUBURB": "CALAMVALE"
+  },
+  {
+    "PARK_NAME": "MONASH ROAD PARK (ROAD RESERVE)",
+    "SUBURB": "TARRAGINDI"
+  },
+  {
+    "PARK_NAME": "UPFIELD STREET PARK",
+    "SUBURB": "BURBANK"
+  },
+  {
+    "PARK_NAME": "WALLAROO WAY PARK",
+    "SUBURB": "DOOLANDELLA"
+  },
+  {
+    "PARK_NAME": "GREENFERN PLACE PARK",
+    "SUBURB": "FERNY GROVE"
+  },
+  {
+    "PARK_NAME": "MCGREGOR WAY PARK (NO. 14)",
+    "SUBURB": "FERNY GROVE"
+  },
+  {
+    "PARK_NAME": "BARBOUR ROAD PARK",
+    "SUBURB": "BRACKEN RIDGE"
+  },
+  {
+    "PARK_NAME": "COLLINGROVE PLACE PARK",
+    "SUBURB": "FOREST LAKE"
+  },
+  {
+    "PARK_NAME": "COOK STREET PARK",
+    "SUBURB": "FOREST LAKE"
+  },
+  {
+    "PARK_NAME": "BANKSIA VILLAGE PARK",
+    "SUBURB": "FOREST LAKE"
+  },
+  {
+    "PARK_NAME": "PARKVIEW PLACE PARK",
+    "SUBURB": "BRIDGEMAN DOWNS"
+  },
+  {
+    "PARK_NAME": "BENBEK CIRCUIT PARK",
+    "SUBURB": "SUNNYBANK HILLS"
+  },
+  {
+    "PARK_NAME": "THE WINDSOR TOWN QUARRY PARK",
+    "SUBURB": "WINDSOR"
+  },
+  {
+    "PARK_NAME": "BORONIA PARK",
+    "SUBURB": "FOREST LAKE"
+  },
+  {
+    "PARK_NAME": "CONFERTA PLACE PARK",
+    "SUBURB": "FOREST LAKE"
+  },
+  {
+    "PARK_NAME": "AMARINA AVENUE PARK (ROAD RESERVE)",
+    "SUBURB": "ASHGROVE"
+  },
+  {
+    "PARK_NAME": "MCGREGOR WAY PARK (NO. 30-34)",
+    "SUBURB": "FERNY GROVE"
+  },
+  {
+    "PARK_NAME": "CONSTELLATION WAY PARK",
+    "SUBURB": "WYNNUM"
+  },
+  {
+    "PARK_NAME": "ALBION PARK",
+    "SUBURB": "BRACKEN RIDGE"
+  },
+  {
+    "PARK_NAME": "TAIGUM PLACE PARK",
+    "SUBURB": "TAIGUM"
+  },
+  {
+    "PARK_NAME": "CLARRIE BECKINGHAM RESERVE",
+    "SUBURB": "BRIDGEMAN DOWNS"
+  },
+  {
+    "PARK_NAME": "OLDFIELD ROAD PARK (NO. 109)",
+    "SUBURB": "SINNAMON PARK"
+  },
+  {
+    "PARK_NAME": "KENTIA STREET PARK",
+    "SUBURB": "CARSELDINE"
+  },
+  {
+    "PARK_NAME": "THE ESPLANADE PARK  (ROAD RESERVE)",
+    "SUBURB": "ST LUCIA"
+  },
+  {
+    "PARK_NAME": "ST MARTIN COURT PARK",
+    "SUBURB": "BALD HILLS"
+  },
+  {
+    "PARK_NAME": "BERYL CRESCENT PARK",
+    "SUBURB": "HOLLAND PARK"
+  },
+  {
+    "PARK_NAME": "FREE STREET PARK",
+    "SUBURB": "NEWMARKET"
+  },
+  {
+    "PARK_NAME": "SWEETMAN STREET PARK",
+    "SUBURB": "PADDINGTON"
+  },
+  {
+    "PARK_NAME": "MARATHON STREET PARK",
+    "SUBURB": "ASPLEY"
+  },
+  {
+    "PARK_NAME": "TOLLANA PLACE PARK",
+    "SUBURB": "INALA"
+  },
+  {
+    "PARK_NAME": "HAROLD CLOSE PARK",
+    "SUBURB": "SINNAMON PARK"
+  },
+  {
+    "PARK_NAME": "JARED PLACE PARK",
+    "SUBURB": "WYNNUM WEST"
+  },
+  {
+    "PARK_NAME": "TORONTO ROAD PARK (NO. 143)",
+    "SUBURB": "CHANDLER"
+  },
+  {
+    "PARK_NAME": "STANTON ROAD PARK",
+    "SUBURB": "TINGALPA"
+  },
+  {
+    "PARK_NAME": "MOORDALE STREET PARK",
+    "SUBURB": "CHAPEL HILL"
+  },
+  {
+    "PARK_NAME": "ALLAMANDA STREET PARK",
+    "SUBURB": "THE GAP"
+  },
+  {
+    "PARK_NAME": "TRISTANIA CLOSE PARK",
+    "SUBURB": "CALAMVALE"
+  },
+  {
+    "PARK_NAME": "SEVEN HILLS BUSHLAND RESERVE",
+    "SUBURB": "CARINA"
+  },
+  {
+    "PARK_NAME": "MULBEAM PARK",
+    "SUBURB": "BOONDALL"
+  },
+  {
+    "PARK_NAME": "SOLAR PARK",
+    "SUBURB": "BRIDGEMAN DOWNS"
+  },
+  {
+    "PARK_NAME": "GARRETT PARK",
+    "SUBURB": "RUNCORN"
+  },
+  {
+    "PARK_NAME": "BELMONT HILLS BUSHLAND",
+    "SUBURB": "CARINDALE"
+  },
+  {
+    "PARK_NAME": "COLIN HOGAN PARK",
+    "SUBURB": "THE GAP"
+  },
+  {
+    "PARK_NAME": "BRUNSWICK STREET PARK",
+    "SUBURB": "FORTITUDE VALLEY"
+  },
+  {
+    "PARK_NAME": "ROBERT MITCHELL PARK",
+    "SUBURB": "SUNNYBANK HILLS"
+  },
+  {
+    "PARK_NAME": "NEATH STREET PARK",
+    "SUBURB": "SUNNYBANK HILLS"
+  },
+  {
+    "PARK_NAME": "RYHILL ROAD PARK (NO. 126)",
+    "SUBURB": "SUNNYBANK HILLS"
+  },
+  {
+    "PARK_NAME": "MORDEN ROAD PARK",
+    "SUBURB": "SUNNYBANK HILLS"
+  },
+  {
+    "PARK_NAME": "GOMAN STREET PARK",
+    "SUBURB": "SUNNYBANK HILLS"
+  },
+  {
+    "PARK_NAME": "LINDEMAN PLACE PARK",
+    "SUBURB": "EIGHT MILE PLAINS"
+  },
+  {
+    "PARK_NAME": "WENDY TURNBULL PARK",
+    "SUBURB": "BRACKEN RIDGE"
+  },
+  {
+    "PARK_NAME": "GAFFNEY STREET PARK",
+    "SUBURB": "CARINA HEIGHTS"
+  },
+  {
+    "PARK_NAME": "MONASH PLACE PARK",
+    "SUBURB": "FERNY GROVE"
+  },
+  {
+    "PARK_NAME": "KERYN PLACE PARK",
+    "SUBURB": "KEPERRA"
+  },
+  {
+    "PARK_NAME": "LAMBERT MCBRIDE PARK",
+    "SUBURB": "ZILLMERE"
+  },
+  {
+    "PARK_NAME": "LAGONDA STREET PARK",
+    "SUBURB": "ANNERLEY"
+  },
+  {
+    "PARK_NAME": "ALPERTON ROAD PARK",
+    "SUBURB": "BURBANK"
+  },
+  {
+    "PARK_NAME": "LONGTON COURT PARK (NO. 100)",
+    "SUBURB": "BURBANK"
+  },
+  {
+    "PARK_NAME": "PANGELA STREET PARK",
+    "SUBURB": "THE GAP"
+  },
+  {
+    "PARK_NAME": "DEWBERRY CLOSE PARK",
+    "SUBURB": "EIGHT MILE PLAINS"
+  },
+  {
+    "PARK_NAME": "LYNELLE STREET PARK (LOT 300)",
+    "SUBURB": "SUNNYBANK HILLS"
+  },
+  {
+    "PARK_NAME": "MARTINDALE STREET PARK",
+    "SUBURB": "CHERMSIDE WEST"
+  },
+  {
+    "PARK_NAME": "WALLAROO WAY COMMUNITY PARK",
+    "SUBURB": "DOOLANDELLA"
+  },
+  {
+    "PARK_NAME": "YEWLEAF PLACE PARK",
+    "SUBURB": "CALAMVALE"
+  },
+  {
+    "PARK_NAME": "GUBBERLEY STREET PARK",
+    "SUBURB": "KENMORE"
+  },
+  {
+    "PARK_NAME": "MUNGARIE STREET PARK (NO. 46)",
+    "SUBURB": "KEPERRA"
+  },
+  {
+    "PARK_NAME": "SAXONVALE PLACE PARK",
+    "SUBURB": "THE GAP"
+  },
+  {
+    "PARK_NAME": "CUSCUS COURT PARK",
+    "SUBURB": "WYNNUM WEST"
+  },
+  {
+    "PARK_NAME": "SHINGAI PARK",
+    "SUBURB": "UPPER MOUNT GRAVATT"
+  },
+  {
+    "PARK_NAME": "SPRINGFIELD CRESCENT PARK",
+    "SUBURB": "PARKINSON"
+  },
+  {
+    "PARK_NAME": "BILLABONG PLACE PARK",
+    "SUBURB": "PARKINSON"
+  },
+  {
+    "PARK_NAME": "POMONA STREET PARK",
+    "SUBURB": "BRIGHTON"
+  },
+  {
+    "PARK_NAME": "DANDELION STREET PARK",
+    "SUBURB": "EIGHT MILE PLAINS"
+  },
+  {
+    "PARK_NAME": "GIBSON CRESCENT PARK",
+    "SUBURB": "BELLBOWRIE"
+  },
+  {
+    "PARK_NAME": "THE AVENUE PARK",
+    "SUBURB": "SUNNYBANK HILLS"
+  },
+  {
+    "PARK_NAME": "BENJAMINA PLACE PARK",
+    "SUBURB": "THE GAP"
+  },
+  {
+    "PARK_NAME": "FREMONT STREET PARK",
+    "SUBURB": "SEVENTEEN MILE ROCKS"
+  },
+  {
+    "PARK_NAME": "DELAPINE PLACE PARK",
+    "SUBURB": "SEVENTEEN MILE ROCKS"
+  },
+  {
+    "PARK_NAME": "LIQUIDAMBAR PLACE PARK",
+    "SUBURB": "STRETTON"
+  },
+  {
+    "PARK_NAME": "PALMWOODS CRESCENT PARK",
+    "SUBURB": "RUNCORN"
+  },
+  {
+    "PARK_NAME": "MUR STREET PARK",
+    "SUBURB": "FERNY GROVE"
+  },
+  {
+    "PARK_NAME": "LEXUS STREET PARK",
+    "SUBURB": "RUNCORN"
+  },
+  {
+    "PARK_NAME": "GLENEFER STREET PARK",
+    "SUBURB": "RUNCORN"
+  },
+  {
+    "PARK_NAME": "MIRBELIA STREET WEST PARK",
+    "SUBURB": "KENMORE HILLS"
+  },
+  {
+    "PARK_NAME": "HAIR PARK",
+    "SUBURB": "RUNCORN"
+  },
+  {
+    "PARK_NAME": "MCGINN ROAD PARK (NO. 130)",
+    "SUBURB": "FERNY GROVE"
+  },
+  {
+    "PARK_NAME": "JACARANDA PLACE PARK",
+    "SUBURB": "EIGHT MILE PLAINS"
+  },
+  {
+    "PARK_NAME": "FOREST LAKE LIONS PARK",
+    "SUBURB": "FOREST LAKE"
+  },
+  {
+    "PARK_NAME": "HANCOCK PARK - PINE VILLAGE PARK",
+    "SUBURB": "FOREST LAKE"
+  },
+  {
+    "PARK_NAME": "KELVIN CLOSE PARK",
+    "SUBURB": "FOREST LAKE"
+  },
+  {
+    "PARK_NAME": "ELDERSLIE PLACE PARK",
+    "SUBURB": "FOREST LAKE"
+  },
+  {
+    "PARK_NAME": "SHERMAN STREET PARK",
+    "SUBURB": "THE GAP"
+  },
+  {
+    "PARK_NAME": "HOMESTEAD PARK",
+    "SUBURB": "FOREST LAKE"
+  },
+  {
+    "PARK_NAME": "TARRAGON PLACE PARK",
+    "SUBURB": "FOREST LAKE"
+  },
+  {
+    "PARK_NAME": "RENOIR CRESCENT PARK (NO. 143)",
+    "SUBURB": "FOREST LAKE"
+  },
+  {
+    "PARK_NAME": "CAMELOT PARK",
+    "SUBURB": "MIDDLE PARK"
+  },
+  {
+    "PARK_NAME": "PINNACLE PLACE PARK",
+    "SUBURB": "BELMONT"
+  },
+  {
+    "PARK_NAME": "BARRIER PLACE PARK (NO. 21)",
+    "SUBURB": "FOREST LAKE"
+  },
+  {
+    "PARK_NAME": "LATHER ROAD PARK",
+    "SUBURB": "BELLBOWRIE"
+  },
+  {
+    "PARK_NAME": "BOYD TERRACE PARK",
+    "SUBURB": "BROOKFIELD"
+  },
+  {
+    "PARK_NAME": "ROGHAN ROAD PARK (NO. 2260)",
+    "SUBURB": "BOONDALL"
+  },
+  {
+    "PARK_NAME": "HONEYSUCKLE WAY PARK",
+    "SUBURB": "CALAMVALE"
+  },
+  {
+    "PARK_NAME": "SUNFLOWER CRESCENT PARK",
+    "SUBURB": "CALAMVALE"
+  },
+  {
+    "PARK_NAME": "GREENDALE PARK",
+    "SUBURB": "CARINDALE"
+  },
+  {
+    "PARK_NAME": "IONA CLOSE PARK",
+    "SUBURB": "BELMONT"
+  },
+  {
+    "PARK_NAME": "DORVILLE ROAD PARK",
+    "SUBURB": "ASPLEY"
+  },
+  {
+    "PARK_NAME": "HOFFMAN STREET PARK",
+    "SUBURB": "MCDOWALL"
+  },
+  {
+    "PARK_NAME": "FINNEY ROAD PARK",
+    "SUBURB": "INDOOROOPILLY"
+  },
+  {
+    "PARK_NAME": "MING-SHAN PARK",
+    "SUBURB": "CALAMVALE"
+  },
+  {
+    "PARK_NAME": "ST ANDREW STREET PARK",
+    "SUBURB": "KURABY"
+  },
+  {
+    "PARK_NAME": "PINE TREE CLOSE PARK",
+    "SUBURB": "FITZGIBBON"
+  },
+  {
+    "PARK_NAME": "STRAWBERRY FARM PARK",
+    "SUBURB": "CARSELDINE"
+  },
+  {
+    "PARK_NAME": "BREAKWATER PARK",
+    "SUBURB": "WYNNUM"
+  },
+  {
+    "PARK_NAME": "KARAWATHA FOREST PARK",
+    "SUBURB": "KARAWATHA"
+  },
+  {
+    "PARK_NAME": "EDWARDS PARK",
+    "SUBURB": "CARINDALE"
+  },
+  {
+    "PARK_NAME": "EUGENIA STREET PARK",
+    "SUBURB": "RICHLANDS"
+  },
+  {
+    "PARK_NAME": "WYNCROFT STREET PARK",
+    "SUBURB": "HOLLAND PARK"
+  },
+  {
+    "PARK_NAME": "BRAMPTON STREET PARK",
+    "SUBURB": "EIGHT MILE PLAINS"
+  },
+  {
+    "PARK_NAME": "TINCHI TAMBA WETLANDS RESERVE",
+    "SUBURB": "BALD HILLS"
+  },
+  {
+    "PARK_NAME": "ANNIE HIGHNESS PARKER PARK",
+    "SUBURB": "SUNNYBANK"
+  },
+  {
+    "PARK_NAME": "SETTLERS VILLAGE PARK",
+    "SUBURB": "FOREST LAKE"
+  },
+  {
+    "PARK_NAME": "FLINDERS CRESCENT PARK (NO. 56)",
+    "SUBURB": "FOREST LAKE"
+  },
+  {
+    "PARK_NAME": "HATHERTON CRESCENT PARK",
+    "SUBURB": "CARINDALE"
+  },
+  {
+    "PARK_NAME": "MYRTLE CRESCENT PARK",
+    "SUBURB": "BRIDGEMAN DOWNS"
+  },
+  {
+    "PARK_NAME": "COOLABAH CRESCENT PARK",
+    "SUBURB": "BRIDGEMAN DOWNS"
+  },
+  {
+    "PARK_NAME": "RADLEY STREET PARK",
+    "SUBURB": "VIRGINIA"
+  },
+  {
+    "PARK_NAME": "ENBROOK PARKLAND",
+    "SUBURB": "BRACKEN RIDGE"
+  },
+  {
+    "PARK_NAME": "BARCOORAH STREET PARK",
+    "SUBURB": "WESTLAKE"
+  },
+  {
+    "PARK_NAME": "SAUL STREET PARK",
+    "SUBURB": "BRIGHTON"
+  },
+  {
+    "PARK_NAME": "GOODWIN PARK",
+    "SUBURB": "YERONGA"
+  },
+  {
+    "PARK_NAME": "BILL FURSMAN PLACE PARK",
+    "SUBURB": "THE GAP"
+  },
+  {
+    "PARK_NAME": "FLEMING ROAD PARK",
+    "SUBURB": "TINGALPA"
+  },
+  {
+    "PARK_NAME": "PIONEER CRESCENT PARK",
+    "SUBURB": "BELLBOWRIE"
+  },
+  {
+    "PARK_NAME": "STRETTON COMMUNITY PARK",
+    "SUBURB": "STRETTON"
+  },
+  {
+    "PARK_NAME": "MINDONA ROTARY PARK",
+    "SUBURB": "WISHART"
+  },
+  {
+    "PARK_NAME": "DURRINGTON PARK",
+    "SUBURB": "WYNNUM WEST"
+  },
+  {
+    "PARK_NAME": "TUFNELL ROAD PARK",
+    "SUBURB": "BANYO"
+  },
+  {
+    "PARK_NAME": "WOOD PARK",
+    "SUBURB": "MIDDLE PARK"
+  },
+  {
+    "PARK_NAME": "ANZAC ROAD PARK",
+    "SUBURB": "CARINA HEIGHTS"
+  },
+  {
+    "PARK_NAME": "ALLIRA CRESCENT PARK",
+    "SUBURB": "CARSELDINE"
+  },
+  {
+    "PARK_NAME": "SCHOONER CIRCUIT PARK",
+    "SUBURB": "MANLY WEST"
+  },
+  {
+    "PARK_NAME": "BECKETT ROAD PARK",
+    "SUBURB": "MCDOWALL"
+  },
+  {
+    "PARK_NAME": "BANNING STREET PARK",
+    "SUBURB": "WISHART"
+  },
+  {
+    "PARK_NAME": "DRUMMOND STREET PARK",
+    "SUBURB": "SINNAMON PARK"
+  },
+  {
+    "PARK_NAME": "HAYWAL STREET PARK",
+    "SUBURB": "TAIGUM"
+  },
+  {
+    "PARK_NAME": "CLIFTON STREET PARK",
+    "SUBURB": "MOOROOKA"
+  },
+  {
+    "PARK_NAME": "NORTHEY STREET PARK",
+    "SUBURB": "WINDSOR"
+  },
+  {
+    "PARK_NAME": "HAKEA CRESCENT PARK",
+    "SUBURB": "CHAPEL HILL"
+  },
+  {
+    "PARK_NAME": "DEVONSHIRE STREET PARK",
+    "SUBURB": "ASHGROVE"
+  },
+  {
+    "PARK_NAME": "FLETCHER PARADE PARK (NO. 85)",
+    "SUBURB": "BARDON"
+  },
+  {
+    "PARK_NAME": "WALLAWA STREET PARK",
+    "SUBURB": "KENMORE"
+  },
+  {
+    "PARK_NAME": "BOWDEN STREET PARK",
+    "SUBURB": "CARSELDINE"
+  },
+  {
+    "PARK_NAME": "ARPEGE CRESCENT PARK",
+    "SUBURB": "EIGHT MILE PLAINS"
+  },
+  {
+    "PARK_NAME": "DURELLA STREET PARK",
+    "SUBURB": "DURACK"
+  },
+  {
+    "PARK_NAME": "SURBITON COURT PARK",
+    "SUBURB": "CARINDALE"
+  },
+  {
+    "PARK_NAME": "PARDALOTE PARK",
+    "SUBURB": "ALGESTER"
+  },
+  {
+    "PARK_NAME": "MERRI MERRI PARK",
+    "SUBURB": "CHAPEL HILL"
+  },
+  {
+    "PARK_NAME": "ROYAL PARADE PARK (NO. 155)",
+    "SUBURB": "ASHGROVE"
+  },
+  {
+    "PARK_NAME": "FRANCHINA FAMILY PARK",
+    "SUBURB": "BOONDALL"
+  },
+  {
+    "PARK_NAME": "BILL LAMOND PARK",
+    "SUBURB": "LOTA"
+  },
+  {
+    "PARK_NAME": "BRIDGNORTH STREET PARK (NO. 71)",
+    "SUBURB": "CARINDALE"
+  },
+  {
+    "PARK_NAME": "PFINGST ROAD PARK",
+    "SUBURB": "WAVELL HEIGHTS"
+  },
+  {
+    "PARK_NAME": "PERROTT STREET PARK",
+    "SUBURB": "PADDINGTON"
+  },
+  {
+    "PARK_NAME": "KANGAROO GULLY ROAD PARK",
+    "SUBURB": "BELLBOWRIE"
+  },
+  {
+    "PARK_NAME": "SYMONS ROAD PARK",
+    "SUBURB": "SUNNYBANK HILLS"
+  },
+  {
+    "PARK_NAME": "TUCKETT STREET PARK",
+    "SUBURB": "KENMORE HILLS"
+  },
+  {
+    "PARK_NAME": "BENNETT'S BUSHLAND PARK",
+    "SUBURB": "MORNINGSIDE"
+  },
+  {
+    "PARK_NAME": "GRAHAM LORD PARK",
+    "SUBURB": "MOUNT GRAVATT EAST"
+  },
+  {
+    "PARK_NAME": "BOORALA CRESCENT PARK",
+    "SUBURB": "EIGHT MILE PLAINS"
+  },
+  {
+    "PARK_NAME": "MERRICK STREET PARK",
+    "SUBURB": "WISHART"
+  },
+  {
+    "PARK_NAME": "ALEXANDER SMITH PLACE",
+    "SUBURB": "SOUTH BRISBANE"
+  },
+  {
+    "PARK_NAME": "RIVERSTON COURT PARK (ROAD RESERVE)",
+    "SUBURB": "CARINDALE"
+  },
+  {
+    "PARK_NAME": "PIKE PLACE PARK",
+    "SUBURB": "KENMORE"
+  },
+  {
+    "PARK_NAME": "BUNDARA PARK",
+    "SUBURB": "KEPERRA"
+  },
+  {
+    "PARK_NAME": "TRISTANIA WAY PARK",
+    "SUBURB": "MOUNT GRAVATT EAST"
+  },
+  {
+    "PARK_NAME": "SETTLERS PARK",
+    "SUBURB": "SINNAMON PARK"
+  },
+  {
+    "PARK_NAME": "MACULATA DRIVE PARK",
+    "SUBURB": "CHAPEL HILL"
+  },
+  {
+    "PARK_NAME": "GLENAVON STREET PARK",
+    "SUBURB": "BELMONT"
+  },
+  {
+    "PARK_NAME": "FAVERSHAM STREET PARK",
+    "SUBURB": "WOOLLOONGABBA"
+  },
+  {
+    "PARK_NAME": "HUDSON ROAD PARK",
+    "SUBURB": "ALBION"
+  },
+  {
+    "PARK_NAME": "KELSEY STREET PARK (NO. 41A)",
+    "SUBURB": "COORPAROO"
+  },
+  {
+    "PARK_NAME": "PROUT ROAD PARK",
+    "SUBURB": "BURBANK"
+  },
+  {
+    "PARK_NAME": "THE JOHNSON FLORA RESERVE",
+    "SUBURB": "ROBERTSON"
+  },
+  {
+    "PARK_NAME": "CATANIA STREET PARK",
+    "SUBURB": "WISHART"
+  },
+  {
+    "PARK_NAME": "HENDERSON STREET PARK (NO. 6-14)",
+    "SUBURB": "OXLEY"
+  },
+  {
+    "PARK_NAME": "STRATHBURN STREET PARK",
+    "SUBURB": "OXLEY"
+  },
+  {
+    "PARK_NAME": "UPPER BROOKFIELD ROAD PARK (NO. 901)",
+    "SUBURB": "UPPER BROOKFIELD"
+  },
+  {
+    "PARK_NAME": "WILHELMINE KRUGER PARK",
+    "SUBURB": "NUDGEE"
+  },
+  {
+    "PARK_NAME": "LINDSAY EVANS MEMORIAL PARK",
+    "SUBURB": "RUNCORN"
+  },
+  {
+    "PARK_NAME": "GEMSTONE CRESCENT PARK",
+    "SUBURB": "ACACIA RIDGE"
+  },
+  {
+    "PARK_NAME": "MURDOCH CIRCUIT PARK",
+    "SUBURB": "ACACIA RIDGE"
+  },
+  {
+    "PARK_NAME": "KOOLA STREET PARK",
+    "SUBURB": "WISHART"
+  },
+  {
+    "PARK_NAME": "CANNES STREET PARK",
+    "SUBURB": "WAKERLEY"
+  },
+  {
+    "PARK_NAME": "SUCCESS STREET PARK",
+    "SUBURB": "ACACIA RIDGE"
+  },
+  {
+    "PARK_NAME": "PARKLAND STREET PARK",
+    "SUBURB": "CALAMVALE"
+  },
+  {
+    "PARK_NAME": "EDEN ELM STREET PARK",
+    "SUBURB": "CALAMVALE"
+  },
+  {
+    "PARK_NAME": "EMMETT STREET PARK",
+    "SUBURB": "WYNNUM WEST"
+  },
+  {
+    "PARK_NAME": "BIRKRIDGE PLACE PARK",
+    "SUBURB": "THE GAP"
+  },
+  {
+    "PARK_NAME": "KAKOOGUN KIN-DAPIN RESERVE",
+    "SUBURB": "COWAN COWAN"
+  },
+  {
+    "PARK_NAME": "KARAWATHA FOREST WEST",
+    "SUBURB": "STRETTON"
+  },
+  {
+    "PARK_NAME": "REGENCY PLACE PARK (NO. 16)",
+    "SUBURB": "STRETTON"
+  },
+  {
+    "PARK_NAME": "GUS DAVIES PARK",
+    "SUBURB": "BALD HILLS"
+  },
+  {
+    "PARK_NAME": "YARRAMAN PLACE PARK",
+    "SUBURB": "VIRGINIA"
+  },
+  {
+    "PARK_NAME": "ALCHERINGA PLACE PARK",
+    "SUBURB": "ROBERTSON"
+  },
+  {
+    "PARK_NAME": "CICADA PARK",
+    "SUBURB": "CHAPEL HILL"
+  },
+  {
+    "PARK_NAME": "DILLINGEN STREET PARK",
+    "SUBURB": "CHAPEL HILL"
+  },
+  {
+    "PARK_NAME": "TREVALLY CRESENT PARK",
+    "SUBURB": "MANLY WEST"
+  },
+  {
+    "PARK_NAME": "SALACIA STREET PARK",
+    "SUBURB": "MANLY WEST"
+  },
+  {
+    "PARK_NAME": "MATISSE STREET PARK",
+    "SUBURB": "CARSELDINE"
+  },
+  {
+    "PARK_NAME": "EASTWOOD DRIVE PARK",
+    "SUBURB": "MANSFIELD"
+  },
+  {
+    "PARK_NAME": "THOMAS GRAY PARK",
+    "SUBURB": "BALD HILLS"
+  },
+  {
+    "PARK_NAME": "ROSEMOUNT PARK",
+    "SUBURB": "SINNAMON PARK"
+  },
+  {
+    "PARK_NAME": "MERLINA STREET PARK",
+    "SUBURB": "MANLY WEST"
+  },
+  {
+    "PARK_NAME": "DELFIN STREET PARK",
+    "SUBURB": "MACGREGOR"
+  },
+  {
+    "PARK_NAME": "MAINS ROAD PARK",
+    "SUBURB": "MACGREGOR"
+  },
+  {
+    "PARK_NAME": "ARBOR STREET PARK",
+    "SUBURB": "FERNY GROVE"
+  },
+  {
+    "PARK_NAME": "FIDDLEWOOD CRESCENT PARK",
+    "SUBURB": "BELLBOWRIE"
+  },
+  {
+    "PARK_NAME": "GIBBINS STREET PARK",
+    "SUBURB": "SUNNYBANK HILLS"
+  },
+  {
+    "PARK_NAME": "GILDOR STREET PARK",
+    "SUBURB": "BOONDALL"
+  },
+  {
+    "PARK_NAME": "PETER GASKELL PARK",
+    "SUBURB": "BRACKEN RIDGE"
+  },
+  {
+    "PARK_NAME": "WILCANNIA PARK",
+    "SUBURB": "ASHGROVE"
+  },
+  {
+    "PARK_NAME": "GREENMONT CLOSE PARK",
+    "SUBURB": "ASHGROVE"
+  },
+  {
+    "PARK_NAME": "PANORAMA PLACE PARK",
+    "SUBURB": "MOUNT GRAVATT EAST"
+  },
+  {
+    "PARK_NAME": "MAIN AVENUE PARK",
+    "SUBURB": "WAVELL HEIGHTS"
+  },
+  {
+    "PARK_NAME": "PENSON STREET PARK",
+    "SUBURB": "STRETTON"
+  },
+  {
+    "PARK_NAME": "KOOKABURRA RESERVE",
+    "SUBURB": "KURABY"
+  },
+  {
+    "PARK_NAME": "JOHN MAGEE PARK",
+    "SUBURB": "SEVENTEEN MILE ROCKS"
+  },
+  {
+    "PARK_NAME": "TIGRIS STREET PARK",
+    "SUBURB": "RIVERHILLS"
+  },
+  {
+    "PARK_NAME": "LEONARD STREET PARK",
+    "SUBURB": "WOOLLOONGABBA"
+  },
+  {
+    "PARK_NAME": "SECAM STREET PARK",
+    "SUBURB": "MANSFIELD"
+  },
+  {
+    "PARK_NAME": "WYNNUM NTH CONSERVATION SITE",
+    "SUBURB": "WYNNUM"
+  },
+  {
+    "PARK_NAME": "BOONDALL WETLANDS",
+    "SUBURB": "NUDGEE BEACH"
+  },
+  {
+    "PARK_NAME": "CHERMSIDE HILLS RESERVE",
+    "SUBURB": "MCDOWALL"
+  },
+  {
+    "PARK_NAME": "PRINCESS STREET PARK (NO. 8-18)",
+    "SUBURB": "BRIGHTON"
+  },
+  {
+    "PARK_NAME": "DIANELLA RESERVE",
+    "SUBURB": "BRIGHTON"
+  },
+  {
+    "PARK_NAME": "GOODENIA RESERVE",
+    "SUBURB": "BRIGHTON"
+  },
+  {
+    "PARK_NAME": "BREENE COURT PARK",
+    "SUBURB": "CARINDALE"
+  },
+  {
+    "PARK_NAME": "MARMINDIE STREET PARK",
+    "SUBURB": "CHAPEL HILL"
+  },
+  {
+    "PARK_NAME": "KINDILAN PARK",
+    "SUBURB": "KEPERRA"
+  },
+  {
+    "PARK_NAME": "OLIVIA DRIVE PARK",
+    "SUBURB": "CARINA HEIGHTS"
+  },
+  {
+    "PARK_NAME": "SUNSET PARK",
+    "SUBURB": "ASHGROVE"
+  },
+  {
+    "PARK_NAME": "KEMP PLACE PARK (ROAD RESERVE)",
+    "SUBURB": "FORTITUDE VALLEY"
+  },
+  {
+    "PARK_NAME": "OBERON ESPLANADE PARK",
+    "SUBURB": "HEMMANT"
+  },
+  {
+    "PARK_NAME": "GOWER STREET PARK",
+    "SUBURB": "TOOWONG"
+  },
+  {
+    "PARK_NAME": "SUZETTE STREET PARK",
+    "SUBURB": "BURBANK"
+  },
+  {
+    "PARK_NAME": "WITTON ROAD PARK",
+    "SUBURB": "INDOOROOPILLY"
+  },
+  {
+    "PARK_NAME": "BOORAL STREET PARK",
+    "SUBURB": "SUNNYBANK HILLS"
+  },
+  {
+    "PARK_NAME": "ARCHER PARADE PARK",
+    "SUBURB": "CORINDA"
+  },
+  {
+    "PARK_NAME": "JONES ROAD PARK",
+    "SUBURB": "CARINA HEIGHTS"
+  },
+  {
+    "PARK_NAME": "MEADOWBANK STREET PARK",
+    "SUBURB": "CARINDALE"
+  },
+  {
+    "PARK_NAME": "WINSTANLEY STREET PARK",
+    "SUBURB": "CARINDALE"
+  },
+  {
+    "PARK_NAME": "GLENALWYN STREET PARK",
+    "SUBURB": "HOLLAND PARK"
+  },
+  {
+    "PARK_NAME": "HAM ROAD PARK",
+    "SUBURB": "MANSFIELD"
+  },
+  {
+    "PARK_NAME": "PAMAROO CRESCENT PARK",
+    "SUBURB": "JINDALEE"
+  },
+  {
+    "PARK_NAME": "CHELSEA STREET PARK",
+    "SUBURB": "RUNCORN"
+  },
+  {
+    "PARK_NAME": "HAWBRIDGE STREET PARK",
+    "SUBURB": "CARSELDINE"
+  },
+  {
+    "PARK_NAME": "BERYL MCKENZIE PARK",
+    "SUBURB": "HOLLAND PARK WEST"
+  },
+  {
+    "PARK_NAME": "EDINBURGH CASTLE ROAD PARK",
+    "SUBURB": "WAVELL HEIGHTS"
+  },
+  {
+    "PARK_NAME": "DOOHAN MOTORCYCLE RACEWAY",
+    "SUBURB": "BRISBANE AIRPORT"
+  },
+  {
+    "PARK_NAME": "AIRLIE ROAD PARK",
+    "SUBURB": "PULLENVALE"
+  },
+  {
+    "PARK_NAME": "BOGNOR STREET PARK",
+    "SUBURB": "TINGALPA"
+  },
+  {
+    "PARK_NAME": "THAGOONA STREET PARK",
+    "SUBURB": "MITCHELTON"
+  },
+  {
+    "PARK_NAME": "JACKSON ROAD PARK (NO. 24)",
+    "SUBURB": "SUNNYBANK HILLS"
+  },
+  {
+    "PARK_NAME": "WIRILDA STREET PARK",
+    "SUBURB": "MIDDLE PARK"
+  },
+  {
+    "PARK_NAME": "ORIENT ROAD PARK",
+    "SUBURB": "YERONGA"
+  },
+  {
+    "PARK_NAME": "APHRODITE STREET PARK",
+    "SUBURB": "MANLY WEST"
+  },
+  {
+    "PARK_NAME": "GORDON STREET PARK",
+    "SUBURB": "BRIGHTON"
+  },
+  {
+    "PARK_NAME": "BALD HILLS CREEK PARK",
+    "SUBURB": "BRACKEN RIDGE"
+  },
+  {
+    "PARK_NAME": "REMBRANDT STREET PARK",
+    "SUBURB": "CARINA"
+  },
+  {
+    "PARK_NAME": "ALLAWAH STREET PARK",
+    "SUBURB": "YEERONGPILLY"
+  },
+  {
+    "PARK_NAME": "CLARINA STREET PARK",
+    "SUBURB": "CHAPEL HILL"
+  },
+  {
+    "PARK_NAME": "ANNA SMITH OBE QUOTA PARK",
+    "SUBURB": "CARINDALE"
+  },
+  {
+    "PARK_NAME": "ITHACA MEMORIAL PARK (ROAD RESERVE)",
+    "SUBURB": "PADDINGTON"
+  },
+  {
+    "PARK_NAME": "HOLDEN PARK",
+    "SUBURB": "SUNNYBANK HILLS"
+  },
+  {
+    "PARK_NAME": "OLD CLEVELAND ROAD PARK (NO. 1230)",
+    "SUBURB": "CARINDALE"
+  },
+  {
+    "PARK_NAME": "RICHARD MARTIN PLACE",
+    "SUBURB": "SUNNYBANK"
+  },
+  {
+    "PARK_NAME": "JOHN HENLEY PARK",
+    "SUBURB": "ROBERTSON"
+  },
+  {
+    "PARK_NAME": "THURSTON STREET PARK",
+    "SUBURB": "TINGALPA"
+  },
+  {
+    "PARK_NAME": "AVONDALE PARK",
+    "SUBURB": "SINNAMON PARK"
+  },
+  {
+    "PARK_NAME": "GREVILLEA PARK",
+    "SUBURB": "MANSFIELD"
+  },
+  {
+    "PARK_NAME": "JUDITH COURT PARK",
+    "SUBURB": "RUNCORN"
+  },
+  {
+    "PARK_NAME": "DELAVAN STREET PARK",
+    "SUBURB": "WISHART"
+  },
+  {
+    "PARK_NAME": "WOOD STREET PARK (ROAD RESERVE)",
+    "SUBURB": "NUNDAH"
+  },
+  {
+    "PARK_NAME": "MURTON AVENUE PARK (ROAD RESERVE)",
+    "SUBURB": "HOLLAND PARK"
+  },
+  {
+    "PARK_NAME": "MANSFIELD PARK (ROAD RESERVE)",
+    "SUBURB": "INDOOROOPILLY"
+  },
+  {
+    "PARK_NAME": "JAMES FRENEY PARK",
+    "SUBURB": "ACACIA RIDGE"
+  },
+  {
+    "PARK_NAME": "TOULBY STREET PARK",
+    "SUBURB": "MANLY WEST"
+  },
+  {
+    "PARK_NAME": "DELLOW STREET PARK",
+    "SUBURB": "ACACIA RIDGE"
+  },
+  {
+    "PARK_NAME": "LAAR CRESCENT PARK",
+    "SUBURB": "BOONDALL"
+  },
+  {
+    "PARK_NAME": "ITHACA PLACE PARK (ROAD RESERVE)",
+    "SUBURB": "PADDINGTON"
+  },
+  {
+    "PARK_NAME": "BYRON STREET PARK",
+    "SUBURB": "RUNCORN"
+  },
+  {
+    "PARK_NAME": "KITTO COURT PARK",
+    "SUBURB": "EVERTON PARK"
+  },
+  {
+    "PARK_NAME": "OLROY STREET PARK (ROAD RESERVE)",
+    "SUBURB": "HOLLAND PARK"
+  },
+  {
+    "PARK_NAME": "TORONTO ROAD PARK (NO. 173)",
+    "SUBURB": "CHANDLER"
+  },
+  {
+    "PARK_NAME": "AMBERJACK STREET PARK",
+    "SUBURB": "MANLY WEST"
+  },
+  {
+    "PARK_NAME": "JACKSON ROAD PARK (NO. 219)",
+    "SUBURB": "SUNNYBANK HILLS"
+  },
+  {
+    "PARK_NAME": "INGRAM ROAD PARK",
+    "SUBURB": "SUNNYBANK HILLS"
+  },
+  {
+    "PARK_NAME": "BARRAMUNDI STREET PARK",
+    "SUBURB": "MANLY WEST"
+  },
+  {
+    "PARK_NAME": "FATHER JACK MADDEN PLACE PARK",
+    "SUBURB": "STAFFORD"
+  },
+  {
+    "PARK_NAME": "I. S. A.  MEMORIAL PARK",
+    "SUBURB": "INALA"
+  },
+  {
+    "PARK_NAME": "SHEEHY STREET PARK",
+    "SUBURB": "STAFFORD"
+  },
+  {
+    "PARK_NAME": "WILPOWELL STREET PARK",
+    "SUBURB": "OXLEY"
+  },
+  {
+    "PARK_NAME": "LUDLOW STREET PARK",
+    "SUBURB": "CHAPEL HILL"
+  },
+  {
+    "PARK_NAME": "TUGULAWA PARK",
+    "SUBURB": "BULIMBA"
+  },
+  {
+    "PARK_NAME": "SOAMES STREET PARK",
+    "SUBURB": "EVERTON PARK"
+  },
+  {
+    "PARK_NAME": "STRINGYBARK DRIVE PARK",
+    "SUBURB": "ASPLEY"
+  },
+  {
+    "PARK_NAME": "WILSTON PLACE PARK",
+    "SUBURB": "WILSTON"
+  },
+  {
+    "PARK_NAME": "COREEN STREET PARK",
+    "SUBURB": "WYNNUM"
+  },
+  {
+    "PARK_NAME": "TRISTANIA DRIVE PARK",
+    "SUBURB": "BARDON"
+  },
+  {
+    "PARK_NAME": "COLORADO AVENUE PARK",
+    "SUBURB": "BARDON"
+  },
+  {
+    "PARK_NAME": "FIFTH AVENUE PARK",
+    "SUBURB": "BARDON"
+  },
+  {
+    "PARK_NAME": "BUNDABAH DRIVE PARK",
+    "SUBURB": "CALAMVALE"
+  },
+  {
+    "PARK_NAME": "BUSHY PARK",
+    "SUBURB": "SUNNYBANK HILLS"
+  },
+  {
+    "PARK_NAME": "TWILIGHT STREET PARK",
+    "SUBURB": "KENMORE"
+  },
+  {
+    "PARK_NAME": "MARLAND STREET PARK",
+    "SUBURB": "KENMORE"
+  },
+  {
+    "PARK_NAME": "KEPPEL STREET PARK",
+    "SUBURB": "BOONDALL"
+  },
+  {
+    "PARK_NAME": "CADOGAN STREET PARK",
+    "SUBURB": "CARINDALE"
+  },
+  {
+    "PARK_NAME": "BRETON STREET PARK",
+    "SUBURB": "SUNNYBANK"
+  },
+  {
+    "PARK_NAME": "BAPAUME ROAD PARK (ROAD RESERVE)",
+    "SUBURB": "HOLLAND PARK WEST"
+  },
+  {
+    "PARK_NAME": "DEAD MAN'S GULLY PARK",
+    "SUBURB": "CHERMSIDE"
+  },
+  {
+    "PARK_NAME": "OXFORD ROAD PARK",
+    "SUBURB": "TOOWONG"
+  },
+  {
+    "PARK_NAME": "LEOS PARK",
+    "SUBURB": "ASHGROVE"
+  },
+  {
+    "PARK_NAME": "MCLEAN PARADE PARK",
+    "SUBURB": "ASHGROVE"
+  },
+  {
+    "PARK_NAME": "JOE FOSTER PARK",
+    "SUBURB": "CAMP HILL"
+  },
+  {
+    "PARK_NAME": "BALIS STREET PARK",
+    "SUBURB": "HOLLAND PARK WEST"
+  },
+  {
+    "PARK_NAME": "GLENLINTON STREET PARK",
+    "SUBURB": "HOLLAND PARK"
+  },
+  {
+    "PARK_NAME": "NUDGEE ROAD PARK (NO. 695)",
+    "SUBURB": "NUNDAH"
+  },
+  {
+    "PARK_NAME": "ROBERT HANLEY PARK",
+    "SUBURB": "SEVEN HILLS"
+  },
+  {
+    "PARK_NAME": "FRED FRANCIS PARK",
+    "SUBURB": "BRACKEN RIDGE"
+  },
+  {
+    "PARK_NAME": "ARRABRI AVENUE PARK",
+    "SUBURB": "MOUNT OMMANEY"
+  },
+  {
+    "PARK_NAME": "FISHERMAN'S BEND PARK",
+    "SUBURB": "BALMORAL"
+  },
+  {
+    "PARK_NAME": "TRAMMIES CORNER PARK",
+    "SUBURB": "PADDINGTON"
+  },
+  {
+    "PARK_NAME": "KEPERRA BUSHLAND",
+    "SUBURB": "KEPERRA"
+  },
+  {
+    "PARK_NAME": "MEIERS ROAD PARK",
+    "SUBURB": "INDOOROOPILLY"
+  },
+  {
+    "PARK_NAME": "TILLEY ROAD PARK",
+    "SUBURB": "WAKERLEY"
+  },
+  {
+    "PARK_NAME": "BISSET PLACE PARK",
+    "SUBURB": "MCDOWALL"
+  },
+  {
+    "PARK_NAME": "KIRRA STREET PARK",
+    "SUBURB": "PINKENBA"
+  },
+  {
+    "PARK_NAME": "RON GOELDNER PARK",
+    "SUBURB": "YERONGA"
+  },
+  {
+    "PARK_NAME": "LAUREL OAK PARK",
+    "SUBURB": "ALGESTER"
+  },
+  {
+    "PARK_NAME": "DITTON ROAD PARK (NO. 127)",
+    "SUBURB": "SUNNYBANK HILLS"
+  },
+  {
+    "PARK_NAME": "PARTON STREET PARK",
+    "SUBURB": "STAFFORD HEIGHTS"
+  },
+  {
+    "PARK_NAME": "KINGTEL PLACE PARK",
+    "SUBURB": "GEEBUNG"
+  },
+  {
+    "PARK_NAME": "LEACROFT ROAD PARK",
+    "SUBURB": "BURBANK"
+  },
+  {
+    "PARK_NAME": "ORSOVA ROAD PARK",
+    "SUBURB": "YERONGA"
+  },
+  {
+    "PARK_NAME": "PINKENBA MEMORIAL PLACE PARK (ROAD RESERVE)",
+    "SUBURB": "PINKENBA"
+  },
+  {
+    "PARK_NAME": "JILL STREET PARK",
+    "SUBURB": "BRIGHTON"
+  },
+  {
+    "PARK_NAME": "CLARE AVENUE PARK",
+    "SUBURB": "WYNNUM WEST"
+  },
+  {
+    "PARK_NAME": "WYNNUM WADING POOL PARK",
+    "SUBURB": "WYNNUM"
+  },
+  {
+    "PARK_NAME": "FIG TREE POINT PARK (ROAD RESERVE)",
+    "SUBURB": "LOTA"
+  },
+  {
+    "PARK_NAME": "CROYDON ROAD PARK",
+    "SUBURB": "PADDINGTON"
+  },
+  {
+    "PARK_NAME": "SECTOR STREET PARK",
+    "SUBURB": "COORPAROO"
+  },
+  {
+    "PARK_NAME": "PROCYON STREET PARK",
+    "SUBURB": "COORPAROO"
+  },
+  {
+    "PARK_NAME": "SATELLITE STREET PARK",
+    "SUBURB": "COORPAROO"
+  },
+  {
+    "PARK_NAME": "SIRIUS STREET PARK",
+    "SUBURB": "COORPAROO"
+  },
+  {
+    "PARK_NAME": "EVA STREET PARK",
+    "SUBURB": "COORPAROO"
+  },
+  {
+    "PARK_NAME": "OCTANTIS STREET PARK",
+    "SUBURB": "COORPAROO"
+  },
+  {
+    "PARK_NAME": "MARS STREET PARK",
+    "SUBURB": "COORPAROO"
+  },
+  {
+    "PARK_NAME": "HAUGHTON PARK",
+    "SUBURB": "OXLEY"
+  },
+  {
+    "PARK_NAME": "WELLER ROAD PARK",
+    "SUBURB": "TARRAGINDI"
+  },
+  {
+    "PARK_NAME": "ABBOTT STREET PARK",
+    "SUBURB": "CAMP HILL"
+  },
+  {
+    "PARK_NAME": "BANKS CRESCENT PARK",
+    "SUBURB": "WYNNUM WEST"
+  },
+  {
+    "PARK_NAME": "IAN LYNAS MEMORIAL PARK",
+    "SUBURB": "STRETTON"
+  },
+  {
+    "PARK_NAME": "PRESIDENTIAL PARK",
+    "SUBURB": "STRETTON"
+  },
+  {
+    "PARK_NAME": "NEILL PARK",
+    "SUBURB": "BARDON"
+  },
+  {
+    "PARK_NAME": "ALAN WILLING PLACE PARK",
+    "SUBURB": "THE GAP"
+  },
+  {
+    "PARK_NAME": "HORIZON DRIVE PARK",
+    "SUBURB": "MIDDLE PARK"
+  },
+  {
+    "PARK_NAME": "WILLIAM BRIAN DALEY RESERVE",
+    "SUBURB": "FERNY GROVE"
+  },
+  {
+    "PARK_NAME": "FIG TREE COMMON PARK",
+    "SUBURB": "FIG TREE POCKET"
+  },
+  {
+    "PARK_NAME": "GUM NUT NOOK",
+    "SUBURB": "MCDOWALL"
+  },
+  {
+    "PARK_NAME": "UPPER BROOKFIELD ROAD PARK (NO. 590)",
+    "SUBURB": "UPPER BROOKFIELD"
+  },
+  {
+    "PARK_NAME": "SETTLERS STREET PARK",
+    "SUBURB": "CARINDALE"
+  },
+  {
+    "PARK_NAME": "KARHULA PARK",
+    "SUBURB": "EIGHT MILE PLAINS"
+  },
+  {
+    "PARK_NAME": "ISAAC BEST PARK",
+    "SUBURB": "BRACKEN RIDGE"
+  },
+  {
+    "PARK_NAME": "ALGESTER ROAD PARK",
+    "SUBURB": "CALAMVALE"
+  },
+  {
+    "PARK_NAME": "BELLWOOD STREET PARK",
+    "SUBURB": "SINNAMON PARK"
+  },
+  {
+    "PARK_NAME": "HIGHGROVE COURT PARK",
+    "SUBURB": "THE GAP"
+  },
+  {
+    "PARK_NAME": "KENMORE ROAD PARK",
+    "SUBURB": "FIG TREE POCKET"
+  },
+  {
+    "PARK_NAME": "MOORGUMPIN PARK (THE DAL POPE RESRVE)",
+    "SUBURB": "KOORINGAL"
+  },
+  {
+    "PARK_NAME": "BENSARA PLACE PARK",
+    "SUBURB": "CARSELDINE"
+  },
+  {
+    "PARK_NAME": "DONNINGTON STREET PARK SOUTH",
+    "SUBURB": "CARINDALE"
+  },
+  {
+    "PARK_NAME": "VOGLER PARK",
+    "SUBURB": "SUNNYBANK HILLS"
+  },
+  {
+    "PARK_NAME": "HAWERA CRESCENT PARK",
+    "SUBURB": "ASPLEY"
+  },
+  {
+    "PARK_NAME": "MATTHEW GARDINER PARK",
+    "SUBURB": "CARSELDINE"
+  },
+  {
+    "PARK_NAME": "PATERSON PARK",
+    "SUBURB": "SUNNYBANK HILLS"
+  },
+  {
+    "PARK_NAME": "BEN LOMOND STREET PARK",
+    "SUBURB": "ASPLEY"
+  },
+  {
+    "PARK_NAME": "GRACEVILLE RIVERSIDE PARKLANDS",
+    "SUBURB": "GRACEVILLE"
+  },
+  {
+    "PARK_NAME": "WOONGARRA STREET PARK",
+    "SUBURB": "THE GAP"
+  },
+  {
+    "PARK_NAME": "KLUVER STREET LIONS PARK",
+    "SUBURB": "BALD HILLS"
+  },
+  {
+    "PARK_NAME": "PRIMLEY STREET PARK",
+    "SUBURB": "PULLENVALE"
+  },
+  {
+    "PARK_NAME": "FELSPAR STREET PARK",
+    "SUBURB": "EIGHT MILE PLAINS"
+  },
+  {
+    "PARK_NAME": "BORELLA ROAD PARK",
+    "SUBURB": "SUNNYBANK HILLS"
+  },
+  {
+    "PARK_NAME": "BRUNA STREET PARK",
+    "SUBURB": "RUNCORN"
+  },
+  {
+    "PARK_NAME": "JOHN SPRENT RESERVE",
+    "SUBURB": "MOGGILL"
+  },
+  {
+    "PARK_NAME": "CALAMVISTA PARK",
+    "SUBURB": "CALAMVALE"
+  },
+  {
+    "PARK_NAME": "KILMAINE STREET PARK",
+    "SUBURB": "THE GAP"
+  },
+  {
+    "PARK_NAME": "MIKADO STREET PARK",
+    "SUBURB": "ASCOT"
+  },
+  {
+    "PARK_NAME": "JOHN TUCKER PARK",
+    "SUBURB": "EVERTON PARK"
+  },
+  {
+    "PARK_NAME": "KINGS PARK",
+    "SUBURB": "KEPERRA"
+  },
+  {
+    "PARK_NAME": "GORMAN CRINNEN PARK",
+    "SUBURB": "RUNCORN"
+  },
+  {
+    "PARK_NAME": "JAGERA PARK",
+    "SUBURB": "RUNCORN"
+  },
+  {
+    "PARK_NAME": "JOACHIM STREET PARK",
+    "SUBURB": "HOLLAND PARK WEST"
+  },
+  {
+    "PARK_NAME": "FORD ROAD PARK",
+    "SUBURB": "BURBANK"
+  },
+  {
+    "PARK_NAME": "ALANA COURT PARK",
+    "SUBURB": "CHAPEL HILL"
+  },
+  {
+    "PARK_NAME": "SHIRLEY SESTER PARK",
+    "SUBURB": "RUNCORN"
+  },
+  {
+    "PARK_NAME": "FELDT STREET PARK",
+    "SUBURB": "MOOROOKA"
+  },
+  {
+    "PARK_NAME": "COONAWARRA STREET PARK",
+    "SUBURB": "SUNNYBANK HILLS"
+  },
+  {
+    "PARK_NAME": "LORIKEET PARK (ALGESTER)",
+    "SUBURB": "ALGESTER"
+  },
+  {
+    "PARK_NAME": "PONTI STREET PARK",
+    "SUBURB": "MCDOWALL"
+  },
+  {
+    "PARK_NAME": "USTINOV CRESCENT PARK",
+    "SUBURB": "MCDOWALL"
+  },
+  {
+    "PARK_NAME": "RON WARD PARK",
+    "SUBURB": "THE GAP"
+  },
+  {
+    "PARK_NAME": "SIMPSONS ROAD PARK",
+    "SUBURB": "BARDON"
+  },
+  {
+    "PARK_NAME": "FRINTON STREET PARK",
+    "SUBURB": "WISHART"
+  },
+  {
+    "PARK_NAME": "COORA STREET PARK",
+    "SUBURB": "WISHART"
+  },
+  {
+    "PARK_NAME": "NUDGEE BEACH RESERVE",
+    "SUBURB": "NUDGEE BEACH"
+  },
+  {
+    "PARK_NAME": "NUDGEE RECREATION RESERVE",
+    "SUBURB": "NUDGEE"
+  },
+  {
+    "PARK_NAME": "DENT PARK",
+    "SUBURB": "NUDGEE"
+  },
+  {
+    "PARK_NAME": "ST ACHS STREET PARK",
+    "SUBURB": "NUDGEE"
+  },
+  {
+    "PARK_NAME": "DOWNFALL CREEK RESERVE",
+    "SUBURB": "VIRGINIA"
+  },
+  {
+    "PARK_NAME": "BANYO MEMORIAL PARK",
+    "SUBURB": "BANYO"
+  },
+  {
+    "PARK_NAME": "WARBURTON PARK",
+    "SUBURB": "VIRGINIA"
+  },
+  {
+    "PARK_NAME": "NICHOLSON PLACE PARK",
+    "SUBURB": "NORTHGATE"
+  },
+  {
+    "PARK_NAME": "NUDGEE WATERHOLE RESERVE",
+    "SUBURB": "NUDGEE"
+  },
+  {
+    "PARK_NAME": "BOYD PARK",
+    "SUBURB": "NUNDAH"
+  },
+  {
+    "PARK_NAME": "NUNDAH MEMORIAL PARK",
+    "SUBURB": "NUNDAH"
+  },
+  {
+    "PARK_NAME": "CAREW STREET PARK",
+    "SUBURB": "NUNDAH"
+  },
+  {
+    "PARK_NAME": "NORTHGATE RESERVE",
+    "SUBURB": "NORTHGATE"
+  },
+  {
+    "PARK_NAME": "OXENHAM PARK",
+    "SUBURB": "NUNDAH"
+  },
+  {
+    "PARK_NAME": "ORCHARD PARK",
+    "SUBURB": "NORTHGATE"
+  },
+  {
+    "PARK_NAME": "PLAISTED PLACE PARK",
+    "SUBURB": "NORTHGATE"
+  },
+  {
+    "PARK_NAME": "FRENEY STREET PARK",
+    "SUBURB": "ROCKLEA"
+  },
+  {
+    "PARK_NAME": "BILL MOORE PARK",
+    "SUBURB": "SALISBURY"
+  },
+  {
+    "PARK_NAME": "SALISBURY RECREATION RESERVE",
+    "SUBURB": "SALISBURY"
+  },
+  {
+    "PARK_NAME": "ROSEBANK SQUARE",
+    "SUBURB": "SALISBURY"
+  },
+  {
+    "PARK_NAME": "LILLIAN AVENUE PARK",
+    "SUBURB": "SALISBURY"
+  },
+  {
+    "PARK_NAME": "MT GRAVATT PARK",
+    "SUBURB": "UPPER MOUNT GRAVATT"
+  },
+  {
+    "PARK_NAME": "SPRINGFIELD STREET PARK",
+    "SUBURB": "MACGREGOR"
+  },
+  {
+    "PARK_NAME": "WHIPBIRD PARK",
+    "SUBURB": "MACGREGOR"
+  },
+  {
+    "PARK_NAME": "D.M.HENDERSON PARK",
+    "SUBURB": "MACGREGOR"
+  },
+  {
+    "PARK_NAME": "DEVITT PARK",
+    "SUBURB": "COOPERS PLAINS"
+  },
+  {
+    "PARK_NAME": "BRITTAIN PARK",
+    "SUBURB": "COOPERS PLAINS"
+  },
+  {
+    "PARK_NAME": "MORTIMER ROAD PARK",
+    "SUBURB": "ACACIA RIDGE"
+  },
+  {
+    "PARK_NAME": "C.J.GREENFIELD COMPLEX PARK",
+    "SUBURB": "RICHLANDS"
+  },
+  {
+    "PARK_NAME": "MCEWAN PARK",
+    "SUBURB": "INALA"
+  },
+  {
+    "PARK_NAME": "ELIZABETH BRUCE PLAYGROUND PARK",
+    "SUBURB": "INALA"
+  },
+  {
+    "PARK_NAME": "KEV HOOPER MEMORIAL PARK",
+    "SUBURB": "INALA"
+  },
+  {
+    "PARK_NAME": "GRENIER PARK",
+    "SUBURB": "ACACIA RIDGE"
+  },
+  {
+    "PARK_NAME": "NORMA CROKER PARK",
+    "SUBURB": "ACACIA RIDGE"
+  },
+  {
+    "PARK_NAME": "C.A.O SULLIVAN PARK",
+    "SUBURB": "ACACIA RIDGE"
+  },
+  {
+    "PARK_NAME": "JOCK HING PARK",
+    "SUBURB": "SUNNYBANK"
+  },
+  {
+    "PARK_NAME": "LES ATKINSON PARK",
+    "SUBURB": "SUNNYBANK"
+  },
+  {
+    "PARK_NAME": "EFFIE JOHNSON PARK",
+    "SUBURB": "SUNNYBANK HILLS"
+  },
+  {
+    "PARK_NAME": "WAKERLEY PARK (RUNCORN)",
+    "SUBURB": "RUNCORN"
+  },
+  {
+    "PARK_NAME": "DAW ROAD PARK",
+    "SUBURB": "RUNCORN"
+  },
+  {
+    "PARK_NAME": "YUGARAPUL PARK",
+    "SUBURB": "SUNNYBANK"
+  },
+  {
+    "PARK_NAME": "BENELONG PARK",
+    "SUBURB": "KEDRON"
+  },
+  {
+    "PARK_NAME": "BOLTON STREET PARK",
+    "SUBURB": "EIGHT MILE PLAINS"
+  },
+  {
+    "PARK_NAME": "MARNHAM STREET PARK",
+    "SUBURB": "ACACIA RIDGE"
+  },
+  {
+    "PARK_NAME": "D.J.SHERRINGTON PARK",
+    "SUBURB": "INALA"
+  },
+  {
+    "PARK_NAME": "BILL KEY LOCK PLACE PARK",
+    "SUBURB": "INALA"
+  },
+  {
+    "PARK_NAME": "THRUSH STREET PARK",
+    "SUBURB": "INALA"
+  },
+  {
+    "PARK_NAME": "CORMORANT STREET PARK",
+    "SUBURB": "INALA"
+  },
+  {
+    "PARK_NAME": "CLIPPER STREET PARK",
+    "SUBURB": "INALA"
+  },
+  {
+    "PARK_NAME": "HOCK DAVIS PARK",
+    "SUBURB": "INALA"
+  },
+  {
+    "PARK_NAME": "ERIDANUS STREET PARK",
+    "SUBURB": "INALA"
+  },
+  {
+    "PARK_NAME": "DYSON AVENUE PARK (NO. 93)",
+    "SUBURB": "SUNNYBANK"
+  },
+  {
+    "PARK_NAME": "CARMICHAEL PARK",
+    "SUBURB": "TINGALPA"
+  },
+  {
+    "PARK_NAME": "CANNON HILL BUSHLAND RESERVE",
+    "SUBURB": "CANNON HILL"
+  },
+  {
+    "PARK_NAME": "PORTER'S PADDOCK PARK",
+    "SUBURB": "TINGALPA"
+  },
+  {
+    "PARK_NAME": "SHE-OAK PARK",
+    "SUBURB": "TINGALPA"
+  },
+  {
+    "PARK_NAME": "FURSDEN ROAD PARK",
+    "SUBURB": "CANNON HILL"
+  },
+  {
+    "PARK_NAME": "MURARRIE ROAD PARK (NO. 188)",
+    "SUBURB": "TINGALPA"
+  },
+  {
+    "PARK_NAME": "PROGRESS PARK",
+    "SUBURB": "NORTHGATE"
+  },
+  {
+    "PARK_NAME": "MYRTLETOWN RESERVE",
+    "SUBURB": "PINKENBA"
+  },
+  {
+    "PARK_NAME": "ROSS PARK",
+    "SUBURB": "NUNDAH"
+  },
+  {
+    "PARK_NAME": "TOOMBUL TERRACE PARK",
+    "SUBURB": "NUNDAH"
+  },
+  {
+    "PARK_NAME": "KALINGA PARK",
+    "SUBURB": "KALINGA"
+  },
+  {
+    "PARK_NAME": "ALBERT BISHOP PARK",
+    "SUBURB": "NUNDAH"
+  },
+  {
+    "PARK_NAME": "PINKENBA RECREATION RESERVE",
+    "SUBURB": "PINKENBA"
+  },
+  {
+    "PARK_NAME": "MILTON PARK",
+    "SUBURB": "MILTON"
+  },
+  {
+    "PARK_NAME": "GREGORY PARK",
+    "SUBURB": "MILTON"
+  },
+  {
+    "PARK_NAME": "LAUGHER PARK",
+    "SUBURB": "TOOWONG"
+  },
+  {
+    "PARK_NAME": "PERRIN PARK",
+    "SUBURB": "TOOWONG"
+  },
+  {
+    "PARK_NAME": "OAKMAN PARK",
+    "SUBURB": "TARINGA"
+  },
+  {
+    "PARK_NAME": "MISKIN STREET PARK",
+    "SUBURB": "TOOWONG"
+  },
+  {
+    "PARK_NAME": "WESTBROOK PARK",
+    "SUBURB": "TOOWONG"
+  },
+  {
+    "PARK_NAME": "RASEY PARK",
+    "SUBURB": "HERSTON"
+  },
+  {
+    "PARK_NAME": "NORMAN BUCHAN PARK",
+    "SUBURB": "BARDON"
+  },
+  {
+    "PARK_NAME": "ANZAC PARK",
+    "SUBURB": "TOOWONG"
+  },
+  {
+    "PARK_NAME": "QUINN PARK",
+    "SUBURB": "TOOWONG"
+  },
+  {
+    "PARK_NAME": "MCILWRAITH PARK",
+    "SUBURB": "AUCHENFLOWER"
+  },
+  {
+    "PARK_NAME": "TOOWONG MEMORIAL PARK",
+    "SUBURB": "TOOWONG"
+  },
+  {
+    "PARK_NAME": "TORWOOD PARK",
+    "SUBURB": "AUCHENFLOWER"
+  },
+  {
+    "PARK_NAME": "RAINWORTH PARK",
+    "SUBURB": "BARDON"
+  },
+  {
+    "PARK_NAME": "MOORLANDS PARK",
+    "SUBURB": "AUCHENFLOWER"
+  },
+  {
+    "PARK_NAME": "REGATTA PARK",
+    "SUBURB": "TOOWONG"
+  },
+  {
+    "PARK_NAME": "DUNMORE PARK",
+    "SUBURB": "AUCHENFLOWER"
+  },
+  {
+    "PARK_NAME": "LANGLEY AVENUE PARK",
+    "SUBURB": "WILSTON"
+  },
+  {
+    "PARK_NAME": "MCCOOK PARK",
+    "SUBURB": "NEWMARKET"
+  },
+  {
+    "PARK_NAME": "SPENCER PARK",
+    "SUBURB": "NEWMARKET"
+  },
+  {
+    "PARK_NAME": "DAVIDSON STREET PARK",
+    "SUBURB": "NEWMARKET"
+  },
+  {
+    "PARK_NAME": "FINSBURY PARK",
+    "SUBURB": "WILSTON"
+  },
+  {
+    "PARK_NAME": "RUBY ROBINSON RESERVE",
+    "SUBURB": "WILSTON"
+  },
+  {
+    "PARK_NAME": "DOWNEY PARK",
+    "SUBURB": "WINDSOR"
+  },
+  {
+    "PARK_NAME": "WILSTON RECREATION RESERVE",
+    "SUBURB": "WILSTON"
+  },
+  {
+    "PARK_NAME": "DAMON ROAD PARK",
+    "SUBURB": "LUTWYCHE"
+  },
+  {
+    "PARK_NAME": "EILDON HILL RESERVE",
+    "SUBURB": "WILSTON"
+  },
+  {
+    "PARK_NAME": "GILBERT ROAD PARK",
+    "SUBURB": "GRANGE"
+  },
+  {
+    "PARK_NAME": "HINKLER PARK",
+    "SUBURB": "WINDSOR"
+  },
+  {
+    "PARK_NAME": "LANHAM PARK",
+    "SUBURB": "GRANGE"
+  },
+  {
+    "PARK_NAME": "GRANGE FOREST PARK",
+    "SUBURB": "GRANGE"
+  },
+  {
+    "PARK_NAME": "EMERSON PARK",
+    "SUBURB": "GRANGE"
+  },
+  {
+    "PARK_NAME": "HALFORD PARK",
+    "SUBURB": "GRANGE"
+  },
+  {
+    "PARK_NAME": "FLYNN OVAL PARK",
+    "SUBURB": "WINDSOR"
+  },
+  {
+    "PARK_NAME": "MANN PARK",
+    "SUBURB": "WINDSOR"
+  },
+  {
+    "PARK_NAME": "ALBION OVERPASS PARK",
+    "SUBURB": "ALBION"
+  },
+  {
+    "PARK_NAME": "WINDSOR PARK",
+    "SUBURB": "WINDSOR"
+  },
+  {
+    "PARK_NAME": "WINDSOR MEMORIAL PARK",
+    "SUBURB": "WINDSOR"
+  },
+  {
+    "PARK_NAME": "CLARK PARK",
+    "SUBURB": "WINDSOR"
+  },
+  {
+    "PARK_NAME": "PRENTICE PARK",
+    "SUBURB": "LUTWYCHE"
+  },
+  {
+    "PARK_NAME": "BRADSHAW PARK",
+    "SUBURB": "LUTWYCHE"
+  },
+  {
+    "PARK_NAME": "NORMAN AVENUE PARK",
+    "SUBURB": "LUTWYCHE"
+  },
+  {
+    "PARK_NAME": "MELROSE PARK",
+    "SUBURB": "KALINGA"
+  },
+  {
+    "PARK_NAME": "HENRY STREET PARK",
+    "SUBURB": "KALINGA"
+  },
+  {
+    "PARK_NAME": "BROOK ROAD PARK",
+    "SUBURB": "KALINGA"
+  },
+  {
+    "PARK_NAME": "GREEN CAMP ROAD PARK",
+    "SUBURB": "RANSOME"
+  },
+  {
+    "PARK_NAME": "ELANORA PARK",
+    "SUBURB": "WYNNUM"
+  },
+  {
+    "PARK_NAME": "BAYSIDE PARK",
+    "SUBURB": "MANLY"
+  },
+  {
+    "PARK_NAME": "GEORGE CLAYTON PARK",
+    "SUBURB": "MANLY"
+  },
+  {
+    "PARK_NAME": "WYNNUM MUNICIPAL RESERVE",
+    "SUBURB": "WYNNUM"
+  },
+  {
+    "PARK_NAME": "ERIC SHAW PARK",
+    "SUBURB": "WYNNUM"
+  },
+  {
+    "PARK_NAME": "WYNNUM GOLF LINKS PARK",
+    "SUBURB": "WYNNUM"
+  },
+  {
+    "PARK_NAME": "MORETON BAY LIONS PARK",
+    "SUBURB": "WYNNUM"
+  },
+  {
+    "PARK_NAME": "WYNNUM MEMORIAL PARK",
+    "SUBURB": "WYNNUM"
+  },
+  {
+    "PARK_NAME": "RICHARD RUSSELL PARK",
+    "SUBURB": "MANLY"
+  },
+  {
+    "PARK_NAME": "HARMAN'S PARK",
+    "SUBURB": "MANLY"
+  },
+  {
+    "PARK_NAME": "WONDALL ROAD PARK",
+    "SUBURB": "WYNNUM WEST"
+  },
+  {
+    "PARK_NAME": "STANNARD ROAD PARK",
+    "SUBURB": "MANLY WEST"
+  },
+  {
+    "PARK_NAME": "HEERS PARK",
+    "SUBURB": "MANLY WEST"
+  },
+  {
+    "PARK_NAME": "LOTA CAMPING RESERVE",
+    "SUBURB": "LOTA"
+  },
+  {
+    "PARK_NAME": "ED DEVENPORT ROTARY PARK",
+    "SUBURB": "LOTA"
+  },
+  {
+    "PARK_NAME": "LOTA CREEK RESERVE",
+    "SUBURB": "LOTA"
+  },
+  {
+    "PARK_NAME": "COX PARK",
+    "SUBURB": "LOTA"
+  },
+  {
+    "PARK_NAME": "HERBERT STREET PARK",
+    "SUBURB": "LOTA"
+  },
+  {
+    "PARK_NAME": "JOHN BRIGHT STREET PARK",
+    "SUBURB": "MOOROOKA"
+  },
+  {
+    "PARK_NAME": "MURIEL AVENUE PARK",
+    "SUBURB": "MOOROOKA"
+  },
+  {
+    "PARK_NAME": "VETERANS PARK",
+    "SUBURB": "MOOROOKA"
+  },
+  {
+    "PARK_NAME": "TONKS STREET PARK",
+    "SUBURB": "MOOROOKA"
+  },
+  {
+    "PARK_NAME": "ALEXANDER PARK",
+    "SUBURB": "MOOROOKA"
+  },
+  {
+    "PARK_NAME": "MOOROOKA PLAYGROUND PARK",
+    "SUBURB": "MOOROOKA"
+  },
+  {
+    "PARK_NAME": "TOOHEY FOREST PARK",
+    "SUBURB": "NATHAN"
+  },
+  {
+    "PARK_NAME": "MT GRAVATT OUTLOOK RESERVE",
+    "SUBURB": "MOUNT GRAVATT"
+  },
+  {
+    "PARK_NAME": "KOOKABURRA PARK",
+    "SUBURB": "ROCKLEA"
+  },
+  {
+    "PARK_NAME": "FAUNA PARADE PARK",
+    "SUBURB": "ROCKLEA"
+  },
+  {
+    "PARK_NAME": "GUYATT PARK",
+    "SUBURB": "ST LUCIA"
+  },
+  {
+    "PARK_NAME": "ACACIA PARK",
+    "SUBURB": "ST LUCIA"
+  },
+  {
+    "PARK_NAME": "BANKSIA PARK",
+    "SUBURB": "ST LUCIA"
+  },
+  {
+    "PARK_NAME": "ST LUCIA PLAYGROUND PARK",
+    "SUBURB": "ST LUCIA"
+  },
+  {
+    "PARK_NAME": "IRONSIDE PARK",
+    "SUBURB": "ST LUCIA"
+  },
+  {
+    "PARK_NAME": "MUNRO PARK",
+    "SUBURB": "ST LUCIA"
+  },
+  {
+    "PARK_NAME": "BELLEVUE TERRACE PARK",
+    "SUBURB": "ST LUCIA"
+  },
+  {
+    "PARK_NAME": "JACK COOK MEMORIAL PARK",
+    "SUBURB": "TARINGA"
+  },
+  {
+    "PARK_NAME": "ROBERTSON PARK",
+    "SUBURB": "TARINGA"
+  },
+  {
+    "PARK_NAME": "LEX ORD PARK",
+    "SUBURB": "ST LUCIA"
+  },
+  {
+    "PARK_NAME": "HANDEL STREET PARK",
+    "SUBURB": "ST LUCIA"
+  },
+  {
+    "PARK_NAME": "SIR JOHN CHANDLER PARK",
+    "SUBURB": "INDOOROOPILLY"
+  },
+  {
+    "PARK_NAME": "GLENCAIRN AVENUE PARK",
+    "SUBURB": "INDOOROOPILLY"
+  },
+  {
+    "PARK_NAME": "JACK SPEARE PARK",
+    "SUBURB": "INDOOROOPILLY"
+  },
+  {
+    "PARK_NAME": "ESSEX ROAD PARK",
+    "SUBURB": "INDOOROOPILLY"
+  },
+  {
+    "PARK_NAME": "TARINGA PLAYGROUND PARK",
+    "SUBURB": "TARINGA"
+  },
+  {
+    "PARK_NAME": "RANKIN STREET PARK",
+    "SUBURB": "INDOOROOPILLY"
+  },
+  {
+    "PARK_NAME": "FOXTON STREET PARK (NO. 41A)",
+    "SUBURB": "INDOOROOPILLY"
+  },
+  {
+    "PARK_NAME": "INDOOROOPILLY FERRY RESERVE",
+    "SUBURB": "INDOOROOPILLY"
+  },
+  {
+    "PARK_NAME": "WITTON ROAD PARK (NO. 209)",
+    "SUBURB": "INDOOROOPILLY"
+  },
+  {
+    "PARK_NAME": "KENNEWELL PARK",
+    "SUBURB": "INDOOROOPILLY"
+  },
+  {
+    "PARK_NAME": "MOORE PARK",
+    "SUBURB": "INDOOROOPILLY"
+  },
+  {
+    "PARK_NAME": "ABBEVILLE STREET PARK",
+    "SUBURB": "UPPER MOUNT GRAVATT"
+  },
+  {
+    "PARK_NAME": "BROADWATER PICNIC GROUND PARK",
+    "SUBURB": "MANSFIELD"
+  },
+  {
+    "PARK_NAME": "BOORABBIN PICNIC GROUND",
+    "SUBURB": "WISHART"
+  },
+  {
+    "PARK_NAME": "JESMOND ROAD PARK (NO. 359)",
+    "SUBURB": "FIG TREE POCKET"
+  },
+  {
+    "PARK_NAME": "JESMOND ROAD PARK (NO. 467B)",
+    "SUBURB": "FIG TREE POCKET"
+  },
+  {
+    "PARK_NAME": "BOTTICELLI STREET PARK",
+    "SUBURB": "FIG TREE POCKET"
+  },
+  {
+    "PARK_NAME": "CLEM MASTERS PARK",
+    "SUBURB": "DEAGON"
+  },
+  {
+    "PARK_NAME": "PIMELEA RESERVE",
+    "SUBURB": "BRIGHTON"
+  },
+  {
+    "PARK_NAME": "MARY CHAYTER PARK",
+    "SUBURB": "TARRAGINDI"
+  },
+  {
+    "PARK_NAME": "SEXTON STREET PARK",
+    "SUBURB": "TARRAGINDI"
+  },
+  {
+    "PARK_NAME": "HOLMEAD PARK",
+    "SUBURB": "EIGHT MILE PLAINS"
+  },
+  {
+    "PARK_NAME": "PHILIP VAUGHAN PARK",
+    "SUBURB": "CARSELDINE"
+  },
+  {
+    "PARK_NAME": "UPTON STREET PARK",
+    "SUBURB": "NUNDAH"
+  },
+  {
+    "PARK_NAME": "SEAFERN STREET PARK",
+    "SUBURB": "SUNNYBANK HILLS"
+  },
+  {
+    "PARK_NAME": "ROBTRISH STREET PARK",
+    "SUBURB": "MANLY WEST"
+  },
+  {
+    "PARK_NAME": "GREY GUM PARK",
+    "SUBURB": "STAFFORD HEIGHTS"
+  },
+  {
+    "PARK_NAME": "LYTTON ROAD PARK",
+    "SUBURB": "MORNINGSIDE"
+  },
+  {
+    "PARK_NAME": "CHATEAU STREET PARK",
+    "SUBURB": "CARSELDINE"
+  },
+  {
+    "PARK_NAME": "SUMMERGLEN PARK",
+    "SUBURB": "EIGHT MILE PLAINS"
+  },
+  {
+    "PARK_NAME": "CREEKSIDE STREET PARK",
+    "SUBURB": "KENMORE HILLS"
+  },
+  {
+    "PARK_NAME": "MARSHALL PARK",
+    "SUBURB": "KELVIN GROVE"
+  },
+  {
+    "PARK_NAME": "WAL COCKING PARK",
+    "SUBURB": "KENMORE"
+  },
+  {
+    "PARK_NAME": "TARINGA PARADE PARK",
+    "SUBURB": "INDOOROOPILLY"
+  },
+  {
+    "PARK_NAME": "CHAPROWE ROAD PARK",
+    "SUBURB": "THE GAP"
+  },
+  {
+    "PARK_NAME": "FLAMETREE STREET PARK",
+    "SUBURB": "BRIDGEMAN DOWNS"
+  },
+  {
+    "PARK_NAME": "ILLOURA PARK",
+    "SUBURB": "MANSFIELD"
+  },
+  {
+    "PARK_NAME": "HEINRICH GERNS PARK",
+    "SUBURB": "WAVELL HEIGHTS"
+  },
+  {
+    "PARK_NAME": "JACK PYLE PARK",
+    "SUBURB": "SUNNYBANK HILLS"
+  },
+  {
+    "PARK_NAME": "ST AMAND STREET PARK",
+    "SUBURB": "SINNAMON PARK"
+  },
+  {
+    "PARK_NAME": "THE GREEN PARK",
+    "SUBURB": "TOOWONG"
+  },
+  {
+    "PARK_NAME": "DONNINGTON STREET PARK NORTH",
+    "SUBURB": "CARINDALE"
+  },
+  {
+    "PARK_NAME": "AITCHESON STREET PARK (NO. 5-6)",
+    "SUBURB": "MOGGILL"
+  },
+  {
+    "PARK_NAME": "GEORGE BRIDGES PARK",
+    "SUBURB": "MOOROOKA"
+  },
+  {
+    "PARK_NAME": "SHOWGROUND PARK",
+    "SUBURB": "NUDGEE"
+  },
+  {
+    "PARK_NAME": "STEWART FRANKLIN PARK",
+    "SUBURB": "SHERWOOD"
+  },
+  {
+    "PARK_NAME": "NARRUNG STREET PARK",
+    "SUBURB": "MIDDLE PARK"
+  },
+  {
+    "PARK_NAME": "KEVIN WHITMEE PARK",
+    "SUBURB": "TINGALPA"
+  },
+  {
+    "PARK_NAME": "DAIRY SWAMP ROAD PARK",
+    "SUBURB": "TINGALPA"
+  },
+  {
+    "PARK_NAME": "ENDIANDRA STREET PARK",
+    "SUBURB": "ALGESTER"
+  },
+  {
+    "PARK_NAME": "NANKOOR STREET PARK (NO. 9)",
+    "SUBURB": "CHAPEL HILL"
+  },
+  {
+    "PARK_NAME": "BENDELL PARK",
+    "SUBURB": "SUNNYBANK HILLS"
+  },
+  {
+    "PARK_NAME": "PADSTOW ROAD (NO. 28) PARK",
+    "SUBURB": "EIGHT MILE PLAINS"
+  },
+  {
+    "PARK_NAME": "VENETIA STREET PARK",
+    "SUBURB": "STAFFORD HEIGHTS"
+  },
+  {
+    "PARK_NAME": "NORRIS PARK",
+    "SUBURB": "SUNNYBANK"
+  },
+  {
+    "PARK_NAME": "BRADY BUSHLAND PARK",
+    "SUBURB": "RUNCORN"
+  },
+  {
+    "PARK_NAME": "GABWINA STREET PARK",
+    "SUBURB": "FIG TREE POCKET"
+  },
+  {
+    "PARK_NAME": "HEDLEY BARKER PARK",
+    "SUBURB": "ASPLEY"
+  },
+  {
+    "PARK_NAME": "NORUP PARK",
+    "SUBURB": "EIGHT MILE PLAINS"
+  },
+  {
+    "PARK_NAME": "HONEYWOOD STREET PARK",
+    "SUBURB": "SUNNYBANK HILLS"
+  },
+  {
+    "PARK_NAME": "HELMSLEY COURT PARK",
+    "SUBURB": "CARINDALE"
+  },
+  {
+    "PARK_NAME": "BALLINDERRY STREET PARK",
+    "SUBURB": "EVERTON PARK"
+  },
+  {
+    "PARK_NAME": "C. SLAUGHTER PARK",
+    "SUBURB": "BRACKEN RIDGE"
+  },
+  {
+    "PARK_NAME": "MERRIWA PARK",
+    "SUBURB": "SUNNYBANK HILLS"
+  },
+  {
+    "PARK_NAME": "BERT WOLFE PARK",
+    "SUBURB": "BALD HILLS"
+  },
+  {
+    "PARK_NAME": "CYRIL SIMS PARK",
+    "SUBURB": "CALAMVALE"
+  },
+  {
+    "PARK_NAME": "BASSETT STREET PARK",
+    "SUBURB": "HOLLAND PARK"
+  },
+  {
+    "PARK_NAME": "PENHALIGON PARK",
+    "SUBURB": "CHAPEL HILL"
+  },
+  {
+    "PARK_NAME": "GAGARRA STREET PARK",
+    "SUBURB": "EIGHT MILE PLAINS"
+  },
+  {
+    "PARK_NAME": "TILQUIN STREET PARK",
+    "SUBURB": "THE GAP"
+  },
+  {
+    "PARK_NAME": "VERDELHO STREET PARK",
+    "SUBURB": "EIGHT MILE PLAINS"
+  },
+  {
+    "PARK_NAME": "COOLIBAH PARK",
+    "SUBURB": "SUNNYBANK"
+  },
+  {
+    "PARK_NAME": "DIDBROOK STREET PARK",
+    "SUBURB": "ROBERTSON"
+  },
+  {
+    "PARK_NAME": "CARAVONICA COURT PARK",
+    "SUBURB": "CALAMVALE"
+  },
+  {
+    "PARK_NAME": "POST OFFICE SQUARE",
+    "SUBURB": "BRISBANE CITY"
+  },
+  {
+    "PARK_NAME": "PORTADOWN PARK",
+    "SUBURB": "SINNAMON PARK"
+  },
+  {
+    "PARK_NAME": "SLEAFORD STREET PARK",
+    "SUBURB": "CHAPEL HILL"
+  },
+  {
+    "PARK_NAME": "IRONWOOD STREET PARK",
+    "SUBURB": "ASPLEY"
+  },
+  {
+    "PARK_NAME": "YUCCA COURT PARK",
+    "SUBURB": "EIGHT MILE PLAINS"
+  },
+  {
+    "PARK_NAME": "TRANQUIL PARK",
+    "SUBURB": "SUNNYBANK HILLS"
+  },
+  {
+    "PARK_NAME": "WENDON WAY PARK",
+    "SUBURB": "BRIDGEMAN DOWNS"
+  },
+  {
+    "PARK_NAME": "NILKERIE STREET PARK",
+    "SUBURB": "CARSELDINE"
+  },
+  {
+    "PARK_NAME": "ALBANY CREEK ROAD RESERVE",
+    "SUBURB": "BRIDGEMAN DOWNS"
+  },
+  {
+    "PARK_NAME": "BELDALE PARK",
+    "SUBURB": "SUNNYBANK HILLS"
+  },
+  {
+    "PARK_NAME": "GROVE PARK",
+    "SUBURB": "RUNCORN"
+  },
+  {
+    "PARK_NAME": "NORTH STREET PARK",
+    "SUBURB": "KEDRON"
+  },
+  {
+    "PARK_NAME": "BILL BROWN SPORTS RESERVE",
+    "SUBURB": "FITZGIBBON"
+  },
+  {
+    "PARK_NAME": "J.C.TROTTER MEMORIAL PARK",
+    "SUBURB": "BURBANK"
+  },
+  {
+    "PARK_NAME": "CARINYA STREET PARK",
+    "SUBURB": "INDOOROOPILLY"
+  },
+  {
+    "PARK_NAME": "ROBIN POWELL PARK",
+    "SUBURB": "CHAPEL HILL"
+  },
+  {
+    "PARK_NAME": "PATREA STREET PARK",
+    "SUBURB": "BANYO"
+  },
+  {
+    "PARK_NAME": "HOLLYMAN PARK",
+    "SUBURB": "RUNCORN"
+  },
+  {
+    "PARK_NAME": "WILCOX PARK",
+    "SUBURB": "NATHAN"
+  },
+  {
+    "PARK_NAME": "RAESIDE STREET PARK",
+    "SUBURB": "WESTLAKE"
+  },
+  {
+    "PARK_NAME": "MIRBELIA STREET PARK",
+    "SUBURB": "KENMORE HILLS"
+  },
+  {
+    "PARK_NAME": "EDWARD KELK PARK",
+    "SUBURB": "WYNNUM WEST"
+  },
+  {
+    "PARK_NAME": "TWELFTH AVENUE PARK",
+    "SUBURB": "ST LUCIA"
+  },
+  {
+    "PARK_NAME": "ALDERLEY GROVE PARK",
+    "SUBURB": "ALDERLEY"
+  },
+  {
+    "PARK_NAME": "ASHGROVE QUARRY PARK",
+    "SUBURB": "ASHGROVE"
+  },
+  {
+    "PARK_NAME": "MONOCEROS STREET PARK",
+    "SUBURB": "INALA"
+  },
+  {
+    "PARK_NAME": "KEPERRA PICNIC GROUND PARK",
+    "SUBURB": "FERNY GROVE"
+  },
+  {
+    "PARK_NAME": "PRIESTDALE ROAD PARK (NO. 2596)",
+    "SUBURB": "EIGHT MILE PLAINS"
+  },
+  {
+    "PARK_NAME": "BROOK STREET PARK",
+    "SUBURB": "EVERTON PARK"
+  },
+  {
+    "PARK_NAME": "EMMA STREET PARK",
+    "SUBURB": "KALINGA"
+  },
+  {
+    "PARK_NAME": "MCPHERSON PARK",
+    "SUBURB": "BRACKEN RIDGE"
+  },
+  {
+    "PARK_NAME": "VICTOR PARK",
+    "SUBURB": "WINDSOR"
+  },
+  {
+    "PARK_NAME": "WITTONGA PARK",
+    "SUBURB": "THE GAP"
+  },
+  {
+    "PARK_NAME": "KEATLEY STREET PARK",
+    "SUBURB": "BELLBOWRIE"
+  },
+  {
+    "PARK_NAME": "SOLFERINO PLACE PARK",
+    "SUBURB": "THE GAP"
+  },
+  {
+    "PARK_NAME": "MEADOWLANDS PICNIC GROUND PARK",
+    "SUBURB": "TINGALPA"
+  },
+  {
+    "PARK_NAME": "WOLLOMBI PARK",
+    "SUBURB": "HOLLAND PARK"
+  },
+  {
+    "PARK_NAME": "CROMARTY STREET PARK",
+    "SUBURB": "KENMORE"
+  },
+  {
+    "PARK_NAME": "CURLEW PARK",
+    "SUBURB": "SANDGATE"
+  },
+  {
+    "PARK_NAME": "TIMBERLAND PARK",
+    "SUBURB": "ALGESTER"
+  },
+  {
+    "PARK_NAME": "MT PETRIE RECREATION RESERVE",
+    "SUBURB": "BURBANK"
+  },
+  {
+    "PARK_NAME": "COORPAROO CREEK RESERVE",
+    "SUBURB": "COORPAROO"
+  },
+  {
+    "PARK_NAME": "BRISBANE BOTANIC GARDENS MT COOT-THA",
+    "SUBURB": "MOUNT COOT-THA"
+  },
+  {
+    "PARK_NAME": "HAROLD DEAN PARK",
+    "SUBURB": "BRACKEN RIDGE"
+  },
+  {
+    "PARK_NAME": "NEARRA STREET PARK",
+    "SUBURB": "DEAGON"
+  },
+  {
+    "PARK_NAME": "JAMBOREE LIONS COMMUNITY PARK",
+    "SUBURB": "MIDDLE PARK"
+  },
+  {
+    "PARK_NAME": "CAPITOL DRIVE PARK",
+    "SUBURB": "JINDALEE"
+  },
+  {
+    "PARK_NAME": "TIMARU CLOSE PARK",
+    "SUBURB": "WESTLAKE"
+  },
+  {
+    "PARK_NAME": "MT OMMANEY BUSHLAND RESERVE",
+    "SUBURB": "MOUNT OMMANEY"
+  },
+  {
+    "PARK_NAME": "NEATA STREET PARK",
+    "SUBURB": "CORINDA"
+  },
+  {
+    "PARK_NAME": "GEEBONG PARK",
+    "SUBURB": "GEEBUNG"
+  },
+  {
+    "PARK_NAME": "KIANAWAH ROAD PARK (NO. 330)",
+    "SUBURB": "WYNNUM WEST"
+  },
+  {
+    "PARK_NAME": "MOVILLA STREET PARK",
+    "SUBURB": "FERNY GROVE"
+  },
+  {
+    "PARK_NAME": "CANTERBURY PARK",
+    "SUBURB": "BALD HILLS"
+  },
+  {
+    "PARK_NAME": "TILLACK PARK",
+    "SUBURB": "MANSFIELD"
+  },
+  {
+    "PARK_NAME": "JOHN GOSS RESERVE",
+    "SUBURB": "CHERMSIDE WEST"
+  },
+  {
+    "PARK_NAME": "BOOKER PLACE PARK",
+    "SUBURB": "BELLBOWRIE"
+  },
+  {
+    "PARK_NAME": "YIMBUN PARK",
+    "SUBURB": "SUNNYBANK"
+  },
+  {
+    "PARK_NAME": "KERRIA STREET PARK",
+    "SUBURB": "BELLBOWRIE"
+  },
+  {
+    "PARK_NAME": "DEW STREET PARK",
+    "SUBURB": "RUNCORN"
+  },
+  {
+    "PARK_NAME": "LANSVALE STREET PARK",
+    "SUBURB": "MITCHELTON"
+  },
+  {
+    "PARK_NAME": "MARIE STREET PARK",
+    "SUBURB": "MURARRIE"
+  },
+  {
+    "PARK_NAME": "E C BACKWELL PARK",
+    "SUBURB": "ARCHERFIELD"
+  },
+  {
+    "PARK_NAME": "LECKMY STREET PARK",
+    "SUBURB": "FERNY GROVE"
+  },
+  {
+    "PARK_NAME": "WILLIAMS PARK",
+    "SUBURB": "RUNCORN"
+  },
+  {
+    "PARK_NAME": "STABLE SWAMP PARK",
+    "SUBURB": "ROCKLEA"
+  },
+  {
+    "PARK_NAME": "ST CATHERINES TERRACE PARK",
+    "SUBURB": "WYNNUM"
+  },
+  {
+    "PARK_NAME": "DIOSMA STREET PARK",
+    "SUBURB": "BELLBOWRIE"
+  },
+  {
+    "PARK_NAME": "MONTANUS DRIVE PARK",
+    "SUBURB": "BELLBOWRIE"
+  },
+  {
+    "PARK_NAME": "PADSTOW ROAD PARK (NO. 19)",
+    "SUBURB": "EIGHT MILE PLAINS"
+  },
+  {
+    "PARK_NAME": "COL BENNET PARK",
+    "SUBURB": "ALGESTER"
+  },
+  {
+    "PARK_NAME": "OLD CLEVELAND ROAD PARK (NO. 52)",
+    "SUBURB": "CARINDALE"
+  },
+  {
+    "PARK_NAME": "KANGAROO POINT CLIFFS PARK",
+    "SUBURB": "KANGAROO POINT"
+  },
+  {
+    "PARK_NAME": "PACKER PLACE",
+    "SUBURB": "CHERMSIDE"
+  },
+  {
+    "PARK_NAME": "CAVAY PLAYGROUND PARK",
+    "SUBURB": "SUNNYBANK HILLS"
+  },
+  {
+    "PARK_NAME": "FLOCKTON STREET PARK",
+    "SUBURB": "STAFFORD HEIGHTS"
+  },
+  {
+    "PARK_NAME": "WALLY TATE PARK",
+    "SUBURB": "KURABY"
+  },
+  {
+    "PARK_NAME": "BRUSHBOX PARK",
+    "SUBURB": "UPPER MOUNT GRAVATT"
+  },
+  {
+    "PARK_NAME": "WESTAWAY PARK",
+    "SUBURB": "SUNNYBANK HILLS"
+  },
+  {
+    "PARK_NAME": "ORMSBY STREET PARK",
+    "SUBURB": "FIG TREE POCKET"
+  },
+  {
+    "PARK_NAME": "MAUGHAN PARK",
+    "SUBURB": "SUNNYBANK"
+  },
+  {
+    "PARK_NAME": "CONONDALE PARK",
+    "SUBURB": "EIGHT MILE PLAINS"
+  },
+  {
+    "PARK_NAME": "SAPSFORD STREET PARK",
+    "SUBURB": "NORTHGATE"
+  },
+  {
+    "PARK_NAME": "WEST END COMMUNITY PARK",
+    "SUBURB": "WEST END"
+  },
+  {
+    "PARK_NAME": "A.R.C.HILL PARK",
+    "SUBURB": "VIRGINIA"
+  },
+  {
+    "PARK_NAME": "KARELLA STREET PARK",
+    "SUBURB": "FIG TREE POCKET"
+  },
+  {
+    "PARK_NAME": "CRACKNELL'S GULLY PARK",
+    "SUBURB": "TARRAGINDI"
+  },
+  {
+    "PARK_NAME": "HERCULES STREET PARK",
+    "SUBURB": "HAMILTON"
+  },
+  {
+    "PARK_NAME": "SANDRINGHAM STREET PARK",
+    "SUBURB": "MANSFIELD"
+  },
+  {
+    "PARK_NAME": "BRIDGE STREET PARK",
+    "SUBURB": "RED HILL"
+  },
+  {
+    "PARK_NAME": "SEDGEMOOR STREET PARK",
+    "SUBURB": "STAFFORD HEIGHTS"
+  },
+  {
+    "PARK_NAME": "MANGO STREET PARK",
+    "SUBURB": "RUNCORN"
+  },
+  {
+    "PARK_NAME": "BOWHILL ROAD PARK",
+    "SUBURB": "WILLAWONG"
+  },
+  {
+    "PARK_NAME": "SANANANDA STREET PARK",
+    "SUBURB": "DARRA"
+  },
+  {
+    "PARK_NAME": "DASH STREET PARK",
+    "SUBURB": "KEPERRA"
+  },
+  {
+    "PARK_NAME": "TAYLOR BRIDGE RESERVE",
+    "SUBURB": "CHELMER"
+  },
+  {
+    "PARK_NAME": "ANSTEAD BUSHLAND RESERVE",
+    "SUBURB": "ANSTEAD"
+  },
+  {
+    "PARK_NAME": "HAROLD KIELLY PARK",
+    "SUBURB": "BALD HILLS"
+  },
+  {
+    "PARK_NAME": "ROGHAN ROAD PARK (NO. 2105)",
+    "SUBURB": "BRIDGEMAN DOWNS"
+  },
+  {
+    "PARK_NAME": "VALMAR STREET PARK",
+    "SUBURB": "UPPER MOUNT GRAVATT"
+  },
+  {
+    "PARK_NAME": "WISHART ROAD PARK",
+    "SUBURB": "UPPER MOUNT GRAVATT"
+  },
+  {
+    "PARK_NAME": "CHARLES FRASER PARK",
+    "SUBURB": "EIGHT MILE PLAINS"
+  },
+  {
+    "PARK_NAME": "WATERWORKS ROAD PARK (NO. 1174)",
+    "SUBURB": "THE GAP"
+  },
+  {
+    "PARK_NAME": "FERGUSON PARK (BRACKEN RIDGE)",
+    "SUBURB": "BRACKEN RIDGE"
+  },
+  {
+    "PARK_NAME": "MOGGILL ROAD PARK (NO. 3777)",
+    "SUBURB": "MOGGILL"
+  },
+  {
+    "PARK_NAME": "DELBRIDGE PARK",
+    "SUBURB": "DURACK"
+  },
+  {
+    "PARK_NAME": "MURNA STREET PARK",
+    "SUBURB": "JINDALEE"
+  },
+  {
+    "PARK_NAME": "CARINDALE RECREATION RESERVE",
+    "SUBURB": "CARINDALE"
+  },
+  {
+    "PARK_NAME": "WESTERN OUTLOOK PARK",
+    "SUBURB": "ROBERTSON"
+  },
+  {
+    "PARK_NAME": "WISHART COMMUNITY PARK",
+    "SUBURB": "WISHART"
+  },
+  {
+    "PARK_NAME": "FRANK SLEEMAN PARK",
+    "SUBURB": "BOONDALL"
+  },
+  {
+    "PARK_NAME": "SCURR PARK",
+    "SUBURB": "MOUNT GRAVATT EAST"
+  },
+  {
+    "PARK_NAME": "WHATMORE STREET PARK",
+    "SUBURB": "CARINA HEIGHTS"
+  },
+  {
+    "PARK_NAME": "BERYL ROBERTS PARK",
+    "SUBURB": "COOPERS PLAINS"
+  },
+  {
+    "PARK_NAME": "SHEOAK STREET PARK",
+    "SUBURB": "MIDDLE PARK"
+  },
+  {
+    "PARK_NAME": "THYNNE ROAD PARK",
+    "SUBURB": "MORNINGSIDE"
+  },
+  {
+    "PARK_NAME": "CRESTHAVEN PARK",
+    "SUBURB": "MANSFIELD"
+  },
+  {
+    "PARK_NAME": "ALTER STREET PARK",
+    "SUBURB": "WYNNUM WEST"
+  },
+  {
+    "PARK_NAME": "PRESTON ROAD PARK",
+    "SUBURB": "CARINA"
+  },
+  {
+    "PARK_NAME": "WRIGHT STREET PARK",
+    "SUBURB": "CARINDALE"
+  },
+  {
+    "PARK_NAME": "RON WOOLLEY PLACE",
+    "SUBURB": "MANSFIELD"
+  },
+  {
+    "PARK_NAME": "YANDINA PICNIC GROUND PARK",
+    "SUBURB": "MANSFIELD"
+  },
+  {
+    "PARK_NAME": "OATESON SKYLINE DRIVE PARK",
+    "SUBURB": "SEVEN HILLS"
+  },
+  {
+    "PARK_NAME": "CAPALABA RECREATION RESERVE",
+    "SUBURB": "CHANDLER"
+  },
+  {
+    "PARK_NAME": "LEICESTER STREET PARK",
+    "SUBURB": "COORPAROO"
+  },
+  {
+    "PARK_NAME": "GLADSTONE STREET PARK (NO. 63-67)",
+    "SUBURB": "COORPAROO"
+  },
+  {
+    "PARK_NAME": "WOOD AVENUE PARK",
+    "SUBURB": "CANNON HILL"
+  },
+  {
+    "PARK_NAME": "NATHAN ROAD PARK",
+    "SUBURB": "RUNCORN"
+  },
+  {
+    "PARK_NAME": "BONEMILL ROAD PARK",
+    "SUBURB": "RUNCORN"
+  },
+  {
+    "PARK_NAME": "FORBES PARK",
+    "SUBURB": "INALA"
+  },
+  {
+    "PARK_NAME": "PICABEEN PARK",
+    "SUBURB": "MITCHELTON"
+  },
+  {
+    "PARK_NAME": "UNIVERSITY ROAD PARK (NO. 55 & 59)",
+    "SUBURB": "MITCHELTON"
+  },
+  {
+    "PARK_NAME": "BELLEVUE AVENUE PARK",
+    "SUBURB": "GAYTHORNE"
+  },
+  {
+    "PARK_NAME": "SHAND STREET PARK (NO. 131)",
+    "SUBURB": "ENOGGERA"
+  },
+  {
+    "PARK_NAME": "MT COOT-THA RESERVE (BARDON SECTION)",
+    "SUBURB": "BARDON"
+  },
+  {
+    "PARK_NAME": "LUGG STREET PARK",
+    "SUBURB": "RED HILL"
+  },
+  {
+    "PARK_NAME": "RAVEN STREET RESERVE",
+    "SUBURB": "CHERMSIDE WEST"
+  },
+  {
+    "PARK_NAME": "GODIVA AVENUE PARK",
+    "SUBURB": "YEERONGPILLY"
+  },
+  {
+    "PARK_NAME": "LACEY ROAD PARK",
+    "SUBURB": "CARSELDINE"
+  },
+  {
+    "PARK_NAME": "WINDRUSH STREET PARK",
+    "SUBURB": "CANNON HILL"
+  },
+  {
+    "PARK_NAME": "HARRIS CLOSE PARK",
+    "SUBURB": "CANNON HILL"
+  },
+  {
+    "PARK_NAME": "GUMTREE STREET RESERVE",
+    "SUBURB": "RUNCORN"
+  },
+  {
+    "PARK_NAME": "PARKSEDGE STREET PARK",
+    "SUBURB": "UPPER KEDRON"
+  },
+  {
+    "PARK_NAME": "CHANDLER BUSHLAND RESERVE",
+    "SUBURB": "CHANDLER"
+  },
+  {
+    "PARK_NAME": "CARTER'S REST",
+    "SUBURB": "MOUNT GRAVATT EAST"
+  },
+  {
+    "PARK_NAME": "MCKOY STREET PARK",
+    "SUBURB": "COOPERS PLAINS"
+  },
+  {
+    "PARK_NAME": "FISH CREEK PARK",
+    "SUBURB": "THE GAP"
+  },
+  {
+    "PARK_NAME": "METROPLEX AVENUE (NO. 55) PARK",
+    "SUBURB": "MURARRIE"
+  },
+  {
+    "PARK_NAME": "WINDSOR SPORTS AND COMMUNITY PARK",
+    "SUBURB": "WINDSOR"
+  },
+  {
+    "PARK_NAME": "WYNNUM CENTRAL PARK",
+    "SUBURB": "WYNNUM"
+  },
+  {
+    "PARK_NAME": "APOLLO ROAD PARK",
+    "SUBURB": "BULIMBA"
+  },
+  {
+    "PARK_NAME": "WAGNER ROAD PARK",
+    "SUBURB": "CLAYFIELD"
+  },
+  {
+    "PARK_NAME": "CASTAMORE WAY PARK",
+    "SUBURB": "RICHLANDS"
+  },
+  {
+    "PARK_NAME": "PALLARA LINEAR PARK",
+    "SUBURB": "PALLARA"
+  },
+  {
+    "PARK_NAME": "RONALD STREET RESERVE",
+    "SUBURB": "ELLEN GROVE"
+  },
+  {
+    "PARK_NAME": "BAGNALL STREET PARK",
+    "SUBURB": "ELLEN GROVE"
+  },
+  {
+    "PARK_NAME": "QUEEN BESS STREET PARK",
+    "SUBURB": "WOOLLOONGABBA"
+  },
+  {
+    "PARK_NAME": "SHELDRAKE PLACE PARK",
+    "SUBURB": "MOGGILL"
+  },
+  {
+    "PARK_NAME": "BUCKINGHAM PLACE PARK",
+    "SUBURB": "EIGHT MILE PLAINS"
+  },
+  {
+    "PARK_NAME": "BROWNLEE STREET PARK",
+    "SUBURB": "PINKENBA"
+  },
+  {
+    "PARK_NAME": "THE ESPLANADE PARK",
+    "SUBURB": "ASHGROVE"
+  },
+  {
+    "PARK_NAME": "RICHER STREET PARK",
+    "SUBURB": "TOOWONG"
+  },
+  {
+    "PARK_NAME": "CHADWELL STREET PARK",
+    "SUBURB": "RANSOME"
+  },
+  {
+    "PARK_NAME": "BORDEAUX STREET PARK",
+    "SUBURB": "EIGHT MILE PLAINS"
+  },
+  {
+    "PARK_NAME": "KIDMAN PLACE PARK",
+    "SUBURB": "KEPERRA"
+  },
+  {
+    "PARK_NAME": "WYNNUM ROAD PARK (NO. 1668)",
+    "SUBURB": "TINGALPA"
+  },
+  {
+    "PARK_NAME": "LOCKROSE STREET PARK",
+    "SUBURB": "MITCHELTON"
+  },
+  {
+    "PARK_NAME": "WOODCROFT STREET PARK",
+    "SUBURB": "BRACKEN RIDGE"
+  },
+  {
+    "PARK_NAME": "PRIORS POCKET ROAD PARK (NO. 169)",
+    "SUBURB": "MOGGILL"
+  },
+  {
+    "PARK_NAME": "BROOKLANDS CIRCUIT PARK",
+    "SUBURB": "FOREST LAKE"
+  },
+  {
+    "PARK_NAME": "MERTHYR ROAD PARK (NO. 2)",
+    "SUBURB": "NEW FARM"
+  },
+  {
+    "PARK_NAME": "TILLEY ROAD PARK (NO. 228)",
+    "SUBURB": "WAKERLEY"
+  },
+  {
+    "PARK_NAME": "HARRISON CRESCENT PARK",
+    "SUBURB": "FOREST LAKE"
+  },
+  {
+    "PARK_NAME": "STEPHENS MOUNTAIN RESERVE",
+    "SUBURB": "GREENSLOPES"
+  },
+  {
+    "PARK_NAME": "CHILTON STREET PARK",
+    "SUBURB": "SUNNYBANK HILLS"
+  },
+  {
+    "PARK_NAME": "WARRIL PARKLAND",
+    "SUBURB": "LARAPINTA"
+  },
+  {
+    "PARK_NAME": "FARMERS STREET PARK",
+    "SUBURB": "ROCHEDALE"
+  },
+  {
+    "PARK_NAME": "MELBOURNE STREET PARK",
+    "SUBURB": "ROCKLEA"
+  },
+  {
+    "PARK_NAME": "INSKIP STREET PARK",
+    "SUBURB": "ROCKLEA"
+  },
+  {
+    "PARK_NAME": "WALLABY STREET PARK",
+    "SUBURB": "NUNDAH"
+  },
+  {
+    "PARK_NAME": "IVY STREET PARK",
+    "SUBURB": "CANNON HILL"
+  },
+  {
+    "PARK_NAME": "SUNBURY STREET PARK",
+    "SUBURB": "PALLARA"
+  },
+  {
+    "PARK_NAME": "BILSON STREET PARK",
+    "SUBURB": "PALLARA"
+  },
+  {
+    "PARK_NAME": "BILLAN STREET PARK",
+    "SUBURB": "CARINA"
+  },
+  {
+    "PARK_NAME": "MULLER ROAD PARK",
+    "SUBURB": "BOONDALL"
+  },
+  {
+    "PARK_NAME": "STATION AVENUE PARK",
+    "SUBURB": "NORTHGATE"
+  },
+  {
+    "PARK_NAME": "NELSON STREET PARK",
+    "SUBURB": "KALINGA"
+  },
+  {
+    "PARK_NAME": "TAL STREET PARK",
+    "SUBURB": "WYNNUM WEST"
+  },
+  {
+    "PARK_NAME": "WEYERS ROAD PARK",
+    "SUBURB": "NUDGEE"
+  },
+  {
+    "PARK_NAME": "CHURCHILL STREET PARK",
+    "SUBURB": "COORPAROO"
+  },
+  {
+    "PARK_NAME": "GARRO STREET PARK",
+    "SUBURB": "SUNNYBANK HILLS"
+  },
+  {
+    "PARK_NAME": "HAMILTON ROAD PARK",
+    "SUBURB": "CHERMSIDE WEST"
+  },
+  {
+    "PARK_NAME": "COLWEL STREET PARK",
+    "SUBURB": "OXLEY"
+  },
+  {
+    "PARK_NAME": "SANDGATE ROAD PARK",
+    "SUBURB": "VIRGINIA"
+  },
+  {
+    "PARK_NAME": "BEKKER PLACE PARK",
+    "SUBURB": "KURABY"
+  },
+  {
+    "PARK_NAME": "FEDERATION STREET PARK",
+    "SUBURB": "WYNNUM WEST"
+  },
+  {
+    "PARK_NAME": "KINTA STREET PARK",
+    "SUBURB": "KURABY"
+  },
+  {
+    "PARK_NAME": "WISHART NATURE RESERVE",
+    "SUBURB": "WISHART"
+  },
+  {
+    "PARK_NAME": "APPLETON STREET PARK",
+    "SUBURB": "CARINDALE"
+  },
+  {
+    "PARK_NAME": "BOGONG STREET PARK",
+    "SUBURB": "HEMMANT"
+  },
+  {
+    "PARK_NAME": "JEAYS STREET PARK",
+    "SUBURB": "BOWEN HILLS"
+  },
+  {
+    "PARK_NAME": "PRINCESS STREET PARK (NO. 23)",
+    "SUBURB": "BRIGHTON"
+  },
+  {
+    "PARK_NAME": "QUEENS PARADE PARK (NO. 93)",
+    "SUBURB": "BRIGHTON"
+  },
+  {
+    "PARK_NAME": "FIG TREE POCKET ROAD PARK (NO. 233A)",
+    "SUBURB": "FIG TREE POCKET"
+  },
+  {
+    "PARK_NAME": "HAWKESBURY ROAD PARK (NO. 222A)",
+    "SUBURB": "ANSTEAD"
+  },
+  {
+    "PARK_NAME": "THISTLE STREET PARK (NO. 74)",
+    "SUBURB": "GORDON PARK"
+  },
+  {
+    "PARK_NAME": "ROGHAN ROAD PARK (NO. 335)",
+    "SUBURB": "TAIGUM"
+  },
+  {
+    "PARK_NAME": "WOODCROFT ROAD PARK (NO. 67)",
+    "SUBURB": "BRACKEN RIDGE"
+  },
+  {
+    "PARK_NAME": "FANNY STREET PARK (NO. 17, 19 & 23)",
+    "SUBURB": "ANNERLEY"
+  },
+  {
+    "PARK_NAME": "BILL BENHAM PARK",
+    "SUBURB": "HEMMANT"
+  },
+  {
+    "PARK_NAME": "LLOYD REES PARK",
+    "SUBURB": "YERONGA"
+  },
+  {
+    "PARK_NAME": "ARTHUR LEWIS PLACE",
+    "SUBURB": "COOPERS PLAINS"
+  },
+  {
+    "PARK_NAME": "SCRIVEN STREET NORTH RESERVE",
+    "SUBURB": "MOUNT CROSBY"
+  },
+  {
+    "PARK_NAME": "GRANARD ROAD PARK",
+    "SUBURB": "ARCHERFIELD"
+  },
+  {
+    "PARK_NAME": "LANG STREET EAST PARK",
+    "SUBURB": "SUNNYBANK HILLS"
+  },
+  {
+    "PARK_NAME": "CHANDOS STREET PARK",
+    "SUBURB": "WYNNUM WEST"
+  },
+  {
+    "PARK_NAME": "BILAMBIL STREET PARK",
+    "SUBURB": "BANYO"
+  },
+  {
+    "PARK_NAME": "GRAY STREET PARK",
+    "SUBURB": "CARINA"
+  },
+  {
+    "PARK_NAME": "DAJARRA STREET PARK",
+    "SUBURB": "THE GAP"
+  },
+  {
+    "PARK_NAME": "LOFTUS STREET PARK",
+    "SUBURB": "DEAGON"
+  },
+  {
+    "PARK_NAME": "DUNN ROAD PARK",
+    "SUBURB": "ROCKLEA"
+  },
+  {
+    "PARK_NAME": "GASOMETER PARK",
+    "SUBURB": "NEWSTEAD"
+  },
+  {
+    "PARK_NAME": "RITCHIE ROAD RESERVE",
+    "SUBURB": "PALLARA"
+  },
+  {
+    "PARK_NAME": "WYNNUM PLAZA PARK",
+    "SUBURB": "WYNNUM WEST"
+  },
+  {
+    "PARK_NAME": "REDHEAD STREET PARK",
+    "SUBURB": "DOOLANDELLA"
+  },
+  {
+    "PARK_NAME": "MURPHY ROAD PARK",
+    "SUBURB": "GEEBUNG"
+  },
+  {
+    "PARK_NAME": "ELLISON ROAD PARK",
+    "SUBURB": "GEEBUNG"
+  },
+  {
+    "PARK_NAME": "CONSTANCE STREET PARK",
+    "SUBURB": "ALGESTER"
+  },
+  {
+    "PARK_NAME": "SPOONBILL STREET RESERVE",
+    "SUBURB": "NUDGEE"
+  },
+  {
+    "PARK_NAME": "FENWICK CRESCENT PARK",
+    "SUBURB": "ALGISTER"
+  },
+  {
+    "PARK_NAME": "REMICK STREET BUSHLAND RESERVE",
+    "SUBURB": "STAFFORD HEIGHTS"
+  },
+  {
+    "PARK_NAME": "EVANS ROAD PARK",
+    "SUBURB": "MOOROOKA"
+  },
+  {
+    "PARK_NAME": "WATTLE STREET PARK (NO. 32 & 34)",
+    "SUBURB": "ENOGGERA"
+  },
+  {
+    "PARK_NAME": "STUMERS ROAD WEST RESERVE",
+    "SUBURB": "MOUNT CROSBY"
+  },
+  {
+    "PARK_NAME": "PRESTON ROAD WYNNUM PARK",
+    "SUBURB": "WYNNUM WEST"
+  },
+  {
+    "PARK_NAME": "DAINTREE DRIVE PARK (NO. 65)",
+    "SUBURB": "PARKINSON"
+  },
+  {
+    "PARK_NAME": "TRANQUIL PLACE PARK",
+    "SUBURB": "MCDOWALL"
+  },
+  {
+    "PARK_NAME": "CASCADE DRIVE PARK (NO. 20)",
+    "SUBURB": "FOREST LAKE"
+  },
+  {
+    "PARK_NAME": "CASCADE DRIVE PARK (NO. 25)",
+    "SUBURB": "FOREST LAKE"
+  },
+  {
+    "PARK_NAME": "MACQUARIE WAY PARK (NO. 123)",
+    "SUBURB": "DREWVALE"
+  },
+  {
+    "PARK_NAME": "COMPTON ROAD PARK (NO. 484)",
+    "SUBURB": "STRETTON"
+  },
+  {
+    "PARK_NAME": "GLEN PARADE PARK (NO. 6)",
+    "SUBURB": "ASHGROVE"
+  },
+  {
+    "PARK_NAME": "DENNING ROAD PARK (NO. 30)",
+    "SUBURB": "BRACKEN RIDGE"
+  },
+  {
+    "PARK_NAME": "MANLY ROAD PARK (NO. 338)",
+    "SUBURB": "MANLY WEST"
+  },
+  {
+    "PARK_NAME": "SPRINGWATER PLACE PARK (NO. 27)",
+    "SUBURB": "ALGESTER"
+  },
+  {
+    "PARK_NAME": "ROXWELL STREET PARK",
+    "SUBURB": "FOREST LAKE"
+  },
+  {
+    "PARK_NAME": "GROUNDBERRY CRESCENT PARK",
+    "SUBURB": "MOGGILL"
+  },
+  {
+    "PARK_NAME": "MCKINNON CT PARK",
+    "SUBURB": "UPPER KEDRON"
+  },
+  {
+    "PARK_NAME": "FERNDALE PLACE PARK (NO. 8)",
+    "SUBURB": "UPPER KEDRON"
+  },
+  {
+    "PARK_NAME": "VOYAGER DRIVE PARK",
+    "SUBURB": "KURABY"
+  },
+  {
+    "PARK_NAME": "PIONEER DRIVE PARK",
+    "SUBURB": "KURABY"
+  },
+  {
+    "PARK_NAME": "BARTON ROAD POCKET PARK",
+    "SUBURB": "HAWTHORNE"
+  },
+  {
+    "PARK_NAME": "JACKSON STREET PARK",
+    "SUBURB": "HAMILTON"
+  },
+  {
+    "PARK_NAME": "KESTREL WAY PARK",
+    "SUBURB": "FITZGIBBON"
+  },
+  {
+    "PARK_NAME": "ALBANY CREEK ROADSIDE PARK",
+    "SUBURB": "BRIDGEMAN DOWNS"
+  },
+  {
+    "PARK_NAME": "ANN CRESCENT PARK",
+    "SUBURB": "ROCHEDALE"
+  },
+  {
+    "PARK_NAME": "BOCK STREET PARK",
+    "SUBURB": "ROCHEDALE"
+  },
+  {
+    "PARK_NAME": "LEVOH STREET PARK",
+    "SUBURB": "ROCHEDALE"
+  },
+  {
+    "PARK_NAME": "COMMAND STREET PARK",
+    "SUBURB": "ROCHEDALE"
+  },
+  {
+    "PARK_NAME": "VENTURA STREET PARK",
+    "SUBURB": "PALLARA"
+  },
+  {
+    "PARK_NAME": "GOODERHAM ROAD PARK",
+    "SUBURB": "WILLAWONG"
+  },
+  {
+    "PARK_NAME": "BOWHILL ROAD RESERVE",
+    "SUBURB": "WILLAWONG"
+  },
+  {
+    "PARK_NAME": "PLAZA PLACE RESERVE",
+    "SUBURB": "CARSELDINE"
+  },
+  {
+    "PARK_NAME": "GOBURRA STREET PARK",
+    "SUBURB": "ROCKLEA"
+  },
+  {
+    "PARK_NAME": "LYELL CRESCENT PARK",
+    "SUBURB": "MCDOWALL"
+  },
+  {
+    "PARK_NAME": "POOH CORNER",
+    "SUBURB": "WACOL"
+  },
+  {
+    "PARK_NAME": "BOZZATO PLACE PARK",
+    "SUBURB": "KENMORE"
+  },
+  {
+    "PARK_NAME": "GOODMAN PLACE PARK",
+    "SUBURB": "MURARRIE"
+  },
+  {
+    "PARK_NAME": "BLUNDER CREEK RESERVE",
+    "SUBURB": "DOOLANDELLA"
+  },
+  {
+    "PARK_NAME": "MAIDSTONE STREET PARK",
+    "SUBURB": "KELVIN GROVE"
+  },
+  {
+    "PARK_NAME": "MUSK AVENUE PARK",
+    "SUBURB": "KELVIN GROVE"
+  },
+  {
+    "PARK_NAME": "MERCURY STREET PARK",
+    "SUBURB": "MOGGILL"
+  },
+  {
+    "PARK_NAME": "PAMIR STREET PARK",
+    "SUBURB": "NUDGEE"
+  },
+  {
+    "PARK_NAME": "TANDAWANNA LANE PARK",
+    "SUBURB": "FIG TREE POCKET"
+  },
+  {
+    "PARK_NAME": "DOOLANDELLA RECREATION RESERVE",
+    "SUBURB": "DURACK"
+  },
+  {
+    "PARK_NAME": "BLUE RANGE DRIVE PARK",
+    "SUBURB": "ALGESTER"
+  },
+  {
+    "PARK_NAME": "REGENT CLOSE PARK",
+    "SUBURB": "TAIGUM"
+  },
+  {
+    "PARK_NAME": "COWLISHAW STREET PARK",
+    "SUBURB": "BOWEN HILLS"
+  },
+  {
+    "PARK_NAME": "EMERALD PLACE PARK (NO. 8)",
+    "SUBURB": "MITCHELTON"
+  },
+  {
+    "PARK_NAME": "JOHN FRENCH MEMORIAL PARK",
+    "SUBURB": "GAYTHORNE"
+  },
+  {
+    "PARK_NAME": "TALISKER PLACE PARK",
+    "SUBURB": "PARKINSON"
+  },
+  {
+    "PARK_NAME": "EBBERN STREET PARK",
+    "SUBURB": "DARRA"
+  },
+  {
+    "PARK_NAME": "TRAVORTEN DRIVE PARK",
+    "SUBURB": "BRIDGEMAN DOWNS"
+  },
+  {
+    "PARK_NAME": "WOLSTON CREEK BUSHLAND RESERVE",
+    "SUBURB": "RIVERHILLS"
+  },
+  {
+    "PARK_NAME": "BOOLOUMBA CRESCENT PARK",
+    "SUBURB": "FOREST LAKE"
+  },
+  {
+    "PARK_NAME": "HANNAM CRESCENT PARK",
+    "SUBURB": "FOREST LAKE"
+  },
+  {
+    "PARK_NAME": "MAIN BEACH ROAD RESERVE",
+    "SUBURB": "PINKENBA"
+  },
+  {
+    "PARK_NAME": "JUBILEE AVENUE PARK",
+    "SUBURB": "FOREST LAKE"
+  },
+  {
+    "PARK_NAME": "FABIAN PLACE PARK",
+    "SUBURB": "BRACKEN RIDGE"
+  },
+  {
+    "PARK_NAME": "O'REILLY STREET PARK",
+    "SUBURB": "WAKERLEY"
+  },
+  {
+    "PARK_NAME": "CORONA AVENUE PARK",
+    "SUBURB": "ASHGROVE"
+  },
+  {
+    "PARK_NAME": "GUMDALE STREET PARK",
+    "SUBURB": "WAKERLEY"
+  },
+  {
+    "PARK_NAME": "TALL TREES CIRCUIT PARK",
+    "SUBURB": "GUMDALE"
+  },
+  {
+    "PARK_NAME": "BRUSHWOOD CIRCUIT PARK",
+    "SUBURB": "FOREST LAKE"
+  },
+  {
+    "PARK_NAME": "HIGHBURY PLACE PARK",
+    "SUBURB": "UPPER KEDRON"
+  },
+  {
+    "PARK_NAME": "MCLEOD COURT PARK",
+    "SUBURB": "MCDOWALL"
+  },
+  {
+    "PARK_NAME": "MARGARET STREET PARK",
+    "SUBURB": "MCDOWALL"
+  },
+  {
+    "PARK_NAME": "CHURCHILL CIRCUIT PARK",
+    "SUBURB": "BANYO"
+  },
+  {
+    "PARK_NAME": "EARLSON PLACE",
+    "SUBURB": "CORINDA"
+  },
+  {
+    "PARK_NAME": "CASTLEBAR STREET PARK",
+    "SUBURB": "KANGAROO POINT"
+  },
+  {
+    "PARK_NAME": "LONE PINE PARK",
+    "SUBURB": "FIG TREE POCKET"
+  },
+  {
+    "PARK_NAME": "EUNGELLA TERRACE PARK",
+    "SUBURB": "FOREST LAKE"
+  },
+  {
+    "PARK_NAME": "WESTAWAY PARK (MOGGILL)",
+    "SUBURB": "MOGGILL"
+  },
+  {
+    "PARK_NAME": "SILKY OAK AVENUE PARK",
+    "SUBURB": "MOGGILL"
+  },
+  {
+    "PARK_NAME": "BLUEGUM RISE PARK",
+    "SUBURB": "ANSTEAD"
+  },
+  {
+    "PARK_NAME": "DOULTON STREET PARK",
+    "SUBURB": "CALAMVALE"
+  },
+  {
+    "PARK_NAME": "GAWLER CRESCENT PARK",
+    "SUBURB": "BRACKEN RIDGE"
+  },
+  {
+    "PARK_NAME": "QUINLAN STREET PARK",
+    "SUBURB": "BRACKEN RIDGE"
+  },
+  {
+    "PARK_NAME": "TORRENS CRESCENT PARK",
+    "SUBURB": "WAKERLEY"
+  },
+  {
+    "PARK_NAME": "HAZEL STREET PARK",
+    "SUBURB": "HEATHWOOD"
+  },
+  {
+    "PARK_NAME": "CHESSOM STREET",
+    "SUBURB": "MITCHELTON"
+  },
+  {
+    "PARK_NAME": "BUKULLA STREET PARK",
+    "SUBURB": "WACOL"
+  },
+  {
+    "PARK_NAME": "LAURINA CRESCENT",
+    "SUBURB": "MCDOWALL"
+  },
+  {
+    "PARK_NAME": "SUPRANO PLACE PARK",
+    "SUBURB": "WAKERLEY"
+  },
+  {
+    "PARK_NAME": "NEWCOMB PARK",
+    "SUBURB": "RIVERHILLS"
+  },
+  {
+    "PARK_NAME": "GORDON CRESCENT",
+    "SUBURB": "WAKERLEY"
+  },
+  {
+    "PARK_NAME": "BECCARIA PARK",
+    "SUBURB": "DOOLANDELLA"
+  },
+  {
+    "PARK_NAME": "BISHOP STREET PARK",
+    "SUBURB": "KELVIN GROVE"
+  },
+  {
+    "PARK_NAME": "WYANDRA CRESCENT PARK",
+    "SUBURB": "MURARRIE"
+  },
+  {
+    "PARK_NAME": "DREWVALE BUSHLANDS",
+    "SUBURB": "DREWVALE"
+  },
+  {
+    "PARK_NAME": "MURARRIE ROAD (NO. 158)",
+    "SUBURB": "MURARRIE"
+  },
+  {
+    "PARK_NAME": "BULIMBA RIVERSIDE PARK",
+    "SUBURB": "BULIMBA"
+  },
+  {
+    "PARK_NAME": "PORTWINE STREET PARK",
+    "SUBURB": "MURARRIE"
+  },
+  {
+    "PARK_NAME": "WACOL BUSHLANDS",
+    "SUBURB": "WACOL"
+  },
+  {
+    "PARK_NAME": "WESTLAKE BUSH PARK",
+    "SUBURB": "WESTLAKE"
+  },
+  {
+    "PARK_NAME": "BARRALLIER PLACE PARK",
+    "SUBURB": "DREWVALE"
+  },
+  {
+    "PARK_NAME": "MOGGILL DISTRICT SPORT PARK",
+    "SUBURB": "MOGGILL"
+  },
+  {
+    "PARK_NAME": "BOBLYNNE STREET PARK (NO. 64)",
+    "SUBURB": "CHAPEL HILL"
+  },
+  {
+    "PARK_NAME": "OLD OXLEY TREATMENT WORKS PARK",
+    "SUBURB": "DURACK"
+  },
+  {
+    "PARK_NAME": "LAPFORD PARK",
+    "SUBURB": "DREWVALE"
+  },
+  {
+    "PARK_NAME": "KELLETT FAMILY PARK",
+    "SUBURB": "AUCHENFLOWER"
+  },
+  {
+    "PARK_NAME": "BULWER PARK",
+    "SUBURB": "BULWER"
+  },
+  {
+    "PARK_NAME": "STRADBROKE STREET PARK",
+    "SUBURB": "FOREST LAKE"
+  },
+  {
+    "PARK_NAME": "MINGOOLA PARK",
+    "SUBURB": "MURARRIE"
+  },
+  {
+    "PARK_NAME": "SETTLER STREET PARK",
+    "SUBURB": "EIGHT MILE PLAINS"
+  },
+  {
+    "PARK_NAME": "ARENGA STREET PARK",
+    "SUBURB": "WAKERLEY"
+  },
+  {
+    "PARK_NAME": "GREY GUMS PARK",
+    "SUBURB": "KELVIN GROVE"
+  },
+  {
+    "PARK_NAME": "BILLARA PLACE PARK",
+    "SUBURB": "BANYO"
+  },
+  {
+    "PARK_NAME": "PATONGA STREET PARK",
+    "SUBURB": "BANYO"
+  },
+  {
+    "PARK_NAME": "EARNSHAW ROAD PARK",
+    "SUBURB": "BANYO"
+  },
+  {
+    "PARK_NAME": "COWIE ROAD PARK",
+    "SUBURB": "CARSELDINE"
+  },
+  {
+    "PARK_NAME": "NELSON PLACE PARK (FERNY GROVE)",
+    "SUBURB": "FERNY GROVE"
+  },
+  {
+    "PARK_NAME": "MOSS ROAD (NO. 42) PARK",
+    "SUBURB": "WAKERLEY"
+  },
+  {
+    "PARK_NAME": "ZINGELMANN PLACE PARK",
+    "SUBURB": "KURABY"
+  },
+  {
+    "PARK_NAME": "BEHAN CRESCENT PARK",
+    "SUBURB": "WAKERLEY"
+  },
+  {
+    "PARK_NAME": "CHILDS ROAD PARK",
+    "SUBURB": "NUDGEE"
+  },
+  {
+    "PARK_NAME": "ALEXANDER MACPHERSON PARK",
+    "SUBURB": "NUDGEE"
+  },
+  {
+    "PARK_NAME": "CHARLOTTE STREET PARK",
+    "SUBURB": "CARINA"
+  },
+  {
+    "PARK_NAME": "KATE STREET PARK",
+    "SUBURB": "CARINA"
+  },
+  {
+    "PARK_NAME": "WELLINGTON ROAD PARK EAST",
+    "SUBURB": "EAST BRISBANE"
+  },
+  {
+    "PARK_NAME": "SWEETAPPLE PLACE PARK",
+    "SUBURB": "MANLY WEST"
+  },
+  {
+    "PARK_NAME": "HARGREAVES ROAD PARK",
+    "SUBURB": "MANLY WEST"
+  },
+  {
+    "PARK_NAME": "DESOTO PLACE PARK",
+    "SUBURB": "FOREST LAKE"
+  },
+  {
+    "PARK_NAME": "CARISBROOK CIRCUIT PARK",
+    "SUBURB": "FOREST LAKE"
+  },
+  {
+    "PARK_NAME": "WALLUM DRIVE PARK",
+    "SUBURB": "PARKINSON"
+  },
+  {
+    "PARK_NAME": "DALEWOOD PLACE PARK",
+    "SUBURB": "MOGGILL"
+  },
+  {
+    "PARK_NAME": "PARER PLACE",
+    "SUBURB": "KELVIN GROVE"
+  },
+  {
+    "PARK_NAME": "CHAUVEL PLACE",
+    "SUBURB": "KELVIN GROVE"
+  },
+  {
+    "PARK_NAME": "KUNDU PARK",
+    "SUBURB": "KELVIN GROVE"
+  },
+  {
+    "PARK_NAME": "YARRA ROAD PARK",
+    "SUBURB": "WAKERLEY"
+  },
+  {
+    "PARK_NAME": "MOSSVALE DRIVE PARK",
+    "SUBURB": "WAKERLEY"
+  },
+  {
+    "PARK_NAME": "ARMISFIELD STREET PARK",
+    "SUBURB": "DOOLANDELLA"
+  },
+  {
+    "PARK_NAME": "SANDI STREET PARK",
+    "SUBURB": "OXLEY"
+  },
+  {
+    "PARK_NAME": "HEATHWOOD PARK",
+    "SUBURB": "HEATHWOOD"
+  },
+  {
+    "PARK_NAME": "LANCEWOOD PLACE PARK",
+    "SUBURB": "MOGGILL"
+  },
+  {
+    "PARK_NAME": "PAMELA STREET PARK",
+    "SUBURB": "WYNNUM WEST"
+  },
+  {
+    "PARK_NAME": "F.R.CATERSON PARK",
+    "SUBURB": "MANSFIELD"
+  },
+  {
+    "PARK_NAME": "CARRINGTON STREET PARK",
+    "SUBURB": "AUCHENFLOWER"
+  },
+  {
+    "PARK_NAME": "PROUT ROAD PARK (NO. 485)",
+    "SUBURB": "BURBANK"
+  },
+  {
+    "PARK_NAME": "ACACIA FOREST PARK",
+    "SUBURB": "KARAWATHA"
+  },
+  {
+    "PARK_NAME": "HABITAT PLACE SOUTH PARK",
+    "SUBURB": "DREWVALE"
+  },
+  {
+    "PARK_NAME": "MT CROSBY ROAD PARK",
+    "SUBURB": "ANSTEAD"
+  },
+  {
+    "PARK_NAME": "KATHLEEN STREET PARK",
+    "SUBURB": "RICHLANDS"
+  },
+  {
+    "PARK_NAME": "MCKINLAY-DAVEY PARK",
+    "SUBURB": "EIGHT MILE PLAINS"
+  },
+  {
+    "PARK_NAME": "TEAL PLACE PARK",
+    "SUBURB": "TAIGUM"
+  },
+  {
+    "PARK_NAME": "SANDY CAMP PARK",
+    "SUBURB": "LYTTON"
+  },
+  {
+    "PARK_NAME": "TAYLOR PLACE PARK",
+    "SUBURB": "MACKENZIE"
+  },
+  {
+    "PARK_NAME": "JARRAH STREET PARK",
+    "SUBURB": "MOGGILL"
+  },
+  {
+    "PARK_NAME": "CECCATO PARK",
+    "SUBURB": "CARSELDINE"
+  },
+  {
+    "PARK_NAME": "KENNARD STREET PARK",
+    "SUBURB": "CORINDA"
+  },
+  {
+    "PARK_NAME": "SERGEANT DAN STILLER MEMORIAL RESERVE",
+    "SUBURB": "HEATHWOOD"
+  },
+  {
+    "PARK_NAME": "GATEWAY PARK",
+    "SUBURB": "TINGALPA"
+  },
+  {
+    "PARK_NAME": "TRYON STREET PARK",
+    "SUBURB": "UPPER MOUNT GRAVATT"
+  },
+  {
+    "PARK_NAME": "CALAMVALE DISTRICT PARK",
+    "SUBURB": "CALAMVALE"
+  },
+  {
+    "PARK_NAME": "ASTON STREET PARK",
+    "SUBURB": "TOOWONG"
+  },
+  {
+    "PARK_NAME": "MT TAMBORINE AVENUE PARK",
+    "SUBURB": "ALGESTER"
+  },
+  {
+    "PARK_NAME": "PARAGON STREET PARK",
+    "SUBURB": "YERONGA"
+  },
+  {
+    "PARK_NAME": "MOLLE ROAD PARK",
+    "SUBURB": "RANSOME"
+  },
+  {
+    "PARK_NAME": "KAOHSIUNG PARK",
+    "SUBURB": "EIGHT MILE PLAINS"
+  },
+  {
+    "PARK_NAME": "EUCALYPT PLACE PARK",
+    "SUBURB": "BRACKEN RIDGE"
+  },
+  {
+    "PARK_NAME": "TILLEY ROAD (NO. 73) PARK",
+    "SUBURB": "WAKERLEY"
+  },
+  {
+    "PARK_NAME": "DREWVALE BUSHLANDS (TRINITY WAY SECTION)",
+    "SUBURB": "DREWVALE"
+  },
+  {
+    "PARK_NAME": "SANDMERE ROAD PARK",
+    "SUBURB": "PINKENBA"
+  },
+  {
+    "PARK_NAME": "GHOSTGUM CLOSE PARK",
+    "SUBURB": "TAIGUM"
+  },
+  {
+    "PARK_NAME": "SUNSET PLACE PARK",
+    "SUBURB": "MCDOWALL"
+  },
+  {
+    "PARK_NAME": "JUBILEE AVENUE PARK (NO. 2)",
+    "SUBURB": "FOREST LAKE"
+  },
+  {
+    "PARK_NAME": "SANDS PLACE PARK",
+    "SUBURB": "CHAPEL HILL"
+  },
+  {
+    "PARK_NAME": "DALKEITH PARK",
+    "SUBURB": "KALINGA"
+  },
+  {
+    "PARK_NAME": "BILL HEWITT RESERVE",
+    "SUBURB": "CAMP HILL"
+  },
+  {
+    "PARK_NAME": "SANCTUARY PLACE PARK",
+    "SUBURB": "FIG TREE POCKET"
+  },
+  {
+    "PARK_NAME": "DREVESEN PARK",
+    "SUBURB": "MANLY"
+  },
+  {
+    "PARK_NAME": "WELSBY STREET PARK",
+    "SUBURB": "NEW FARM"
+  },
+  {
+    "PARK_NAME": "SHELLEY ROAD PARK",
+    "SUBURB": "KHOLO"
+  },
+  {
+    "PARK_NAME": "COL WESTAWAY OVAL",
+    "SUBURB": "MOGGILL"
+  },
+  {
+    "PARK_NAME": "HALE STREET PARK",
+    "SUBURB": "PADDINGTON"
+  },
+  {
+    "PARK_NAME": "WATERFRONT PARK",
+    "SUBURB": "NEWSTEAD"
+  },
+  {
+    "PARK_NAME": "OSWALD STREET PARK",
+    "SUBURB": "HEMMANT"
+  },
+  {
+    "PARK_NAME": "ROSS ROAD PARK",
+    "SUBURB": "UPPER KEDRON"
+  },
+  {
+    "PARK_NAME": "WATTLE CRESENT PARK",
+    "SUBURB": "MOGGILL"
+  },
+  {
+    "PARK_NAME": "PASK FAMILY PARK",
+    "SUBURB": "ROCHEDALE"
+  },
+  {
+    "PARK_NAME": "BILL GILLESPIE PARK",
+    "SUBURB": "RICHLANDS"
+  },
+  {
+    "PARK_NAME": "HONEYEATER CRESENT PARK",
+    "SUBURB": "MOGGILL"
+  },
+  {
+    "PARK_NAME": "ROCHEDALE SPORTS PARK",
+    "SUBURB": "ROCHEDALE"
+  },
+  {
+    "PARK_NAME": "KINGFISHER DRIVE PARK",
+    "SUBURB": "UPPER KEDRON"
+  },
+  {
+    "PARK_NAME": "STEELWOOD STREET PARK",
+    "SUBURB": "HEATHWOOD"
+  },
+  {
+    "PARK_NAME": "BEAMS ROAD PARK (NO. 399)",
+    "SUBURB": "TAIGUM"
+  },
+  {
+    "PARK_NAME": "TUCKEROO STREET PARK",
+    "SUBURB": "MCDOWALL"
+  },
+  {
+    "PARK_NAME": "STRAWBERRY FIELDS PLACE",
+    "SUBURB": "ROCHEDALE"
+  },
+  {
+    "PARK_NAME": "PEACHTREE PLACE PARK",
+    "SUBURB": "STRETTON"
+  },
+  {
+    "PARK_NAME": "HARGREAVES ROAD PARK (NO. 20)",
+    "SUBURB": "MANLY WEST"
+  },
+  {
+    "PARK_NAME": "LYTTON ROAD PARK (NO. 1665)",
+    "SUBURB": "LYTTON"
+  },
+  {
+    "PARK_NAME": "DELATHIN ROAD PARK",
+    "SUBURB": "ALGESTER"
+  },
+  {
+    "PARK_NAME": "DUNPHY STREET PARK",
+    "SUBURB": "SUNNYBANK HILLS"
+  },
+  {
+    "PARK_NAME": "NICOLE STREET PARK",
+    "SUBURB": "BRACKEN RIDGE"
+  },
+  {
+    "PARK_NAME": "WAGTAIL STREET PARK",
+    "SUBURB": "UPPER KEDRON"
+  },
+  {
+    "PARK_NAME": "WALLABY PARADE PARK",
+    "SUBURB": "ROCHEDALE"
+  },
+  {
+    "PARK_NAME": "PALLARA DISTRICT SPORTS PARK",
+    "SUBURB": "PALLARA"
+  },
+  {
+    "PARK_NAME": "RICKERTT ROAD  PARK (NO. 277)",
+    "SUBURB": "RANSOME"
+  },
+  {
+    "PARK_NAME": "CHANGING MOUNTAIN BUSHLAND",
+    "SUBURB": "KHOLO"
+  },
+  {
+    "PARK_NAME": "ADA STREET PARK",
+    "SUBURB": "TOOWONG"
+  },
+  {
+    "PARK_NAME": "JUBILEE AVENUE PARK (NO. 140)",
+    "SUBURB": "FOREST LAKE"
+  },
+  {
+    "PARK_NAME": "BRYDON STREET PARK",
+    "SUBURB": "HIGHGATE HILL"
+  },
+  {
+    "PARK_NAME": "CARAWA STREET PARK",
+    "SUBURB": "ST LUCIA"
+  },
+  {
+    "PARK_NAME": "GARDENS DRIVE PARK (NO. 15)",
+    "SUBURB": "WILLAWONG"
+  },
+  {
+    "PARK_NAME": "GARDENS DRIVE PARK (NO. 14)",
+    "SUBURB": "WILLAWONG"
+  },
+  {
+    "PARK_NAME": "PATRICK LANE PARK",
+    "SUBURB": "TOOWONG"
+  },
+  {
+    "PARK_NAME": "REYNOLDS STREET PARK",
+    "SUBURB": "CARINDALE"
+  },
+  {
+    "PARK_NAME": "BRIDGEWATER PLACE PARK",
+    "SUBURB": "LOTA"
+  },
+  {
+    "PARK_NAME": "BROOKSIDE PLACE (NO. 34) PARK",
+    "SUBURB": "LOTA"
+  },
+  {
+    "PARK_NAME": "GOLDEN PLACE PARK",
+    "SUBURB": "LOTA"
+  },
+  {
+    "PARK_NAME": "BEDGOOD PARK",
+    "SUBURB": "MILTON"
+  },
+  {
+    "PARK_NAME": "BALMORAL SPORTS PARK",
+    "SUBURB": "BALMORAL"
+  },
+  {
+    "PARK_NAME": "KEN FLETCHER PARK",
+    "SUBURB": "TENNYSON"
+  },
+  {
+    "PARK_NAME": "LINACRE STREET PARK",
+    "SUBURB": "DURACK"
+  },
+  {
+    "PARK_NAME": "WILDEN STREET PARK",
+    "SUBURB": "PADDINGTON"
+  },
+  {
+    "PARK_NAME": "BUSBY STREET PARK",
+    "SUBURB": "ALGESTER"
+  },
+  {
+    "PARK_NAME": "CARL STREET PARK",
+    "SUBURB": "WOOLLOONGABBA"
+  },
+  {
+    "PARK_NAME": "JURGENS STREET PARK",
+    "SUBURB": "WOOLLOONGABBA"
+  },
+  {
+    "PARK_NAME": "FORD ROAD PARK (NO. 219)",
+    "SUBURB": "BURBANK"
+  },
+  {
+    "PARK_NAME": "SPOTTED GUM PARK",
+    "SUBURB": "HEATHWOOD"
+  },
+  {
+    "PARK_NAME": "JIMNA STREET PARK",
+    "SUBURB": "THE GAP"
+  },
+  {
+    "PARK_NAME": "LUGG STREET PARK (NO. 94)",
+    "SUBURB": "BARDON"
+  },
+  {
+    "PARK_NAME": "MARELLA STREET PARK",
+    "SUBURB": "BOONDALL"
+  },
+  {
+    "PARK_NAME": "MOSSVALE STREET PARK (NO. 34)",
+    "SUBURB": "ASHGROVE"
+  },
+  {
+    "PARK_NAME": "MURARRIE ROAD PARK (NO. 274)",
+    "SUBURB": "TINGALPA"
+  },
+  {
+    "PARK_NAME": "NEW IVO STREET PARK",
+    "SUBURB": "NUNDAH"
+  },
+  {
+    "PARK_NAME": "SANDSTONE PLACE PARK",
+    "SUBURB": "PARKINSON"
+  },
+  {
+    "PARK_NAME": "WATT PARK",
+    "SUBURB": "EAST BRISBANE"
+  },
+  {
+    "PARK_NAME": "LILLY PILLY PLACE PARK",
+    "SUBURB": "MOGGILL"
+  },
+  {
+    "PARK_NAME": "CARTER STREET PARK",
+    "SUBURB": "NORTHGATE"
+  },
+  {
+    "PARK_NAME": "STRETTON WETLAND RESERVE",
+    "SUBURB": "STRETTON"
+  },
+  {
+    "PARK_NAME": "ZILLMERE ROAD (NO. 605) PARK",
+    "SUBURB": "ZILLMERE"
+  },
+  {
+    "PARK_NAME": "FERNWOOD PLACE PARK",
+    "SUBURB": "TAIGUM"
+  },
+  {
+    "PARK_NAME": "GARDENS DRIVE (NO. 78) PARK",
+    "SUBURB": "WILLAWONG"
+  },
+  {
+    "PARK_NAME": "GARDENS DRIVE (NO. 54) PARK",
+    "SUBURB": "WILLAWONG"
+  },
+  {
+    "PARK_NAME": "CAPTAIN DOUG HISLOP PARK",
+    "SUBURB": "MURARRIE"
+  },
+  {
+    "PARK_NAME": "CATALINA CIRCUIT PARK",
+    "SUBURB": "FOREST LAKE"
+  },
+  {
+    "PARK_NAME": "JOSEPH AVENUE PARK",
+    "SUBURB": "MOGGILL"
+  },
+  {
+    "PARK_NAME": "MILES PLATTING ROAD (NO. 234) PARK",
+    "SUBURB": "ROCHEDALE"
+  },
+  {
+    "PARK_NAME": "MILES PLATTING ROAD (NO. 246-258) PARK",
+    "SUBURB": "ROCHEDALE"
+  },
+  {
+    "PARK_NAME": "LAGUNA PLACE PARK",
+    "SUBURB": "BRIDGEMAN DOWNS"
+  },
+  {
+    "PARK_NAME": "HAWTHORN AVENUE PARK",
+    "SUBURB": "STRETTON"
+  },
+  {
+    "PARK_NAME": "VANWALL ROAD PARK",
+    "SUBURB": "MOGGILL"
+  },
+  {
+    "PARK_NAME": "MALAGA STREET PARK",
+    "SUBURB": "MCDOWALL"
+  },
+  {
+    "PARK_NAME": "WATERLINE CRESCENT PARK",
+    "SUBURB": "BULIMBA"
+  },
+  {
+    "PARK_NAME": "MILTON URBAN COMMON",
+    "SUBURB": "MILTON"
+  },
+  {
+    "PARK_NAME": "PRIVATE ANDREW CLARK MEMORIAL PARK (ROAD RESERVE)",
+    "SUBURB": "TARRAGINDI"
+  },
+  {
+    "PARK_NAME": "LAGOON CRESCENT PARK",
+    "SUBURB": "BELLBOWRIE"
+  },
+  {
+    "PARK_NAME": "YAGGERA PLACE PARK",
+    "SUBURB": "BELLBOWRIE"
+  },
+  {
+    "PARK_NAME": "KANGAROO GULLY PARK (NO. 202)",
+    "SUBURB": "BELLBOWRIE"
+  },
+  {
+    "PARK_NAME": "DIANA PLACE PARK",
+    "SUBURB": "MANLY WEST"
+  },
+  {
+    "PARK_NAME": "HONEYEATER STREET PARK",
+    "SUBURB": "UPPER KEDRON"
+  },
+  {
+    "PARK_NAME": "WATERFORD ROAD PARK",
+    "SUBURB": "ELLEN GROVE"
+  },
+  {
+    "PARK_NAME": "NORTHSHORE RIVERSIDE PARK",
+    "SUBURB": "HAMILTON"
+  },
+  {
+    "PARK_NAME": "NORTHMARQUE STREET PARK",
+    "SUBURB": "CARSELDINE"
+  },
+  {
+    "PARK_NAME": "PAYNE ROAD PARK (NO. 599)",
+    "SUBURB": "THE GAP"
+  },
+  {
+    "PARK_NAME": "FANNINGS CORNER",
+    "SUBURB": "THE GAP"
+  },
+  {
+    "PARK_NAME": "CHERBON STREET BUSHLAND PARK",
+    "SUBURB": "BURBANK"
+  },
+  {
+    "PARK_NAME": "WHITMORE STREET PARK",
+    "SUBURB": "TARINGA"
+  },
+  {
+    "PARK_NAME": "MILMAN STREET PARK",
+    "SUBURB": "CLAYFIELD"
+  },
+  {
+    "PARK_NAME": "HINCHINBROOK CIRCUIT PARK",
+    "SUBURB": "FOREST LAKE"
+  },
+  {
+    "PARK_NAME": "JACK KERR COURT PARK",
+    "SUBURB": "MOUNT CROSBY"
+  },
+  {
+    "PARK_NAME": "HIGHLANDS DRIVE PARK",
+    "SUBURB": "CALAMVALE"
+  },
+  {
+    "PARK_NAME": "TILLEY ROAD PARK (NO. 727)",
+    "SUBURB": "CHANDLER"
+  },
+  {
+    "PARK_NAME": "GYMPIE ROAD  PARK (NO. 1)",
+    "SUBURB": "KEDRON"
+  },
+  {
+    "PARK_NAME": "PICKERING PLACE PARK",
+    "SUBURB": "UPPER KEDRON"
+  },
+  {
+    "PARK_NAME": "WATHEROO PLACE PARK",
+    "SUBURB": "PARKINSON"
+  },
+  {
+    "PARK_NAME": "BARWIN STREET PARK",
+    "SUBURB": "WAKERLEY"
+  },
+  {
+    "PARK_NAME": "TRISTANIA WAY PARK (NO. 99)",
+    "SUBURB": "MOUNT GRAVATT EAST"
+  },
+  {
+    "PARK_NAME": "REDWAY STREET PARK",
+    "SUBURB": "NUDGEE"
+  },
+  {
+    "PARK_NAME": "OLD NORTHERN ROAD PARK (NO. 128)",
+    "SUBURB": "EVERTON PARK"
+  },
+  {
+    "PARK_NAME": "HOWARD SMITH WHARF PRECINCT",
+    "SUBURB": "BRISBANE CITY"
+  },
+  {
+    "PARK_NAME": "ROME STREET SOUTH PARK (ROAD RESERVE)",
+    "SUBURB": "YERONGA"
+  },
+  {
+    "PARK_NAME": "HACKNEY STREET PARK",
+    "SUBURB": "DURACK"
+  },
+  {
+    "PARK_NAME": "PARKSIDE CIRCUIT PARK",
+    "SUBURB": "HAMILTON"
+  },
+  {
+    "PARK_NAME": "OLD SHORELINE PARK",
+    "SUBURB": "HAMILTON"
+  },
+  {
+    "PARK_NAME": "LYDIA PLACE PARK",
+    "SUBURB": "GUMDALE"
+  },
+  {
+    "PARK_NAME": "KEV VANSTONE PARK",
+    "SUBURB": "ROCHEDALE"
+  },
+  {
+    "PARK_NAME": "BEDSER STREET PARK",
+    "SUBURB": "MACGREGOR"
+  },
+  {
+    "PARK_NAME": "ASPLEY RESERVIOR PARK",
+    "SUBURB": "ASPLEY"
+  },
+  {
+    "PARK_NAME": "HOLDSWORTH STREET PARK",
+    "SUBURB": "COORPAROO"
+  },
+  {
+    "PARK_NAME": "CARSELGROVE AVENUE PARK",
+    "SUBURB": "FITZGIBBON"
+  },
+  {
+    "PARK_NAME": "DESHON PARK",
+    "SUBURB": "COORPAROO"
+  },
+  {
+    "PARK_NAME": "SCHOOL ROAD BIKEWAY PARK",
+    "SUBURB": "THE GAP"
+  },
+  {
+    "PARK_NAME": "HURWORTH STREET PARK",
+    "SUBURB": "BOWEN HILLS"
+  },
+  {
+    "PARK_NAME": "OUTLOOK PARK",
+    "SUBURB": "DUTTON PARK"
+  },
+  {
+    "PARK_NAME": "KING AVENUE PARK",
+    "SUBURB": "WILLAWONG"
+  },
+  {
+    "PARK_NAME": "SOUTH PINE PARK",
+    "SUBURB": "EVERTON PARK"
+  },
+  {
+    "PARK_NAME": "CAMBRIDGE STREET PARK",
+    "SUBURB": "ROCKLEA"
+  },
+  {
+    "PARK_NAME": "GLIDER FOREST",
+    "SUBURB": "LARAPINTA"
+  },
+  {
+    "PARK_NAME": "HOME STREET PARK",
+    "SUBURB": "FAIRFIELD"
+  },
+  {
+    "PARK_NAME": "NURSERY ROAD PARK",
+    "SUBURB": "HOLLAND PARK WEST"
+  },
+  {
+    "PARK_NAME": "CRANE CRESCENT PARK",
+    "SUBURB": "RUNCORN"
+  },
+  {
+    "PARK_NAME": "CORELLA STREET PARK",
+    "SUBURB": "ROCKLEA"
+  },
+  {
+    "PARK_NAME": "ALPHITONIA STREET PARK",
+    "SUBURB": "SEVENTEEN MILE ROCKS"
+  },
+  {
+    "PARK_NAME": "STUART STREET PARK",
+    "SUBURB": "BULIMBA"
+  },
+  {
+    "PARK_NAME": "LOVE STREET PARK",
+    "SUBURB": "BULIMBA"
+  },
+  {
+    "PARK_NAME": "WOODLARK CRESCENT PARK",
+    "SUBURB": "PARKINSON"
+  },
+  {
+    "PARK_NAME": "MACARANGA CRESCENT PARK",
+    "SUBURB": "CARSELDINE"
+  },
+  {
+    "PARK_NAME": "FORMATION STREET PARK (ROAD RESERVE)",
+    "SUBURB": "WACOL"
+  },
+  {
+    "PARK_NAME": "NEWCASTLE STREET PARK (ROAD RESERVE)",
+    "SUBURB": "FAIRFIELD"
+  },
+  {
+    "PARK_NAME": "YERONGA STREET PARK (ROAD RESERVE)",
+    "SUBURB": "YERONGA"
+  },
+  {
+    "PARK_NAME": "ORSOVA ROAD POCKET PARK (ROAD RESERVE)",
+    "SUBURB": "YERONGA"
+  },
+  {
+    "PARK_NAME": "PAUL CONTI PARK",
+    "SUBURB": "HEMMANT"
+  },
+  {
+    "PARK_NAME": "NADINE STREET PARK",
+    "SUBURB": "GRACEVILLE"
+  },
+  {
+    "PARK_NAME": "CAPE ARID PARK",
+    "SUBURB": "FITZGIBBON"
+  },
+  {
+    "PARK_NAME": "ASHRIDGE ROAD PARK",
+    "SUBURB": "DARRA"
+  },
+  {
+    "PARK_NAME": "BOWEN BRIDGE ROAD PARK EAST",
+    "SUBURB": "BOWEN HILLS"
+  },
+  {
+    "PARK_NAME": "WELLINGTON ROAD PARK WEST",
+    "SUBURB": "KANGAROO POINT"
+  },
+  {
+    "PARK_NAME": "RIVERINA STREET PARK",
+    "SUBURB": "CALAMVALE"
+  },
+  {
+    "PARK_NAME": "DANNENBERG STREET PARK",
+    "SUBURB": "CARSELDINE"
+  },
+  {
+    "PARK_NAME": "SANCTUARY DRIVE PARK",
+    "SUBURB": "FOREST LAKE"
+  },
+  {
+    "PARK_NAME": "BOURNDA CLOSE PARK",
+    "SUBURB": "PARKINSON"
+  },
+  {
+    "PARK_NAME": "IMLAY PLACE PARK",
+    "SUBURB": "PARKINSON"
+  },
+  {
+    "PARK_NAME": "BOONDALL WETLANDS WESTERN EXTENSION",
+    "SUBURB": "BOONDALL"
+  },
+  {
+    "PARK_NAME": "PROGRESS ROAD PARK",
+    "SUBURB": "WACOL"
+  },
+  {
+    "PARK_NAME": "FORT ROAD BUSHLAND",
+    "SUBURB": "OXLEY"
+  },
+  {
+    "PARK_NAME": "DIANTHUS STREET PARK (SOUTH)",
+    "SUBURB": "WAKERLEY"
+  },
+  {
+    "PARK_NAME": "KIMBERLY PARK",
+    "SUBURB": "FITZGIBBON"
+  },
+  {
+    "PARK_NAME": "REDGUM PLACE PARK",
+    "SUBURB": "GAYTHORNE"
+  },
+  {
+    "PARK_NAME": "KILKIVAN AVENUE PARK (NORTH)",
+    "SUBURB": "BROOKFIELD"
+  },
+  {
+    "PARK_NAME": "FIGTREE PLACE PARK",
+    "SUBURB": "WAKERLEY"
+  },
+  {
+    "PARK_NAME": "STROWE PLACE PARK",
+    "SUBURB": "BRACKEN RIDGE"
+  },
+  {
+    "PARK_NAME": "RISE PLACE PARK",
+    "SUBURB": "MOGGILL"
+  },
+  {
+    "PARK_NAME": "BARRINGTON CRESCENT PARK",
+    "SUBURB": "WAKERLEY"
+  },
+  {
+    "PARK_NAME": "CORBYN STREET PARK",
+    "SUBURB": "BANYO"
+  },
+  {
+    "PARK_NAME": "PARKINSON AQUATIC CENTRE PARK",
+    "SUBURB": "PARKINSON"
+  },
+  {
+    "PARK_NAME": "SERENITY COURT PARK",
+    "SUBURB": "MITCHELTON"
+  },
+  {
+    "PARK_NAME": "LYREBIRD CLOSE PARK",
+    "SUBURB": "TAIGUM"
+  },
+  {
+    "PARK_NAME": "KURINGGAI PARK",
+    "SUBURB": "FITZGIBBON"
+  },
+  {
+    "PARK_NAME": "BRUSH BOX PLACE PARK",
+    "SUBURB": "HEATHWOOD"
+  },
+  {
+    "PARK_NAME": "LAURENCE ST POCKET PARK (ROAD RESERVE)",
+    "SUBURB": "ST LUCIA"
+  },
+  {
+    "PARK_NAME": "MORSE ST PARK",
+    "SUBURB": "NEWSTEAD"
+  },
+  {
+    "PARK_NAME": "DAINTREE PARK",
+    "SUBURB": "FITZGIBBON"
+  },
+  {
+    "PARK_NAME": "ELLEN GROVE DISTRICT PARK",
+    "SUBURB": "ELLEN GROVE"
+  },
+  {
+    "PARK_NAME": "KURANDA PARK",
+    "SUBURB": "FITZGIBBON"
+  },
+  {
+    "PARK_NAME": "BYRNE'S PADDOCK PARK",
+    "SUBURB": "WINDSOR"
+  },
+  {
+    "PARK_NAME": "BUKULLA STREET NORTH PARK",
+    "SUBURB": "WACOL"
+  },
+  {
+    "PARK_NAME": "COULSON STREET PARK",
+    "SUBURB": "WACOL"
+  },
+  {
+    "PARK_NAME": "BURRUN PARK",
+    "SUBURB": "KARANA DOWNS"
+  },
+  {
+    "PARK_NAME": "KUPI PARK",
+    "SUBURB": "KARANA DOWNS"
+  },
+  {
+    "PARK_NAME": "THOMAS McBRIDE PARK",
+    "SUBURB": "PINKENBA"
+  },
+  {
+    "PARK_NAME": "LOGAN ROAD PARK (NO. 2588)",
+    "SUBURB": "EIGHT MILE PLAINS"
+  },
+  {
+    "PARK_NAME": "PHILLIPS PLACE PARK",
+    "SUBURB": "WAKERLEY"
+  },
+  {
+    "PARK_NAME": "CHURCH STREET PARK",
+    "SUBURB": "FORTITUDE VALLEY"
+  },
+  {
+    "PARK_NAME": "ROSENEATH DRIVE PARK",
+    "SUBURB": "PARKINSON"
+  },
+  {
+    "PARK_NAME": "DOYLE PLACE PARK (NO. 29)",
+    "SUBURB": "THE GAP"
+  },
+  {
+    "PARK_NAME": "ALBANY CREEK ROAD PARK (NO. 245)",
+    "SUBURB": "BRIDGEMAN DOWNS"
+  },
+  {
+    "PARK_NAME": "DASYURE PLACE PARK",
+    "SUBURB": "WYNNUM WEST"
+  },
+  {
+    "PARK_NAME": "KENILWORTH PLACE PARK",
+    "SUBURB": "CARINDALE"
+  },
+  {
+    "PARK_NAME": "ALDERBURY PLACE PARK",
+    "SUBURB": "CARINDALE"
+  },
+  {
+    "PARK_NAME": "PACIFIC PARADE PARK (NO. 47)",
+    "SUBURB": "FOREST LAKE"
+  },
+  {
+    "PARK_NAME": "PARK AVENUE PARK",
+    "SUBURB": "ASHGROVE"
+  },
+  {
+    "PARK_NAME": "COLLEGE ROAD PARK",
+    "SUBURB": "KARANA DOWNS"
+  },
+  {
+    "PARK_NAME": "LOGAN ROAD PARK (NO. 2641)",
+    "SUBURB": "EIGHT MILE PLAINS"
+  },
+  {
+    "PARK_NAME": "BEENLEIGH ROAD PARK (NO. 1251)",
+    "SUBURB": "RUNCORN"
+  },
+  {
+    "PARK_NAME": "JOHN WILSON RESERVE",
+    "SUBURB": "PINJARRA HILLS"
+  },
+  {
+    "PARK_NAME": "BUNYAPA PARK",
+    "SUBURB": "WEST END"
+  },
+  {
+    "PARK_NAME": "SCRUBBY CREEK RECREATION RESERVE",
+    "SUBURB": "KARAWATHA"
+  },
+  {
+    "PARK_NAME": "BOGGO ROAD GAOL PARK",
+    "SUBURB": "DUTTON PARK"
+  },
+  {
+    "PARK_NAME": "ELMES ROAD PARK",
+    "SUBURB": "ROCKLEA"
+  },
+  {
+    "PARK_NAME": "ROTARY PARK",
+    "SUBURB": "HEATHWOOD"
+  },
+  {
+    "PARK_NAME": "GRINDLE ROAD PARK",
+    "SUBURB": "WACOL"
+  },
+  {
+    "PARK_NAME": "EVERETT STREET PARK",
+    "SUBURB": "UPPER MOUNT GRAVATT"
+  },
+  {
+    "PARK_NAME": "WHARF PARK",
+    "SUBURB": "NEWSTEAD"
+  },
+  {
+    "PARK_NAME": "BROOKFIELD ROAD PARK (NO.81)",
+    "SUBURB": "KENMORE HILLS"
+  },
+  {
+    "PARK_NAME": "BACTON ROAD PARK",
+    "SUBURB": "CHANDLER"
+  },
+  {
+    "PARK_NAME": "COCKATOO PLACE PARK",
+    "SUBURB": "ROCHEDALE"
+  },
+  {
+    "PARK_NAME": "WITTON BARRACKS PARK",
+    "SUBURB": "INDOOROOPILLY"
+  },
+  {
+    "PARK_NAME": "PARKINSON ENVIRONMENTAL CORRIDOR",
+    "SUBURB": "PARKINSON"
+  },
+  {
+    "PARK_NAME": "EPALA STREET PARK",
+    "SUBURB": "CARINA"
+  },
+  {
+    "PARK_NAME": "PARKINSON RECREATIONAL RESERVE",
+    "SUBURB": "PARKINSON"
+  },
+  {
+    "PARK_NAME": "MARSTAELLER ROAD RESERVE",
+    "SUBURB": "MT CROSBY"
+  },
+  {
+    "PARK_NAME": "YOUNGS ROAD PARK",
+    "SUBURB": "HEMMANT"
+  },
+  {
+    "PARK_NAME": "UNDERWOOD ROAD PARK (NO. 228A)",
+    "SUBURB": "EIGHT MILE PLAINS"
+  },
+  {
+    "PARK_NAME": "PINNIBAR STREET PARK (NO. 40)",
+    "SUBURB": "HEMMANT"
+  },
+  {
+    "PARK_NAME": "PINNIBAR STREET PARK (NO. 43)",
+    "SUBURB": "HEMMANT"
+  },
+  {
+    "PARK_NAME": "EWAN PLACE PARK",
+    "SUBURB": "BRACKEN RIDGE"
+  },
+  {
+    "PARK_NAME": "WARRANILLA STREET PARK",
+    "SUBURB": "PARKINSON"
+  },
+  {
+    "PARK_NAME": "METROPLEX AVENUE WETLANDS",
+    "SUBURB": "MURARRIE"
+  },
+  {
+    "PARK_NAME": "OAK PLACE PARK",
+    "SUBURB": "MACKENZIE"
+  },
+  {
+    "PARK_NAME": "CARABBEAN CLOSE PARK",
+    "SUBURB": "WYNNUM WEST"
+  },
+  {
+    "PARK_NAME": "EVERGREEN PLACE PARK",
+    "SUBURB": "MURARRIE"
+  },
+  {
+    "PARK_NAME": "CALLIOPE CIRCUIT PARK",
+    "SUBURB": "MURARRIE"
+  },
+  {
+    "PARK_NAME": "MICHAEL PLACE PARK",
+    "SUBURB": "BRACKEN RIDGE"
+  },
+  {
+    "PARK_NAME": "ALLINGHAM STREET PARK",
+    "SUBURB": "KURABY"
+  },
+  {
+    "PARK_NAME": "SOUTHGATE AVENUE PARK",
+    "SUBURB": "CANNON HILL"
+  },
+  {
+    "PARK_NAME": "SEABROOK CIRCUIT PARK",
+    "SUBURB": "WESTLAKE"
+  },
+  {
+    "PARK_NAME": "SPINE STREET PARK",
+    "SUBURB": "SUMNER"
+  },
+  {
+    "PARK_NAME": "MT CROSBY SPORTSGROUND",
+    "SUBURB": "CHUWAR"
+  },
+  {
+    "PARK_NAME": "MUSCARI CRESCENT PARK",
+    "SUBURB": "DREWVALE"
+  },
+  {
+    "PARK_NAME": "BEAUDESERT ROAD PARK (NO. 2911)",
+    "SUBURB": "PARKINSON"
+  },
+  {
+    "PARK_NAME": "BELGENNY WAY PARK",
+    "SUBURB": "MITCHELTON"
+  },
+  {
+    "PARK_NAME": "FORD ROAD RESERVE (NO.139)",
+    "SUBURB": "BURBANK"
+  },
+  {
+    "PARK_NAME": "REDFERS AVENUE RESERVE",
+    "SUBURB": "ROCHEDALE"
+  },
+  {
+    "PARK_NAME": "RAY STREET PARK",
+    "SUBURB": "CARSELDINE"
+  },
+  {
+    "PARK_NAME": "TINGALPA WAR MEMORIAL (ROAD RESERVE)",
+    "SUBURB": "TINGALPA"
+  },
+  {
+    "PARK_NAME": "MONTROSE PARK",
+    "SUBURB": "CORINDA"
+  },
+  {
+    "PARK_NAME": "IDONIA STREET PARK",
+    "SUBURB": "BRIDGEMAN DOWNS"
+  },
+  {
+    "PARK_NAME": "CONSORT STREET PARK",
+    "SUBURB": "CORINDA"
+  },
+  {
+    "PARK_NAME": "CACTOBLASTIS CORNER",
+    "SUBURB": "SHERWOOD"
+  },
+  {
+    "PARK_NAME": "DUNVEGAN STREET PARK",
+    "SUBURB": "HEATHWOOD"
+  },
+  {
+    "PARK_NAME": "JACARANDA PLACE RESERVE",
+    "SUBURB": "INDOOROOPILLY"
+  },
+  {
+    "PARK_NAME": "MEYRICK STREET PARK",
+    "SUBURB": "CANNON HILL"
+  },
+  {
+    "PARK_NAME": "KOOKABURRA CIRCUIT PARK",
+    "SUBURB": "ROCHEDALE"
+  },
+  {
+    "PARK_NAME": "BURDETT STREET PARK",
+    "SUBURB": "ALBION"
+  },
+  {
+    "PARK_NAME": "WECKER ROAD PARK",
+    "SUBURB": "MANSFIELD"
+  },
+  {
+    "PARK_NAME": "WICKHAM GROVE PARK",
+    "SUBURB": "NEWSTEAD"
+  },
+  {
+    "PARK_NAME": "SHERIFF PARK",
+    "SUBURB": "WAKERLEY"
+  },
+  {
+    "PARK_NAME": "FISCHER FAMILY PARK",
+    "SUBURB": "ROCHEDALE"
+  },
+  {
+    "PARK_NAME": "BOTTLEBRUSH STREET PARK",
+    "SUBURB": "ROCHEDALE"
+  },
+  {
+    "PARK_NAME": "VERA CANALE PARK",
+    "SUBURB": "MARCHANT"
+  },
+  {
+    "PARK_NAME": "CATALINA PARK",
+    "SUBURB": "TENERIFFE"
+  },
+  {
+    "PARK_NAME": "ETON AVENUE PARK",
+    "SUBURB": "BOONDALL"
+  },
+  {
+    "PARK_NAME": "MERTHYR ROAD PARK",
+    "SUBURB": "NEW FARM"
+  },
+  {
+    "PARK_NAME": "SENDEN CRESCENT PARK",
+    "SUBURB": "MANLY WEST"
+  },
+  {
+    "PARK_NAME": "ASHGROVE AVENUE PARK",
+    "SUBURB": "ASHGROVE"
+  },
+  {
+    "PARK_NAME": "WOLSTON ROAD PARK",
+    "SUBURB": "SUMNER"
+  },
+  {
+    "PARK_NAME": "TALTARNI CIRCUIT PARK",
+    "SUBURB": "MITCHELTON"
+  },
+  {
+    "PARK_NAME": "ST ANDREWS AVENUE PARK",
+    "SUBURB": "FOREST LAKE"
+  },
+  {
+    "PARK_NAME": "MENSFORTH BUSHLAND",
+    "SUBURB": "BRACKEN RIDGE"
+  },
+  {
+    "PARK_NAME": "CHRIS BRUNTON PARK",
+    "SUBURB": "BALD HILLS"
+  },
+  {
+    "PARK_NAME": "HOYLAND STREET PARK (NO.10)",
+    "SUBURB": "BALD HILLS"
+  },
+  {
+    "PARK_NAME": "PRIORS POCKET ROAD PARK (NO. 545)",
+    "SUBURB": "MOGGILL"
+  },
+  {
+    "PARK_NAME": "DIBLEY STREET PARK",
+    "SUBURB": "WOOLLOONGABBA"
+  },
+  {
+    "PARK_NAME": "MT NEBO RESERVE",
+    "SUBURB": "UPPER KEDRON"
+  },
+  {
+    "PARK_NAME": "ANSTEAD RIVERSIDE PARK",
+    "SUBURB": "ANSTEAD"
+  },
+  {
+    "PARK_NAME": "PREBBLE STREET PARK",
+    "SUBURB": "ROCHEDALE"
+  },
+  {
+    "PARK_NAME": "TOLLETT STREET RESERVE",
+    "SUBURB": "CHANDLER"
+  },
+  {
+    "PARK_NAME": "GRIFFITH PLACE PARK",
+    "SUBURB": "SEVEN HILLS"
+  },
+  {
+    "PARK_NAME": "FITZGIBBON BUSHLANDS",
+    "SUBURB": "FITZGIBBON"
+  },
+  {
+    "PARK_NAME": "GLADYS STREET PARK",
+    "SUBURB": "STONES CORNER"
+  },
+  {
+    "PARK_NAME": "LANGLANDS ANNEX PARK",
+    "SUBURB": "COORPAROO"
+  },
+  {
+    "PARK_NAME": "SERPENTINE CLOSE PARK",
+    "SUBURB": "FITZGIBBON"
+  },
+  {
+    "PARK_NAME": "CASSIDY CRESCENT PARK",
+    "SUBURB": "BRIDGEMAN DOWNS"
+  },
+  {
+    "PARK_NAME": "BOUNDARY ROAD PARK",
+    "SUBURB": "WACOL"
+  },
+  {
+    "PARK_NAME": "BROCKMAN DRIVE PARK",
+    "SUBURB": "UPPER KEDRON"
+  },
+  {
+    "PARK_NAME": "WHISTLER PLACE PARK",
+    "SUBURB": "PALLARA"
+  }
+]
