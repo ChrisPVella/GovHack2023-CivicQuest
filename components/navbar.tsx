@@ -4,11 +4,10 @@ import logo from '../pages/logo.png';
 
 const Navbar = () => {
   const navigation = [
-    "Product",
-    "Features",
-    "Pricing",
-    "Company",
-    "Blog",
+    { name: "Product", link: '#chat' },
+    { name: "Project", link: 'https://github.com/ChrisPVella/GovHack2023-CivicQuest' },
+    { name: "About Us", link: 'https://github.com/ChrisPVella/GovHack2023-CivicQuest' },
+    { name: "Contact Us", link: 'https://github.com/ChrisPVella/GovHack2023-CivicQuest' },
   ];
 
   return (
@@ -58,11 +57,12 @@ const Navbar = () => {
                 <Disclosure.Panel className="flex flex-wrap w-full my-5 lg:hidden">
                   <>
                     {navigation.map((item, index) => (
-                      <a key={index} href="/" className="w-full px-4 py-2 -ml-4 text-gray-500 rounded-md dark:text-gray-300 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 dark:focus:bg-gray-800 focus:outline-none">
-                        {item}
+                      <a key={index} href={item.link} className="w-full px-4 py-2 -ml-4 text-gray-500 rounded-md dark:text-gray-300 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 dark:focus:bg-gray-800 focus:outline-none">
+                        {item.name}
                       </a>
                     ))}
-                    <a href="/" className="w-full px-6 py-2 mt-3 text-center text-white bg-indigo-600 rounded-md lg:ml-5">
+
+                    <a href="#chat" className="w-full px-6 py-2 mt-3 text-center text-white bg-indigo-600 rounded-md lg:ml-5">
                       Get Started
                     </a>
                   </>
@@ -77,8 +77,8 @@ const Navbar = () => {
           <ul className="items-center justify-end flex-1 pt-6 list-none lg:pt-0 lg:flex">
             {navigation.map((menu, index) => (
               <li className="mr-3 nav__item" key={index}>
-                <a href="/" className="inline-block px-4 py-2 text-lg font-normal text-gray-800 no-underline rounded-md dark:text-gray-200 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none dark:focus:bg-gray-800">
-                  {menu}
+                <a href={menu.link} className="inline-block px-4 py-2 text-lg font-normal text-gray-800 no-underline rounded-md dark:text-gray-200 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none dark:focus:bg-gray-800">
+                  {menu.name}
                 </a>
               </li>
             ))}
@@ -86,7 +86,7 @@ const Navbar = () => {
         </div>
 
         <div className="hidden mr-3 space-x-4 lg:flex nav__item">
-          <a href="/" className="px-6 py-2 text-white bg-indigo-600 rounded-md md:ml-5">
+          <a href="#chat" className="px-6 py-2 text-white bg-indigo-600 rounded-md md:ml-5">
             Get Started
           </a>
         </div>

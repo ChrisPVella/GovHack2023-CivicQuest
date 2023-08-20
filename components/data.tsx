@@ -5,56 +5,48 @@ import {
   DevicePhoneMobileIcon,
   AdjustmentsHorizontalIcon,
   SunIcon,
+  MagnifyingGlassIcon,
+  GiftTopIcon,
+  SparklesIcon,
+  BuildingStorefrontIcon,
 } from "@heroicons/react/24/solid";
 
 import benefitOneImg from "../public/img/benefit-one.png";
 import benefitTwoImg from "../public/img/benefit-two.png";
 
+import toursJpg from './tours.jpg';
+
 const benefitOne = {
-  title: "Highlight your benefits",
-  desc: "You can use this space to highlight your first benefit or a feature of your product. It can also contain an image or Illustration like in the example along with some bullet points.",
-  image: benefitOneImg,
+  title: "There's something for everyone",
+  desc: "Whether you're a tourist looking for a one-of-a-kind travel experience or a local who wants to re-discover the gems in your own backyard, CivicQuest makes it easy. Just tap into our database of hundreds of points of interest, interact with AI-generated quests, and start your journey.",
+  image: toursJpg,
   bullets: [
     {
-      title: "Understand your customers",
-      desc: "Then explain the first point breifly in one or two lines.",
+      title: "Interactive tours",
+      desc: "Explore your city through gamified, interactive tours",
+      icon: <MagnifyingGlassIcon />,
+    },
+    {
+      title: "Challenges and rewards",
+      desc: "Complete challenges and quests to earn points and unlock rewards",
+      icon: <GiftTopIcon />,
+    },
+    {
+      title: "Uncover the unknown",
+      desc: "Discover hidden gems and local hotspots tailored to your interests",
+      icon: <SparklesIcon />,
+    },
+    {
+      title: "Support local",
+      desc: "Support local businesses and venues with special discounts and deals",
+      icon: <BuildingStorefrontIcon />,
+    },
+    {
+      title: "Join a community",
+      desc: "Compete and collaborate with other users via leaderboards and social features",
       icon: <FaceSmileIcon />,
     },
-    {
-      title: "Improve acquisition",
-      desc: "Here you can add the next benefit point.",
-      icon: <ChartBarSquareIcon />,
-    },
-    {
-      title: "Drive customer retention",
-      desc: "This will be your last bullet point in this section.",
-      icon: <CursorArrowRaysIcon />,
-    },
   ],
 };
 
-const benefitTwo = {
-  title: "Offer more benefits here",
-  desc: "You can use this same layout with a flip image to highlight your rest of the benefits of your product. It can also contain an image or Illustration as above section along with some bullet points.",
-  image: benefitTwoImg,
-  bullets: [
-    {
-      title: "Mobile Responsive Template",
-      desc: "Nextly is designed as a mobile first responsive template.",
-      icon: <DevicePhoneMobileIcon />,
-    },
-    {
-      title: "Powered by Next.js & TailwindCSS",
-      desc: "This template is powered by latest technologies and tools.",
-      icon: <AdjustmentsHorizontalIcon />,
-    },
-    {
-      title: "Dark & Light Mode",
-      desc: "Nextly comes with a zero-config light & dark mode. ",
-      icon: <SunIcon />,
-    },
-  ],
-};
-
-
-export {benefitOne, benefitTwo};
+export { benefitOne };
