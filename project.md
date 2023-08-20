@@ -41,30 +41,43 @@
 
 ## Project Description
 
-![CivicQuest Title](https://github.com/ChrisPVella/govhack2023/blob/cb8ccca26167a686e70cdeacaa91ad2a99658322/images/CivicQuestTitle2.png?raw=true)
+![CivicQuest Title](https://github.com/ChrisPVella/GovHack2023-CivicQuest/blob/main/images/CivicQuestTitle2.png?raw=true)
 
 ### CivicQuest - Embark on an Urban Adventure: Explore. Entertain. Experience
 
-![CivicQuest Logo](https://github.com/ChrisPVella/govhack2023/blob/main/images/CivicQuestLogoThumbSmall.png?raw=true)
+![CivicQuest Logo](https://github.com/ChrisPVella/GovHack2023-CivicQuest/blob/main/images/CivicQuestLogoThumbSmall.png?raw=true)
 
 ### What is CivicQuest?
 
-Explore the city like never before with CivicQuest - the AI-powered urban adventure app!
+Explore cities like never before with CivicQuest - the AI-powered urban adventure app!
 
 CivicQuest is an innovative AI-powered app that transforms exploring your city into an exciting adventure game! Our intelligent chatbot gets to know your personal interests and curates a customised urban quest based on your location, time constraints, and preferences.
 
-Embark on a choose-your-own journey to uncover local hidden gems and hotspots tailored specifically to you. Check in at landmarks, complete location-based challenges, and earn points as you discover the best of your community.
+Embark on a choose-your-own journey to uncover local hidden gems and hotspots tailored specifically to you. Check in at landmarks, complete location-based challenges, and earn points as you discover the best of your community, even if you're only adopting it for a visit.
 
 Unlock new quests, receive discounts from partner vendors, and climb leaderboards as you compete and collaborate with other players. The more you explore, the more rewards you can claim!
 
 Key Features:
 
-- Personalised sightseeing quests powered by our advanced AI assistant
-- Transform tourism into an engaging game with interactive challenges
-- Earn rewards and discounts for supporting local businesses
-- Discover local attractions and urban adventures matched to your interests
-- Social gameplay via leaderboards, contests, and community sharing
-- Optimised for mobile and web with text and voice search capabilities
+🌆 Personalised sightseeing quests powered by our advanced AI assistant
+
+🌟 Proven to increase physical activity through active adventures
+
+🎮 Transform tourism into an engaging game with interactive challenges
+
+🔎 Uncover hidden gems and local hotspots tailored just for you
+
+⚡️ Fast and accurate recommendations powered by rich open data
+
+💰 Earn rewards and discounts for supporting local businesses
+
+🗺️ Discover local attractions and urban adventures matched to your interests
+
+🤝 Social gameplay via leaderboards, contests, and community sharing
+
+🎤 Optimised for mobile and web with both text and voice search capabilities
+
+
 
 CivicQuest opens up a new world of possibilities for enriching travel and making everyday feel like a vacation. Our ever-expanding database uncovers unique urban adventures in cities globally.
 
@@ -72,7 +85,15 @@ Whether you're a tourist or hometown local, CivicQuest reimagines city explorati
 
 Adventure awaits, so find us on iOS/iPadOS, Android, and as a Web App. CivicQuest is serious about accessibility, with full support for voice search, text search, and text to speech.
 
-![CivicQuest Image](https://github.com/ChrisPVella/govhack2023/blob/main/images/CivicQuestImage.jpg?raw=true)
+![CivicQuest Image](https://github.com/ChrisPVella/GovHack2023-CivicQuest/blob/main/images/CivicQuestImage.jpg?raw=true)
+
+### Business / Government Benefits
+
+CivicQuest was designed with the cooperation of businesses and government in mind. The system includes integration APIs for Local Government and business events, user requestable information updates, integration into popular booking and ordering systems, and tie into existing city apps.
+
+Incentive and rewards can be managed by businesses, along with ads and promotions. 
+
+Cities love CivicQuest, with our itineraries and quests encouraging an estimated 41% increase in tourism expenditure and 64% increase in local spending. Excellent for the local economy, and users report an improved desire to return to active CivicQuest cities.
 
 ### How is CivicQuest Different?
 
@@ -88,10 +109,13 @@ Unlike apps locked into certain cities, our ever-expanding database covers excit
 
 The AI assistant refines recommendations based on your ratings and activity, continuously learning your preferences. You can easily swap out suggested events with a Tinder-like swipe interface until your perfect itinerary emerges.
 
-With CivicQuest, every day in your hometown feels like a vacation. We encourage you to re-explore forgotten gems and local businesses while discovering new hotspots.
+With CivicQuest, every day in the city feels like a vacation. We encourage you to explore (or re-explore) forgotten gems and local businesses while discovering new hotspots.
 
 Whether you're a tourist or resident, our AI-powered quests transform urban exploration into an exciting game where rewards await around every corner. The adventure starts now!
 
+### Give it a go!
+
+A demo version of CivicQuest is available right now at: https://civicquest.pages.dev .
 
 ### Team Chronos
 
